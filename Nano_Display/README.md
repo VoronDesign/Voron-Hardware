@@ -1,4 +1,4 @@
-# Nano Disaply Adaptor
+# Nano Display Adaptor
 
 ![alt text](Images/Overview_Render.PNG)
 
