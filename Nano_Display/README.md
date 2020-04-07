@@ -1,4 +1,7 @@
 # RepRap-Display-Controller
+
+![alt text](https://github.com/VoronDesign/Voron-Hardware/blob/master/Nano_Display/Images/Overview%20Render.PNG?raw=true)
+
 Arduino Nano compatable board to controll a RepRap display
 
 This board maps an arduino nano's pins onto the 2 2x5 pin IDC cables needed for a RepRapDiscount Smart Controller or RepRapDiscount Full Graphic Smart Controller.
