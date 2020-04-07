@@ -1,6 +1,6 @@
-# RepRap-Display-Controller
+# Nano Display Adaptor
 
-![alt text](/Images/Overview%20Render.PNG)
+![alt text](Images/Overview_Render.PNG)
 
 Arduino Nano compatable board to controll a RepRap display
 
