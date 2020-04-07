@@ -1,9 +1,6 @@
 # STM32-Klipper-Expander
 
-![alt text](https://github.com/timmit99/STM32-Klipper-Expander/blob/master/Images/STM32%20Klipper%20Expander.png?raw=true)
-
-
-
+![Image no work =(](Images/STM32%20Klipper%20Expander.png?raw=true)
 
 
 Simple MCU board for use with Klipper 3D Printer firmware with:
