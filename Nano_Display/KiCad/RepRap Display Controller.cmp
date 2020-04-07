@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-25 BZR 5536)-product   date = sam. 04 avril 2015 11:21:18 UTC
+
+BeginCmp
+TimeStamp = /551D9496;
+Reference = P1;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Nano:Socket_Strip_Arduino_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D94EF;
+Reference = P2;
+ValeurCmp = Analog;
+IdModule  = Socket_Arduino_Nano:Socket_Strip_Arduino_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D9380;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Nano:1pin_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D9414;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Nano:1pin_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D9432;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Nano:1pin_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D9466;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Nano:1pin_Nano;
+EndCmp
+
+EndListe
