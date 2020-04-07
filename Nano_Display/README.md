@@ -1,6 +1,6 @@
 # RepRap-Display-Controller
 
-![alt text](https://github.com/VoronDesign/Voron-Hardware/blob/master/Nano_Display/Images/Overview%20Render.PNG?raw=true)
+![alt text](/Images/Overview%20Render.PNG)
 
 Arduino Nano compatable board to controll a RepRap display
 
