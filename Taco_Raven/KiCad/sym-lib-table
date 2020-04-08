@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Voron_Klipper_Board-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Voron_Klipper_Board-eagle-import.lib)(options "")(descr ""))
+  (lib (name Voron_Klipper_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Voron_Klipper_Board-rescue.lib)(options "")(descr ""))
+)

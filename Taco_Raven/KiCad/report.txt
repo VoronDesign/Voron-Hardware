@@ -1,0 +1,852 @@
+Info: Checking netlist symbol footprint “J25:/5BAC0BFC/5C88E717:MZBOT:8PCV-06-006”.
+
+Info: Checking netlist symbol footprint “U7:/5B81CABC/5EC1DCBE:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “J35:/5B81CA18/5C72422B:MZBOT:PinHeader_2x05_P1.27mm_Vertical_SMD”.
+
+Info: Checking netlist symbol footprint “J34:/5B81CA18/5C6A5C41:MZBOT:USB_Mini-B_Lumberg_2486_01_Horizontal”.
+
+Info: Checking netlist symbol footprint “J33:/5BBCFC6F/60834849:MZBOT:Molex_KK_1X3”.
+
+Info: Checking netlist symbol footprint “J32:/5BBCFC6F/6083467C:MZBOT:Molex_KK_1X3”.
+
+Info: Checking netlist symbol footprint “J31:/5BBCFC6F/60834A6F:MZBOT:Molex_KK_1X3”.
+
+Info: Checking netlist symbol footprint “J30:/5BBCFC6F/60834BD2:MZBOT:Molex_KK_1X3”.
+
+Info: Checking netlist symbol footprint “J29:/5BBCFC6F/5BA9732D:MZBOT:Molex_KK_1X3”.
+
+Info: Checking netlist symbol footprint “J28:/5BBBA893/60815650:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J27:/5BBBA893/60814740:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J26:/5BBBA893/60816559:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J36:/5B81CA18/5BCE55D1:MZBOT:PinHeader_2x04_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “J24:/5BBA0EB5/607FFCE9:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J23:/5BBA0EB5/607FFD4F:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J22:/5BBA0EB5/607FFC5D:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J21:/5BBA0EB5/607FFDB5:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J20:/5BBA0EB5/607FFB66:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J19:/5BAA6E9F/607FCD8B:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J18:/5BAA6E9F/607FCE66:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J17:/5BAA6E9F/607FCEE2:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J16:/5BAA6E9F/607FCF60:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J15:/5BAA6E9F/607FCD33:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “R4:/5B81CA77/5C01B133:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R14:/5B81CA77/5C1B23C6:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R13:/5B81CA77/5C10361E:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R12:/5B81CA77/5C1B232E:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R11:/5B81CA77/5C103586:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R10:/5B81CA77/5C1B2320:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R9:/5B81CA77/5C103578:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R8:/5B81CA77/5C01B1D9:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R7:/5B81CA77/5BEAEF1E:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R6:/5B81CA77/5C01B1CB:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R5:/5B81CA77/5BEAE986:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “J14:/5BAA6E9F/607FCFD8:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “R3:/5B81CA77/5BD6DB15:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R2:/5B81CA77/5C01B125:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R1:/5B81CA77/5BD2F70C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “MH3:/5CADE871:MZBOT:MountingHole_3.2mm_M3_DIN965”.
+
+Info: Checking netlist symbol footprint “MH2:/5CADE7C5:MZBOT:MountingHole_3.2mm_M3_DIN965”.
+
+Info: Checking netlist symbol footprint “MH1:/5CADE712:MZBOT:MountingHole_3.2mm_M3_DIN965”.
+
+Info: Checking netlist symbol footprint “L4:/5BAC0BFC/6099BB70:MZBOT:L_Vishay_IHLP-2525”.
+
+Info: Checking netlist symbol footprint “L3:/5BAC0BFC/5BBB8689:MZBOT:L_Vishay_IHLP-2525”.
+
+Info: Checking netlist symbol footprint “L2:/5B81CA18/5C093939:MZBOT:L_0805_2012Metric”.
+
+Info: Checking netlist symbol footprint “L1:/5B81CA18/5BE01BBF:MZBOT:L_0805_2012Metric”.
+
+Info: Checking netlist symbol footprint “D9:/5BBCFC6F/5C12FEF0:MZBOT:D_SOD-323”.
+
+Info: Checking netlist symbol footprint “F1:/5BAC0BFC/5BF87FF0:MZBOT:Fuseholder_Blade_Mini_Keystone_3568”.
+
+Info: Checking netlist symbol footprint “D19:/5BAC0BFC/609A249E:MZBOT:D_SOD-123F”.
+
+Info: Checking netlist symbol footprint “D18:/5BAC0BFC/609811BF:MZBOT:D_SOD-123F”.
+
+Info: Checking netlist symbol footprint “D17:/5BAC0BFC/60980DB8:MZBOT:D_SOD-123F”.
+
+Info: Checking netlist symbol footprint “D16:/5BAC0BFC/6092EA86:MZBOT:D_SOD-123F”.
+
+Info: Checking netlist symbol footprint “D15:/5BAC0BFC/5BAF94C2:MZBOT:D_SOD-123F”.
+
+Info: Checking netlist symbol footprint “D14:/5BAC0BFC/60810979:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D13:/5BAC0BFC/608108CB:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D12:/5BAC0BFC/6081081B:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D10:/5BBCFC6F/60832C1A:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “F2:/5BAC0BFC/60836976:MZBOT:Fuseholder_Blade_Mini_Keystone_3568”.
+
+Info: Checking netlist symbol footprint “D8:/5BBCFC6F/60832DF4:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D7:/5BBCFC6F/60832B02:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D6:/5BBCFC6F/60832FFB:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D5:/5BBCFC6F/60831941:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D4:/5BBBA893/608122E5:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D3:/5BBBA893/60812199:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D2:/5BBBA893/6081238D:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “D1:/5BBBA893/5C0BD71B:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “C164:/5BAC0BFC/609834F0:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C163:/5BAC0BFC/60982F0F:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “J3:/5B81CA18/5BAABBE2:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J13:/5BAA6E9F/5BB756A0:MZBOT:Molex_KK_1X2”.
+
+Info: Checking netlist symbol footprint “J12:/5BAA6E9F/5CE033A6:MZBOT:PinHeader_2x03_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “J11:/5B81CABC/5ED1B55E:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J10:/5B81CABC/5EC1DDBC:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J9:/5B81CABC/5E71786D:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J8:/5B81CABC/5DE86EBF:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J7:/5B81CA77/5C1B239C:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J6:/5B81CA77/5C1035F4:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J5:/5B81CA77/5C01B1A1:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “J4:/5B81CA77/5BDB62E3:MZBOT:Molex_KK_1X4”.
+
+Info: Checking netlist symbol footprint “R15:/5B81CA77/5C10362C:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “U8:/5B81CABC/5ED1B460:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “J2:/5B81CA18/5BCC96E9:MZBOT:PinSocket_2x05_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “U9:/5BAA6E9F/5BB771FB:MZBOT:SOT-23”.
+
+Info: Checking netlist symbol footprint “U10:/5BAA6E9F/607FC1A7:MZBOT:SOT-23”.
+
+Info: Checking netlist symbol footprint “U11:/5BAA6E9F/607FC001:MZBOT:SOT-23”.
+
+Info: Checking netlist symbol footprint “J1:/5B81CA18/5BAABBF6:MZBOT:PinSocket_2x05_P2.54mm_Vertical”.
+
+Info: Checking netlist symbol footprint “FID3:/5CADE6E9:MZBOT:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom”.
+
+Info: Checking netlist symbol footprint “FID2:/5CADE6C7:MZBOT:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom”.
+
+Info: Checking netlist symbol footprint “FID1:/5CADE6A5:MZBOT:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom”.
+
+Info: Checking netlist symbol footprint “F3:/5BAC0BFC/60836C88:MZBOT:Fuseholder_Blade_Mini_Keystone_3568”.
+
+Info: Checking netlist symbol footprint “R70:/5BBCFC6F/6082B214:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R80:/5BAC0BFC/60950EA5:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R79:/5BAC0BFC/609507BB:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R78:/5BAC0BFC/608800C0:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R77:/5BAC0BFC/60869E95:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R76:/5BAC0BFC/60868BD7:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R75:/5BAC0BFC/60852BD8:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R74:/5BBCFC6F/608303E8:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R73:/5BBCFC6F/6082B17A:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R72:/5BBCFC6F/60830581:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R71:/5BBCFC6F/60830360:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R81:/5BAC0BFC/5BB32C47:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R69:/5BBCFC6F/6082AFAA:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R68:/5BBCFC6F/60830763:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R67:/5BBCFC6F/6082EB97:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R66:/5BBCFC6F/6082B42A:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R65:/5BBCFC6F/608289D6:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R64:/5BBBA893/608257CE:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R63:/5BBBA893/60825641:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R62:/5BBBA893/60821E09:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R61:/5BBBA893/60821BA2:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R60:/5BBBA893/6081BA7A:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R92:/5B81CA18/5BCCA3A5:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “U4:/5B81CA77/5C1B229E:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “U3:/5B81CA77/5C1034F6:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “U5:/5B81CABC/5DE86DAA:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “U2:/5B81CA77/5C01B0A3:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “U6:/5B81CABC/5E71776F:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “U1:/5B81CA77/5BB697C0:MZBOT:QFN36_0.5_5.0X6.0”.
+
+Info: Checking netlist symbol footprint “R96:/5BAC0BFC/60A29646:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R95:/5BAC0BFC/609A11C0:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R94:/5BAC0BFC/609A20A2:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R93:/5B81CA18/5BCC9F0D:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R59:/5BBBA893/6081B83C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R91:/5B81CA18/5BEB9DBC:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R90:/5BAC0BFC/6099EEBD:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R89:/5BAC0BFC/6099F9A0:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R88:/5BAC0BFC/6099DA85:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R87:/5BAC0BFC/6099C90C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R86:/5BAC0BFC/6099B10D:MZBOT:R_1206”.
+
+Info: Checking netlist symbol footprint “R85:/5BAC0BFC/6098467C:MZBOT:R_1206”.
+
+Info: Checking netlist symbol footprint “R84:/5BAC0BFC/60984CD1:MZBOT:R_1206”.
+
+Info: Checking netlist symbol footprint “R83:/5BAC0BFC/5BD1E5E1:MZBOT:R_1206”.
+
+Info: Checking netlist symbol footprint “R82:/5BAC0BFC/6094DE0C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R26:/5B81CABC/5ED1B4E2:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R36:/5BAA6E9F/607FB0E6:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R35:/5BAA6E9F/607F9848:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R34:/5BAA6E9F/607F9137:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R33:/5BAA6E9F/607F7894:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R32:/5B81CABC/5ED1B596:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R31:/5B81CABC/5EC1DDF4:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R30:/5B81CABC/5ED1B588:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R29:/5B81CABC/5EC1DDE6:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R28:/5B81CABC/5ED1B4F0:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R27:/5B81CABC/5EC1DD4E:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R37:/5BAA6E9F/607F8EF8:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R25:/5B81CABC/5EC1DD40:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R24:/5B81CABC/5E7178A5:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R23:/5B81CABC/5DE86EF7:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R22:/5B81CABC/5E717897:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R21:/5B81CABC/5DE86EE9:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R20:/5B81CABC/5E7177FF:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R19:/5B81CABC/5DE86E51:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R18:/5B81CABC/5E7177F1:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R17:/5B81CABC/5DE86E43:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R16:/5B81CA77/5C1B23D4:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R48:/5BBA0EB5/608057EC:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R58:/5BBBA893/60825021:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R57:/5BBBA893/608255F3:MZBOT:R_0805”.
+
+Info: Checking netlist symbol footprint “R56:/5BBBA893/60821F9D:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R55:/5BBBA893/6081CAC9:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R54:/5BBBA893/6081BB72:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R53:/5BBBA893/6081A889:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R52:/5BBA0EB5/60806034:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R51:/5BBA0EB5/6080576A:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R50:/5BBA0EB5/6080AB62:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R49:/5BBA0EB5/6080A992:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “D11:/5BAC0BFC/5C12971A:MZBOT:LED_0805”.
+
+Info: Checking netlist symbol footprint “R47:/5BBA0EB5/60805708:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R46:/5BBA0EB5/6080AABC:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R45:/5BBA0EB5/6080AA50:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R44:/5BBA0EB5/60805866:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R43:/5BBA0EB5/607FE3F6:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R42:/5BAA6E9F/607FB37C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R41:/5BAA6E9F/607F8F5C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R40:/5BAA6E9F/607FB276:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R39:/5BAA6E9F/607FB03C:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “R38:/5BAA6E9F/607F9003:MZBOT:R_0603”.
+
+Info: Checking netlist symbol footprint “C47:/5B81CA77/5C1035A3:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C58:/5B81CABC/5E7177B9:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C57:/5B81CABC/5DE86E0B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C56:/5B81CA77/5C1B2391:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C55:/5B81CA77/5C1035E9:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C54:/5B81CA77/5C1B2383:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C53:/5B81CA77/5C1B21EE:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C52:/5B81CA77/5C1035DB:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C51:/5B81CA77/5C103446:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C50:/5B81CA77/5C1B2375:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C49:/5B81CA77/5C1035CD:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C48:/5B81CA77/5C1B234B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C59:/5B81CABC/5DE86E19:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C46:/5B81CA77/5C1B23AA:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C45:/5B81CA77/5C103602:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C44:/5B81CA77/5C1B2367:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C43:/5B81CA77/5C1035BF:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C42:/5B81CA77/5C1B233D:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C41:/5B81CA77/5C103595:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C40:/5B81CA77/5C1B23B8:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C39:/5B81CA77/5C103610:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C38:/5B81CA77/5C1B2359:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C37:/5B81CA77/5C1035B1:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C36:/5B81CA77/5C1B2312:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C70:/5B81CABC/5E71780E:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C81:/5B81CABC/5E7176BF:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C80:/5B81CABC/5DE86EA6:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C79:/5B81CABC/5DE86CFA:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C78:/5B81CABC/5E717846:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C77:/5B81CABC/5DE86E98:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C76:/5B81CABC/5E71781C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C162:/5BAC0BFC/609531B5:MZBOT:C_1210”.
+
+Info: Checking netlist symbol footprint “C74:/5B81CABC/5E71787B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C73:/5B81CABC/5DE86ECD:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C72:/5B81CABC/5E717838:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C71:/5B81CABC/5DE86E8A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C35:/5B81CA77/5C10356A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C69:/5B81CABC/5DE86E60:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C68:/5B81CABC/5E717889:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C67:/5B81CABC/5DE86EDB:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C66:/5B81CABC/5E71782A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C65:/5B81CABC/5DE86E7C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C64:/5B81CABC/5E7177E3:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C63:/5B81CABC/5DE86E35:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C62:/5B81CABC/5E7177D5:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C61:/5B81CABC/5DE86E27:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C60:/5B81CABC/5E7177C7:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “U12:/5BAA6E9F/607FC123:MZBOT:SOT-23”.
+
+Info: Checking netlist symbol footprint “C11:/5B81CA77/5BEAE0F1:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C10:/5B81CA77/5C01B15E:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C9:/5B81CA77/5BDB1B58:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C8:/5B81CA77/5C01B117:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C7:/5B81CA77/5BD2E360:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C6:/5B81CA77/5C01B109:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C5:/5B81CA77/5BD2E29A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C4:/5B81CA77/5C01B0FB:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C3:/5B81CA77/5BD2E03B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C2:/5B81CA77/5C01B0ED:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C1:/5B81CA77/5BCEFEE5:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C12:/5B81CA77/5C01B1BD:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “U13:/5BAA6E9F/607FC0B3:MZBOT:SOT-23”.
+
+Info: Checking netlist symbol footprint “U14:/5BBBA893/60819357:MZBOT:VSONP-8-1EP_5x6_P1.27mm”.
+
+Info: Checking netlist symbol footprint “U15:/5BBBA893/60819685:MZBOT:VSONP-8-1EP_5x6_P1.27mm”.
+
+Info: Checking netlist symbol footprint “U16:/5BBBA893/60A2CFC2:MZBOT:VSONP-8-1EP_5x6_P1.27mm”.
+
+Info: Checking netlist symbol footprint “U17:/5BBBA893/6081981F:MZBOT:VSONP-8-1EP_5x6_P1.27mm”.
+
+Info: Checking netlist symbol footprint “U18:/5BAC0BFC/5BD9BB62:MZBOT:SOT-23-5”.
+
+Info: Checking netlist symbol footprint “U19:/5BAC0BFC/5BAC747B:MZBOT:WQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias”.
+
+Info: Checking netlist symbol footprint “U20:/5BAC0BFC/6094EB27:MZBOT:WQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias”.
+
+Info: Checking netlist symbol footprint “U21:/5B81CA18/5BB4B075:MZBOT:TQFP-100_14x14mm_P0.5mm”.
+
+Info: Checking netlist symbol footprint “U22:/5B81CA18/5C85B7A6:MZBOT:SOIC-8_3.9x4.9mm_Pitch1.27mm”.
+
+Info: Checking netlist symbol footprint “U23:/5BAC0BFC/609A2C4F:MZBOT:SOT-23”.
+
+Info: Checking netlist symbol footprint “C23:/5B81CA77/5C01B188:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C34:/5B81CA77/5C1B2304:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C33:/5B81CA77/5C10355C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C32:/5B81CA77/5C1B22F6:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C31:/5B81CA77/5B8A2AAC:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C30:/5B81CA77/5C10354E:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C29:/5B81CA77/5BDB4123:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C28:/5B81CA77/5C1B22E8:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C27:/5B81CA77/5BDB14B9:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C26:/5B81CA77/5C103540:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C25:/5B81CA77/5BDB4053:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C24:/5B81CA77/5C01B196:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C75:/5B81CABC/5DE86E6E:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C22:/5B81CA77/5C01AFF3:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C21:/5B81CA77/5BDB3F8B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C20:/5B81CA77/5C01B17A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C19:/5B81CA77/5C01B150:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C18:/5B81CA77/5C01B1AF:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C17:/5B81CA77/5BEADE47:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C16:/5B81CA77/5C01B16C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C15:/5B81CA77/5BDB3A44:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C14:/5B81CA77/5C01B142:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C13:/5B81CA77/5BDB0A75:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C130:/5BBA0EB5/6080E3A8:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C140:/5BAC0BFC/6084EE31:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C139:/5BAC0BFC/608387D7:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C138:/5BBCFC6F/6082DBBB:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C137:/5BBCFC6F/6082DC77:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C136:/5BBCFC6F/6082D9A9:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C135:/5BBCFC6F/6082DE65:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C134:/5BBCFC6F/6082C5E8:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C133:/5BBA0EB5/6080DFDD:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C132:/5BBA0EB5/6080E2D3:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C131:/5BBA0EB5/6080DE5A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C141:/5BAC0BFC/6084F1DD:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C129:/5BBA0EB5/6080C862:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C128:/5B81CA18/5BCC83E6:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C127:/5B81CA18/5BCC7EFE:MZBOT:C_0805”.
+
+Info: Checking netlist symbol footprint “C126:/5B81CA18/5BC13D27:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C125:/5B81CA18/5BC7E934:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C124:/5B81CA18/5BC13C39:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C123:/5B81CA18/5BCC6D1E:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C122:/5B81CA18/5BC13BD5:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C121:/5B81CA18/5BCC5B3C:MZBOT:C_0805”.
+
+Info: Checking netlist symbol footprint “C151:/5BAC0BFC/5BB0468C:MZBOT:C_1210”.
+
+Info: Checking netlist symbol footprint “C161:/5BAC0BFC/609522E9:MZBOT:C_1210”.
+
+Info: Checking netlist symbol footprint “C160:/5BAC0BFC/609539F2:MZBOT:C_1210”.
+
+Info: Checking netlist symbol footprint “C159:/5BAC0BFC/60951B8A:MZBOT:C_1210”.
+
+Info: Checking netlist symbol footprint “C158:/5BAC0BFC/6096A647:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C157:/5BAC0BFC/60954A36:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C156:/5BAC0BFC/6094F96C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C155:/5BAC0BFC/6094F52C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C154:/5BAC0BFC/60947504:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C153:/5BAC0BFC/60946DE3:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C152:/5BAC0BFC/6094A07E:MZBOT:C_1210”.
+
+Info: Checking netlist symbol footprint “C83:/5B81CABC/5DE86EB4:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C150:/5BAC0BFC/60946260:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C149:/5BAC0BFC/6092FAEC:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C148:/5BAC0BFC/60A2847B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C147:/5BAC0BFC/609F9515:MZBOT:C_0805”.
+
+Info: Checking netlist symbol footprint “C146:/5BAC0BFC/60A101BD:MZBOT:C_0805”.
+
+Info: Checking netlist symbol footprint “C145:/5BAC0BFC/60A11CEF:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C144:/5BAC0BFC/6084F2D7:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C143:/5BAC0BFC/6084F0D9:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C142:/5BAC0BFC/6084E9CA:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C94:/5B81CABC/5ED1B51B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C105:/5B81CABC/5EC1DD95:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C104:/5B81CABC/5ED1B50D:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C103:/5B81CABC/5EC1DD6B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C102:/5B81CABC/5ED1B56C:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C101:/5B81CABC/5EC1DDCA:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C100:/5B81CABC/5ED1B529:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C99:/5B81CABC/5EC1DD87:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C98:/5B81CABC/5ED1B4FF:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C120:/5B81CA18/5BC13B71:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C96:/5B81CABC/5ED1B57A:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C95:/5B81CABC/5EC1DDD8:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C97:/5B81CABC/5EC1DD5D:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C93:/5B81CABC/5EC1DD79:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C92:/5B81CABC/5ED1B4D4:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C91:/5B81CABC/5EC1DD32:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C90:/5B81CABC/5ED1B4C6:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C89:/5B81CABC/5EC1DD24:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C88:/5B81CABC/5ED1B4B8:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C87:/5B81CABC/5EC1DD16:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C86:/5B81CABC/5ED1B4AA:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C85:/5B81CABC/5EC1DD08:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C84:/5B81CABC/5E717862:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C82:/5B81CABC/5E717854:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C113:/5BAC0BFC/6098238B:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C119:/5B81CA18/5BC7E6F7:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C118:/5B81CA18/5BC13B0F:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C117:/5B81CA18/5BC13AAF:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C116:/5B81CA18/5BC13A1D:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C115:/5B81CA18/5BC10ED3:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C114:/5BAC0BFC/60983DB2:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C106:/5B81CABC/5ED1B537:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C112:/5B81CABC/5ED1B553:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C111:/5B81CABC/5EC1DDB1:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C110:/5B81CABC/5ED1B545:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C107:/5B81CABC/5EC1DC0E:MZBOT:CP_Elec_6.3x7.7”.
+
+Info: Checking netlist symbol footprint “C108:/5B81CABC/5EC1DDA3:MZBOT:C_0603”.
+
+Info: Checking netlist symbol footprint “C109:/5B81CABC/5ED1B3B0:MZBOT:CP_Elec_6.3x7.7”.
+
+Changing footprint “U6:/5B81CABC/5E71776F” pad “23” net name from “” to “Net-(U6-Pad23)”.
+
+Changing footprint “U4:/5B81CA77/5C1B229E” pad “23” net name from “” to “Net-(U4-Pad23)”.
+
+Changing footprint “U4:/5B81CA77/5C1B229E” pad “19” net name from “” to “Net-(U4-Pad19)”.
+
+Changing footprint “U4:/5B81CA77/5C1B229E” pad “17” net name from “” to “Net-(U4-Pad17)”.
+
+Changing footprint “U4:/5B81CA77/5C1B229E” pad “10” net name from “” to “Net-(U4-Pad10)”.
+
+Changing footprint “U4:/5B81CA77/5C1B229E” pad “9” net name from “” to “Net-(U4-Pad9)”.
+
+Changing footprint “U21:/5B81CA18/5BB4B075” pad “96” net name from “” to “Net-(U21-Pad96)”.
+
+Changing footprint “U5:/5B81CABC/5DE86DAA” pad “23” net name from “” to “Net-(U5-Pad23)”.
+
+Changing footprint “U5:/5B81CABC/5DE86DAA” pad “19” net name from “” to “Net-(U5-Pad19)”.
+
+Changing footprint “U5:/5B81CABC/5DE86DAA” pad “17” net name from “” to “Net-(U5-Pad17)”.
+
+Changing footprint “U8:/5B81CABC/5ED1B460” pad “9” net name from “” to “Net-(U8-Pad9)”.
+
+Changing footprint “U5:/5B81CABC/5DE86DAA” pad “10” net name from “” to “Net-(U5-Pad10)”.
+
+Changing footprint “U5:/5B81CABC/5DE86DAA” pad “9” net name from “” to “Net-(U5-Pad9)”.
+
+Changing footprint “U8:/5B81CABC/5ED1B460” pad “10” net name from “” to “Net-(U8-Pad10)”.
+
+Changing footprint “U6:/5B81CABC/5E71776F” pad “10” net name from “” to “Net-(U6-Pad10)”.
+
+Changing footprint “U6:/5B81CABC/5E71776F” pad “19” net name from “” to “Net-(U6-Pad19)”.
+
+Changing footprint “U8:/5B81CABC/5ED1B460” pad “17” net name from “” to “Net-(U8-Pad17)”.
+
+Changing footprint “U18:/5BAC0BFC/5BD9BB62” pad “4” net name from “” to “Net-(U18-Pad4)”.
+
+Changing footprint “U8:/5B81CABC/5ED1B460” pad “19” net name from “” to “Net-(U8-Pad19)”.
+
+Changing footprint “U7:/5B81CABC/5EC1DCBE” pad “23” net name from “” to “Net-(U7-Pad23)”.
+
+Changing footprint “U8:/5B81CABC/5ED1B460” pad “23” net name from “” to “Net-(U8-Pad23)”.
+
+Changing footprint “U7:/5B81CABC/5EC1DCBE” pad “19” net name from “” to “Net-(U7-Pad19)”.
+
+Changing footprint “U7:/5B81CABC/5EC1DCBE” pad “17” net name from “” to “Net-(U7-Pad17)”.
+
+Changing footprint “J2:/5B81CA18/5BCC96E9” pad “2” net name from “” to “Net-(J2-Pad2)”.
+
+Changing footprint “U7:/5B81CABC/5EC1DCBE” pad “10” net name from “” to “Net-(U7-Pad10)”.
+
+Changing footprint “U7:/5B81CABC/5EC1DCBE” pad “9” net name from “” to “Net-(U7-Pad9)”.
+
+Changing footprint “U6:/5B81CABC/5E71776F” pad “9” net name from “” to “Net-(U6-Pad9)”.
+
+Changing footprint “U6:/5B81CABC/5E71776F” pad “17” net name from “” to “Net-(U6-Pad17)”.
+
+Changing footprint “U3:/5B81CA77/5C1034F6” pad “10” net name from “” to “Net-(U3-Pad10)”.
+
+Changing footprint “J1:/5B81CA18/5BAABBF6” pad “8” net name from “” to “Net-(J1-Pad8)”.
+
+Changing footprint “J1:/5B81CA18/5BAABBF6” pad “7” net name from “” to “Net-(J1-Pad7)”.
+
+Changing footprint “J1:/5B81CA18/5BAABBF6” pad “6” net name from “” to “Net-(J1-Pad6)”.
+
+Changing footprint “J2:/5B81CA18/5BCC96E9” pad “10” net name from “” to “Net-(J2-Pad10)”.
+
+Changing footprint “J2:/5B81CA18/5BCC96E9” pad “7” net name from “” to “Net-(J2-Pad7)”.
+
+Changing footprint “J2:/5B81CA18/5BCC96E9” pad “6” net name from “” to “Net-(J2-Pad6)”.
+
+Changing footprint “J2:/5B81CA18/5BCC96E9” pad “4” net name from “” to “Net-(J2-Pad4)”.
+
+Changing footprint “J2:/5B81CA18/5BCC96E9” pad “1” net name from “” to “Net-(J2-Pad1)”.
+
+Changing footprint “J3:/5B81CA18/5BAABBE2” pad “4” net name from “PD_TX_RRFGD_BTN_ENC” to “+5V”.
+
+Changing footprint “J3:/5B81CA18/5BAABBE2” pad “3” net name from “PD_RX_RRFGD_BUZ” to “GND”.
+
+Changing footprint “J3:/5B81CA18/5BAABBE2” pad “2” net name from “GND” to “PD_RX_RRFGD_BUZ”.
+
+Changing footprint “J3:/5B81CA18/5BAABBE2” pad “1” net name from “+5V” to “PD_TX_RRFGD_BTN_ENC”.
+
+Changing footprint “J34:/5B81CA18/5C6A5C41” pad “4” net name from “” to “Net-(J34-Pad4)”.
+
+Changing footprint “J35:/5B81CA18/5C72422B” pad “9” net name from “” to “Net-(J35-Pad9)”.
+
+Changing footprint “J35:/5B81CA18/5C72422B” pad “8” net name from “” to “Net-(J35-Pad8)”.
+
+Changing footprint “J35:/5B81CA18/5C72422B” pad “5” net name from “” to “Net-(J35-Pad5)”.
+
+Changing footprint “U3:/5B81CA77/5C1034F6” pad “9” net name from “” to “Net-(U3-Pad9)”.
+
+Changing footprint “U3:/5B81CA77/5C1034F6” pad “17” net name from “” to “Net-(U3-Pad17)”.
+
+Changing footprint “U3:/5B81CA77/5C1034F6” pad “19” net name from “” to “Net-(U3-Pad19)”.
+
+Changing footprint “U3:/5B81CA77/5C1034F6” pad “23” net name from “” to “Net-(U3-Pad23)”.
+
+Changing footprint “U2:/5B81CA77/5C01B0A3” pad “9” net name from “” to “Net-(U2-Pad9)”.
+
+Changing footprint “U2:/5B81CA77/5C01B0A3” pad “10” net name from “” to “Net-(U2-Pad10)”.
+
+Changing footprint “U2:/5B81CA77/5C01B0A3” pad “17” net name from “” to “Net-(U2-Pad17)”.
+
+Changing footprint “U2:/5B81CA77/5C01B0A3” pad “23” net name from “” to “Net-(U2-Pad23)”.
+
+Changing footprint “U1:/5B81CA77/5BB697C0” pad “9” net name from “” to “Net-(U1-Pad9)”.
+
+Changing footprint “U1:/5B81CA77/5BB697C0” pad “10” net name from “” to “Net-(U1-Pad10)”.
+
+Changing footprint “U1:/5B81CA77/5BB697C0” pad “17” net name from “” to “Net-(U1-Pad17)”.
+
+Changing footprint “U1:/5B81CA77/5BB697C0” pad “19” net name from “” to “Net-(U1-Pad19)”.
+
+Changing footprint “U1:/5B81CA77/5BB697C0” pad “23” net name from “” to “Net-(U1-Pad23)”.
+
+Changing footprint “J35:/5B81CA18/5C72422B” pad “7” net name from “” to “Net-(J35-Pad7)”.
+
+Changing footprint “U2:/5B81CA77/5C01B0A3” pad “19” net name from “” to “Net-(U2-Pad19)”.
+
+Warning: Footprint of symbol “J26” changed: board footprint “MZBOT:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal”, netlist footprint “MZBOT:Molex_KK_1X2”
+
+Warning: Footprint of symbol “R59” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R60” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R56” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R54” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R55” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R62” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R61” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R77” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “R78” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
+Warning: Footprint of symbol “J27” changed: board footprint “MZBOT:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal”, netlist footprint “MZBOT:Molex_KK_1X2”
+
+Warning: Footprint of symbol “J28” changed: board footprint “MZBOT:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal”, netlist footprint “MZBOT:Molex_KK_1X2”
+
+Warning: Footprint of symbol “C146” changed: board footprint “MZBOT:C_0603”, netlist footprint “MZBOT:C_0805”
+
+Warning: Footprint of symbol “C148” changed: board footprint “MZBOT:C_0805”, netlist footprint “MZBOT:C_0603”
+
+Warning: Footprint of symbol “R53” changed: board footprint “MZBOT:R_0805”, netlist footprint “MZBOT:R_0603”
+
