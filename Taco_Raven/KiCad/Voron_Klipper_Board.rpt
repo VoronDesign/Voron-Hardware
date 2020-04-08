@@ -1,0 +1,785 @@
+** Drc report for C:\Users\cr185092\Documents\KiCAD_Projects\Voron_Klipper_Board\Voron_Klipper_Board.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 259 unconnected pads **
+ErrType(2): Unconnected items
+    @ (5.9935 in,3.4841 in): Pad 2 on TOP.Cu, Non-copper of U20
+    @ (6.0260 in,3.4673 in): Pad 17 on TOP.Cu, BOTTOM.Cu, Internal of U20
+ErrType(2): Unconnected items
+    @ (6.0205 in,4.1173 in): Pad 17 on TOP.Cu, BOTTOM.Cu, Internal of U19
+    @ (5.9880 in,4.1341 in): Pad 2 on TOP.Cu, Non-copper of U19
+ErrType(2): Unconnected items
+    @ (5.8436 in,2.5637 in): Pad 1 on TOP.Cu, Non-copper of U1
+    @ (5.8160 in,2.5361 in): Pad 36 on TOP.Cu, Non-copper of U1
+ErrType(2): Unconnected items
+    @ (6.6054 in,2.5361 in): Pad 36 on TOP.Cu, Non-copper of U2
+    @ (6.6330 in,2.5637 in): Pad 1 on TOP.Cu, Non-copper of U2
+ErrType(2): Unconnected items
+    @ (7.3908 in,2.5361 in): Pad 36 on TOP.Cu, Non-copper of U3
+    @ (7.4184 in,2.5637 in): Pad 1 on TOP.Cu, Non-copper of U3
+ErrType(2): Unconnected items
+    @ (8.1782 in,2.5361 in): Pad 36 on TOP.Cu, Non-copper of U4
+    @ (8.2058 in,2.5637 in): Pad 1 on TOP.Cu, Non-copper of U4
+ErrType(2): Unconnected items
+    @ (6.0068 in,5.0347 in): Pad 1 on TOP.Cu, Non-copper of U5
+    @ (6.0344 in,5.0623 in): Pad 36 on TOP.Cu, Non-copper of U5
+ErrType(2): Unconnected items
+    @ (6.7942 in,5.0347 in): Pad 1 on TOP.Cu, Non-copper of U6
+    @ (6.8218 in,5.0623 in): Pad 36 on TOP.Cu, Non-copper of U6
+ErrType(2): Unconnected items
+    @ (7.5796 in,5.0347 in): Pad 1 on TOP.Cu, Non-copper of U7
+    @ (7.6072 in,5.0623 in): Pad 36 on TOP.Cu, Non-copper of U7
+ErrType(2): Unconnected items
+    @ (8.3690 in,5.0347 in): Pad 1 on TOP.Cu, Non-copper of U8
+    @ (8.3966 in,5.0623 in): Pad 36 on TOP.Cu, Non-copper of U8
+ErrType(2): Unconnected items
+    @ (8.3386 in,3.3433 in): Pad 5 on TOP.Cu, Non-copper of J35
+    @ (8.3386 in,3.2933 in): Pad 3 on TOP.Cu, Non-copper of J35
+ErrType(2): Unconnected items
+    @ (8.1201 in,3.8425 in): Pad 1 on TOP.Cu, Non-copper of C125
+    @ (8.1201 in,3.9016 in): Pad 1 on TOP.Cu, Non-copper of C123
+ErrType(2): Unconnected items
+    @ (8.1201 in,3.9016 in): Pad 1 on TOP.Cu, Non-copper of C123
+    @ (8.1201 in,3.9606 in): Pad 1 on TOP.Cu, Non-copper of C119
+ErrType(2): Unconnected items
+    @ (7.6713 in,3.2244 in): Pad 1 on TOP.Cu, Non-copper of C145
+    @ (7.7323 in,3.2254 in): Pad 1 on TOP.Cu, Non-copper of U18
+ErrType(2): Unconnected items
+    @ (5.3514 in,3.7402 in): Pad 1 on TOP.Cu, Non-copper of C143
+    @ (5.2785 in,3.7392 in): Pad 1 on TOP.Cu, Non-copper of C141
+ErrType(2): Unconnected items
+    @ (6.7313 in,4.0846 in): Pad 2 on TOP.Cu, Non-copper of C135
+    @ (6.7303 in,4.1594 in): Pad 2 on TOP.Cu, Non-copper of C137
+ErrType(2): Unconnected items
+    @ (6.8484 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U12
+    @ (6.9134 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R38
+ErrType(2): Unconnected items
+    @ (7.3228 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R34
+    @ (7.2579 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U10
+ErrType(2): Unconnected items
+    @ (7.0531 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U11
+    @ (7.1181 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R37
+ErrType(2): Unconnected items
+    @ (7.4626 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U9
+    @ (7.5276 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R33
+ErrType(2): Unconnected items
+    @ (6.6378 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U13
+    @ (6.7047 in,3.2264 in): Pad 1 on TOP.Cu, Non-copper of R41
+ErrType(2): Unconnected items
+    @ (6.1209 in,3.7659 in): Pad 2 on TOP.Cu, Non-copper of R84
+    @ (6.0268 in,3.7663 in): Pad 2 on TOP.Cu, Non-copper of R86
+ErrType(2): Unconnected items
+    @ (6.1154 in,4.4161 in): Pad 2 on TOP.Cu, Non-copper of R85
+    @ (6.0213 in,4.4157 in): Pad 2 on TOP.Cu, Non-copper of R83
+ErrType(2): Unconnected items
+    @ (7.6732 in,3.4409 in): Pad 1 on TOP.Cu, Non-copper of C124
+    @ (7.6496 in,3.5335 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0395 in
+ErrType(2): Unconnected items
+    @ (7.5906 in,4.1358 in): Pad 62 on TOP.Cu, Non-copper of U21
+    @ (7.5492 in,4.2362 in): Pad 1 on TOP.Cu, Non-copper of C115
+ErrType(2): Unconnected items
+    @ (8.7244 in,4.7244 in): Pad 5 on TOP.Cu, Non-copper of J34
+    @ (8.7283 in,4.6122 in): Pad 6 on TOP.Cu, Non-copper of J34
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.7236 in): Pad 1 on TOP.Cu, Non-copper of R60
+    @ (5.3031 in,5.7481 in): Pad 3 on TOP.Cu, Non-copper of U17
+ErrType(2): Unconnected items
+    @ (5.3031 in,5.1508 in): Pad 3 on TOP.Cu, Non-copper of U16
+    @ (5.4191 in,5.1257 in): Pad 1 on TOP.Cu, Non-copper of R59
+ErrType(2): Unconnected items
+    @ (5.3031 in,4.8522 in): Pad 3 on TOP.Cu, Non-copper of U14
+    @ (5.4191 in,4.8268 in): Pad 1 on TOP.Cu, Non-copper of R53
+ErrType(2): Unconnected items
+    @ (5.4990 in,2.7008 in): Pad 1 on TOP.Cu, Non-copper of C142
+    @ (5.6240 in,2.6909 in): Via 0.0315 in net [GND] (1) on layers TOP.Cu/BOTTOM.Cu
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.4995 in): Pad 1 on TOP.Cu, Non-copper of R54
+    @ (5.3031 in,5.4494 in): Pad 3 on TOP.Cu, Non-copper of U15
+ErrType(2): Unconnected items
+    @ (6.0213 in,4.4157 in): Pad 2 on TOP.Cu, Non-copper of R83
+    @ (5.9433 in,4.3079 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0256 in
+ErrType(2): Unconnected items
+    @ (5.9488 in,3.6579 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0256 in
+    @ (6.0268 in,3.7663 in): Pad 2 on TOP.Cu, Non-copper of R86
+ErrType(2): Unconnected items
+    @ (7.3091 in,3.6969 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0965 in
+    @ (7.3091 in,3.8346 in): Pad 38 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (6.7323 in,3.9469 in): Pad 2 on TOP.Cu, Non-copper of C134
+    @ (6.7313 in,4.0846 in): Pad 2 on TOP.Cu, Non-copper of C135
+ErrType(2): Unconnected items
+    @ (5.8299 in,3.7285 in): Pad 2 on TOP.Cu, Non-copper of R90
+    @ (5.9488 in,3.6579 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0256 in
+ErrType(2): Unconnected items
+    @ (5.9433 in,4.3079 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0256 in
+    @ (5.8244 in,4.3785 in): Pad 2 on TOP.Cu, Non-copper of R88
+ErrType(2): Unconnected items
+    @ (7.6713 in,3.2244 in): Pad 1 on TOP.Cu, Non-copper of C145
+    @ (7.5276 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R33
+ErrType(2): Unconnected items
+    @ (7.0531 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U11
+    @ (6.9134 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R38
+ErrType(2): Unconnected items
+    @ (7.2579 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U10
+    @ (7.1181 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R37
+ErrType(2): Unconnected items
+    @ (7.4626 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U9
+    @ (7.3228 in,3.2283 in): Pad 1 on TOP.Cu, Non-copper of R34
+ErrType(2): Unconnected items
+    @ (7.7323 in,3.2254 in): Pad 1 on TOP.Cu, Non-copper of U18
+    @ (7.8701 in,3.1673 in): Pad 1 on TOP.Cu, Non-copper of C146
+ErrType(2): Unconnected items
+    @ (8.5886 in,4.9075 in): Via 0.0315 in net [GND] (1) on layers TOP.Cu/BOTTOM.Cu
+    @ (8.7283 in,4.9626 in): Pad 6 on TOP.Cu, Non-copper of J34
+ErrType(2): Unconnected items
+    @ (8.1201 in,3.8425 in): Pad 1 on TOP.Cu, Non-copper of C125
+    @ (8.1575 in,3.6969 in): Pad 2 on TOP.Cu, Non-copper of C121
+ErrType(2): Unconnected items
+    @ (7.3091 in,4.0709 in): Pad 50 on TOP.Cu, Non-copper of U21
+    @ (7.2047 in,4.1811 in): Pad 1 on TOP.Cu, Non-copper of C120
+ErrType(2): Unconnected items
+    @ (6.7047 in,3.2264 in): Pad 1 on TOP.Cu, Non-copper of R41
+    @ (6.8484 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U12
+ErrType(2): Unconnected items
+    @ (5.8390 in,3.8827 in): Pad 2 on TOP.Cu, Non-copper of C151
+    @ (5.8299 in,3.7285 in): Pad 2 on TOP.Cu, Non-copper of R90
+ErrType(2): Unconnected items
+    @ (5.5748 in,5.1220 in): Pad 2 on TOP.Cu, Non-copper of R21
+    @ (5.4191 in,5.1257 in): Pad 1 on TOP.Cu, Non-copper of R59
+ErrType(2): Unconnected items
+    @ (5.7740 in,4.1996 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0042 in
+    @ (5.6441 in,4.3047 in): Pad 2 on TOP.Cu, Non-copper of C149
+ErrType(2): Unconnected items
+    @ (5.6496 in,3.6549 in): Pad 2 on TOP.Cu, Non-copper of C150
+    @ (5.7795 in,3.5496 in): Via 0.0315 in net [GND] (1) on layers TOP.Cu/BOTTOM.Cu
+ErrType(2): Unconnected items
+    @ (7.9114 in,4.0709 in): Pad 76 on TOP.Cu, Non-copper of U21
+    @ (8.0630 in,4.1437 in): Pad 1 on TOP.Cu, Non-copper of C116
+ErrType(2): Unconnected items
+    @ (7.1093 in,4.4114 in): Pad 2 on TOP.Cu, Non-copper of C138
+    @ (7.1472 in,4.5866 in): Pad 3 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J33
+ErrType(2): Unconnected items
+    @ (6.0039 in,3.3203 in): Pad 2 on TOP.Cu, Non-copper of C162
+    @ (5.8445 in,3.2327 in): Pad 2 on TOP.Cu, Non-copper of C152
+ErrType(2): Unconnected items
+    @ (5.5906 in,4.9035 in): Via 0.0315 in net [GND] (1) on layers TOP.Cu/BOTTOM.Cu
+    @ (5.4191 in,4.8268 in): Pad 1 on TOP.Cu, Non-copper of R53
+ErrType(2): Unconnected items
+    @ (8.0630 in,4.1437 in): Pad 1 on TOP.Cu, Non-copper of C116
+    @ (8.1201 in,3.9606 in): Pad 1 on TOP.Cu, Non-copper of C119
+ErrType(2): Unconnected items
+    @ (7.2047 in,3.4646 in): Pad 1 on TOP.Cu, Non-copper of C117
+    @ (7.2579 in,3.2795 in): Pad 2 on TOP.Cu, Non-copper of U10
+ErrType(2): Unconnected items
+    @ (7.6378 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C130
+    @ (7.5492 in,4.2362 in): Pad 1 on TOP.Cu, Non-copper of C115
+ErrType(2): Unconnected items
+    @ (7.3937 in,3.5335 in): Track 0.0100 in, net [GND] (1) on layer TOP.Cu, length: 0.0768 in
+    @ (7.2047 in,3.4646 in): Pad 1 on TOP.Cu, Non-copper of C117
+ErrType(2): Unconnected items
+    @ (5.5630 in,5.8681 in): Via 0.0315 in net [GND] (1) on layers TOP.Cu/BOTTOM.Cu
+    @ (5.4191 in,5.7236 in): Pad 1 on TOP.Cu, Non-copper of R60
+ErrType(2): Unconnected items
+    @ (8.9429 in,4.6122 in): Pad 6 on TOP.Cu, Non-copper of J34
+    @ (8.7283 in,4.6122 in): Pad 6 on TOP.Cu, Non-copper of J34
+ErrType(2): Unconnected items
+    @ (8.9429 in,4.9626 in): Pad 6 on TOP.Cu, Non-copper of J34
+    @ (8.7283 in,4.9626 in): Pad 6 on TOP.Cu, Non-copper of J34
+ErrType(2): Unconnected items
+    @ (5.4191 in,4.8268 in): Pad 1 on TOP.Cu, Non-copper of R53
+    @ (5.3484 in,4.6181 in): Pad 1 on TOP.Cu, Non-copper of C144
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.7236 in): Pad 1 on TOP.Cu, Non-copper of R60
+    @ (5.4191 in,5.4995 in): Pad 1 on TOP.Cu, Non-copper of R54
+ErrType(2): Unconnected items
+    @ (8.7244 in,4.7244 in): Pad 5 on TOP.Cu, Non-copper of J34
+    @ (8.5886 in,4.9075 in): Via 0.0315 in net [GND] (1) on layers TOP.Cu/BOTTOM.Cu
+ErrType(2): Unconnected items
+    @ (7.5492 in,4.2362 in): Pad 1 on TOP.Cu, Non-copper of C115
+    @ (7.4016 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C129
+ErrType(2): Unconnected items
+    @ (7.8740 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C131
+    @ (7.6378 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C130
+ErrType(2): Unconnected items
+    @ (8.1181 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C132
+    @ (8.3583 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C133
+ErrType(2): Unconnected items
+    @ (8.1181 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C132
+    @ (7.8740 in,4.4154 in): Pad 2 on TOP.Cu, Non-copper of C131
+ErrType(2): Unconnected items
+    @ (7.6732 in,3.4409 in): Pad 1 on TOP.Cu, Non-copper of C124
+    @ (7.9307 in,3.4681 in): Pad 1 on TOP.Cu, Non-copper of C118
+ErrType(2): Unconnected items
+    @ (6.7303 in,4.1594 in): Pad 2 on TOP.Cu, Non-copper of C137
+    @ (6.8120 in,4.4193 in): Pad 2 on TOP.Cu, Non-copper of C136
+ErrType(2): Unconnected items
+    @ (5.4990 in,2.7008 in): Pad 1 on TOP.Cu, Non-copper of C142
+    @ (5.5020 in,2.9774 in): Pad 1 on TOP.Cu, Non-copper of C140
+ErrType(2): Unconnected items
+    @ (5.3514 in,3.7402 in): Pad 1 on TOP.Cu, Non-copper of C143
+    @ (5.6496 in,3.6549 in): Pad 2 on TOP.Cu, Non-copper of C150
+ErrType(2): Unconnected items
+    @ (5.8307 in,3.6667 in): Pad 1 on TOP.Cu, Non-copper of R89
+    @ (5.8268 in,3.6116 in): Pad 2 on TOP.Cu, Non-copper of C164
+ErrType(2): Unconnected items
+    @ (8.1782 in,2.4180 in): Pad 30 on TOP.Cu, Non-copper of U4
+    @ (8.2452 in,2.3708 in): Pad 26 on TOP.Cu, Non-copper of U4
+ErrType(2): Unconnected items
+    @ (6.8218 in,5.1804 in): Pad 30 on TOP.Cu, Non-copper of U6
+    @ (6.7548 in,5.2277 in): Pad 26 on TOP.Cu, Non-copper of U6
+ErrType(2): Unconnected items
+    @ (5.9674 in,5.2277 in): Pad 26 on TOP.Cu, Non-copper of U5
+    @ (6.0344 in,5.1804 in): Pad 30 on TOP.Cu, Non-copper of U5
+ErrType(2): Unconnected items
+    @ (7.5403 in,5.2277 in): Pad 26 on TOP.Cu, Non-copper of U7
+    @ (7.6072 in,5.1804 in): Track 0.0098 in, net [+5V] (2) on layer TOP.Cu, length: 0.0256 in
+ErrType(2): Unconnected items
+    @ (8.3296 in,5.2277 in): Pad 26 on TOP.Cu, Non-copper of U8
+    @ (8.3966 in,5.1804 in): Track 0.0098 in, net [+5V] (2) on layer TOP.Cu, length: 0.0256 in
+ErrType(2): Unconnected items
+    @ (7.6713 in,3.1654 in): Pad 2 on TOP.Cu, Non-copper of C145
+    @ (7.7697 in,3.1467 in): Pad 3 on TOP.Cu, Non-copper of U18
+ErrType(2): Unconnected items
+    @ (5.8268 in,3.6116 in): Pad 2 on TOP.Cu, Non-copper of C164
+    @ (6.0039 in,3.2022 in): Track 0.0350 in, net [+5V] (2) on layer TOP.Cu, length: 0.0354 in
+ErrType(2): Unconnected items
+    @ (7.5138 in,5.3888 in): Via 0.0315 in net [+5V] (2) on layers TOP.Cu/BOTTOM.Cu
+    @ (6.9911 in,5.2934 in): Zone Outline  (5BDD5997) [+5V] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (6.7283 in,5.3888 in): Via 0.0315 in net [+5V] (2) on layers TOP.Cu/BOTTOM.Cu
+    @ (6.2037 in,5.2934 in): Zone Outline  (5BDD59A3) [+5V] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (8.3031 in,5.3888 in): Via 0.0315 in net [+5V] (2) on layers TOP.Cu/BOTTOM.Cu
+    @ (7.7766 in,5.2934 in): Zone Outline  (5BDD596D) [+5V] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (8.0315 in,2.2441 in): Track 0.0157 in, net [+5V] (2) on layer TOP.Cu, length: 0.0420 in
+    @ (7.5030 in,2.1430 in): Zone Outline  (5BDD5A3C) [+5V] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (7.1093 in,2.9075 in): Track 0.0800 in, net [+5V] (2) on layer Power.Cu, length: 0.7805 in
+    @ (7.6713 in,3.1654 in): Pad 2 on TOP.Cu, Non-copper of C145
+ErrType(2): Unconnected items
+    @ (8.8701 in,2.8469 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J3
+    @ (8.8193 in,3.5437 in): Pad 10 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+ErrType(2): Unconnected items
+    @ (8.8701 in,2.8469 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J3
+    @ (8.2452 in,2.3708 in): Pad 26 on TOP.Cu, Non-copper of U4
+ErrType(2): Unconnected items
+    @ (6.0344 in,5.1804 in): Pad 30 on TOP.Cu, Non-copper of U5
+    @ (5.8307 in,3.6667 in): Pad 1 on TOP.Cu, Non-copper of R89
+ErrType(2): Unconnected items
+    @ (5.6565 in,2.5984 in): Pad 2 on TOP.Cu, Non-copper of C17
+    @ (5.6634 in,2.4783 in): Pad 1 on TOP.Cu, Non-copper of R7
+ErrType(2): Unconnected items
+    @ (6.4459 in,2.5984 in): Pad 2 on TOP.Cu, Non-copper of C18
+    @ (6.4528 in,2.4783 in): Pad 1 on TOP.Cu, Non-copper of R8
+ErrType(2): Unconnected items
+    @ (7.2382 in,2.4783 in): Pad 1 on TOP.Cu, Non-copper of R15
+    @ (7.2313 in,2.5984 in): Pad 2 on TOP.Cu, Non-copper of C45
+ErrType(2): Unconnected items
+    @ (8.0256 in,2.4783 in): Pad 1 on TOP.Cu, Non-copper of R16
+    @ (8.0187 in,2.5984 in): Pad 2 on TOP.Cu, Non-copper of C46
+ErrType(2): Unconnected items
+    @ (6.1939 in,5.0000 in): Pad 2 on TOP.Cu, Non-copper of C73
+    @ (6.1870 in,5.1201 in): Pad 1 on TOP.Cu, Non-copper of R23
+ErrType(2): Unconnected items
+    @ (6.9744 in,5.1201 in): Pad 1 on TOP.Cu, Non-copper of R24
+    @ (6.9813 in,5.0000 in): Pad 2 on TOP.Cu, Non-copper of C74
+ErrType(2): Unconnected items
+    @ (4.7468 in,4.8848 in): Pad 1 on TOP.Cu, Non-copper of R57
+    @ (4.7468 in,4.9575 in): Pad 2 on TOP.Cu, Non-copper of D1
+ErrType(2): Unconnected items
+    @ (6.6122 in,4.0315 in): Track 0.0100 in, net [Net-(D6-Pad1)] (32) on layer TOP.Cu, length: 0.0335 in
+    @ (6.6732 in,4.0315 in): Pad 1 on TOP.Cu, Non-copper of R66
+ErrType(2): Unconnected items
+    @ (6.7539 in,4.7598 in): Pad 2 on TOP.Cu, Non-copper of D7
+    @ (6.6890 in,4.4252 in): Pad 1 on TOP.Cu, Non-copper of R71
+ErrType(2): Unconnected items
+    @ (6.6073 in,4.3406 in): Pad 2 on TOP.Cu, Non-copper of D9
+    @ (6.7530 in,4.4252 in): Pad 1 on TOP.Cu, Non-copper of R69
+ErrType(2): Unconnected items
+    @ (6.7530 in,4.4252 in): Pad 1 on TOP.Cu, Non-copper of R69
+    @ (6.6673 in,4.7598 in): Pad 1 on TOP.Cu, Non-copper of D7
+ErrType(2): Unconnected items
+    @ (7.0522 in,4.4173 in): Pad 1 on TOP.Cu, Non-copper of R74
+    @ (7.0906 in,4.7598 in): Pad 2 on TOP.Cu, Non-copper of D10
+ErrType(2): Unconnected items
+    @ (6.9472 in,4.5866 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J33
+    @ (6.9892 in,4.4173 in): Pad 1 on TOP.Cu, Non-copper of R73
+ErrType(2): Unconnected items
+    @ (7.0039 in,4.7598 in): Pad 1 on TOP.Cu, Non-copper of D10
+    @ (6.9472 in,4.5866 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J33
+ErrType(2): Unconnected items
+    @ (7.2805 in,4.3622 in): Pad 1 on TOP.Cu, Non-copper of R45
+    @ (7.3425 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R43
+ErrType(2): Unconnected items
+    @ (7.3425 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R43
+    @ (7.3846 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J20
+ErrType(2): Unconnected items
+    @ (7.5167 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R46
+    @ (7.5787 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R44
+ErrType(2): Unconnected items
+    @ (7.5787 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R44
+    @ (7.6248 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J21
+ErrType(2): Unconnected items
+    @ (7.7520 in,4.3622 in): Pad 1 on TOP.Cu, Non-copper of R49
+    @ (7.8143 in,4.3622 in): Pad 1 on TOP.Cu, Non-copper of R47
+ErrType(2): Unconnected items
+    @ (7.8143 in,4.3622 in): Pad 1 on TOP.Cu, Non-copper of R47
+    @ (7.8650 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J22
+ErrType(2): Unconnected items
+    @ (7.9984 in,4.3622 in): Pad 1 on TOP.Cu, Non-copper of R50
+    @ (8.0594 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R48
+ErrType(2): Unconnected items
+    @ (8.0594 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R48
+    @ (8.1055 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J23
+ErrType(2): Unconnected items
+    @ (8.2362 in,4.3622 in): Pad 1 on TOP.Cu, Non-copper of R52
+    @ (8.2985 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R51
+ErrType(2): Unconnected items
+    @ (8.2985 in,4.4213 in): Pad 1 on TOP.Cu, Non-copper of R51
+    @ (8.3453 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J24
+ErrType(2): Unconnected items
+    @ (6.6761 in,5.2533 in): Track 0.0098 in, net [TMC_EN] (57) on layer TOP.Cu, length: 0.0372 in
+    @ (7.3337 in,5.3189 in): Track 0.0098 in, net [TMC_EN] (57) on layer TOP.Cu, length: 0.0177 in
+ErrType(2): Unconnected items
+    @ (5.8887 in,5.2533 in): Track 0.0098 in, net [TMC_EN] (57) on layer TOP.Cu, length: 0.0256 in
+    @ (6.5482 in,5.3189 in): Track 0.0098 in, net [TMC_EN] (57) on layer TOP.Cu, length: 0.0177 in
+ErrType(2): Unconnected items
+    @ (8.1230 in,5.3189 in): Track 0.0098 in, net [TMC_EN] (57) on layer TOP.Cu, length: 0.0177 in
+    @ (7.4615 in,5.2533 in): Track 0.0098 in, net [TMC_EN] (57) on layer TOP.Cu, length: 0.0256 in
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.8543 in): Pad 87 on TOP.Cu, Non-copper of U21
+    @ (7.6024 in,2.6240 in): Track 0.0100 in, net [TMC_EN] (57) on layer BOTTOM.Cu, length: 0.0223 in
+ErrType(2): Unconnected items
+    @ (8.2509 in,5.2277 in): Pad 22 on TOP.Cu, Non-copper of U8
+    @ (7.9114 in,3.8543 in): Pad 87 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.3091 in,3.9528 in): Track 0.0100 in, net [SPI_SDO] (58) on layer TOP.Cu, length: 0.1988 in
+    @ (7.5157 in,3.8996 in): Track 0.0100 in, net [SPI_SDO] (58) on layer BOTTOM.Cu, length: 0.5827 in
+ErrType(2): Unconnected items
+    @ (7.5157 in,3.8996 in): Track 0.0100 in, net [SPI_SDO] (58) on layer BOTTOM.Cu, length: 0.5827 in
+    @ (7.5388 in,2.7199 in): Track 0.0100 in, net [SPI_SDO] (58) on layer BOTTOM.Cu, length: 0.6432 in
+ErrType(2): Unconnected items
+    @ (7.3091 in,3.9134 in): Track 0.0100 in, net [SPI_SDI] (59) on layer TOP.Cu, length: 0.2047 in
+    @ (7.4301 in,3.9154 in): Track 0.0100 in, net [SPI_SDI] (59) on layer BOTTOM.Cu, length: 0.0002 in
+ErrType(2): Unconnected items
+    @ (7.4234 in,2.7424 in): Track 0.0100 in, net [SPI_SDI] (59) on layer BOTTOM.Cu, length: 0.0158 in
+    @ (7.4301 in,3.9154 in): Track 0.0100 in, net [SPI_SDI] (59) on layer BOTTOM.Cu, length: 0.0002 in
+ErrType(2): Unconnected items
+    @ (7.4272 in,3.9331 in): Track 0.0100 in, net [SPI_CLK] (60) on layer BOTTOM.Cu, length: 0.6433 in
+    @ (7.3091 in,3.9331 in): Track 0.0100 in, net [SPI_CLK] (60) on layer TOP.Cu, length: 0.1683 in
+ErrType(2): Unconnected items
+    @ (7.4838 in,2.7674 in): Track 0.0100 in, net [SPI_CLK] (60) on layer BOTTOM.Cu, length: 0.0024 in
+    @ (7.4272 in,3.9331 in): Track 0.0100 in, net [SPI_CLK] (60) on layer BOTTOM.Cu, length: 0.6433 in
+ErrType(2): Unconnected items
+    @ (7.5825 in,3.3545 in): Track 0.0100 in, net [STEP_X] (64) on layer TOP.Cu, length: 0.3245 in
+    @ (7.5891 in,3.3704 in): Track 0.0100 in, net [STEP_X] (64) on layer TOP.Cu, length: 0.2022 in
+ErrType(2): Unconnected items
+    @ (7.8701 in,3.2264 in): Pad 2 on TOP.Cu, Non-copper of C146
+    @ (7.8071 in,3.2254 in): Pad 2 on TOP.Cu, Non-copper of U18
+ErrType(2): Unconnected items
+    @ (6.7854 in,3.4882 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0313 in
+    @ (6.8547 in,3.4734 in): Pad 8 on TOP.Cu, Non-copper of U22
+ErrType(2): Unconnected items
+    @ (8.1142 in,4.0197 in): Pad 1 on TOP.Cu, Non-copper of R91
+    @ (8.0630 in,4.0846 in): Pad 2 on TOP.Cu, Non-copper of C116
+ErrType(2): Unconnected items
+    @ (7.6142 in,3.4409 in): Pad 2 on TOP.Cu, Non-copper of C124
+    @ (7.6299 in,3.5335 in): Pad 12 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.7402 in,2.2756 in): Track 0.0200 in, net [+3.3V] (66) on layer Power.Cu, length: 0.0669 in
+    @ (7.6594 in,2.2244 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0138 in
+ErrType(2): Unconnected items
+    @ (7.6102 in,4.1358 in): Pad 63 on TOP.Cu, Non-copper of U21
+    @ (7.6083 in,4.2362 in): Pad 2 on TOP.Cu, Non-copper of C115
+ErrType(2): Unconnected items
+    @ (7.3740 in,4.1358 in): Pad 51 on TOP.Cu, Non-copper of U21
+    @ (7.2638 in,4.1811 in): Pad 2 on TOP.Cu, Non-copper of C120
+ErrType(2): Unconnected items
+    @ (7.3898 in,3.6614 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0223 in
+    @ (7.3740 in,3.5335 in): Pad 25 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.2638 in,3.4646 in): Pad 2 on TOP.Cu, Non-copper of C117
+    @ (7.3740 in,3.5335 in): Pad 25 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (8.0630 in,4.0846 in): Pad 2 on TOP.Cu, Non-copper of C116
+    @ (7.9114 in,4.0512 in): Pad 77 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.2411 in,3.8465 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0404 in
+    @ (7.2402 in,3.6772 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0111 in
+ErrType(2): Unconnected items
+    @ (5.8514 in,4.9488 in): Pad 2 on TOP.Cu, Non-copper of C57
+    @ (5.8228 in,4.7539 in): Pad 2 on TOP.Cu, Non-copper of R67
+ErrType(2): Unconnected items
+    @ (6.1535 in,4.7063 in): Track 0.0200 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0476 in
+    @ (6.3740 in,4.6606 in): Track 0.0200 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0562 in
+ErrType(2): Unconnected items
+    @ (7.0472 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J33
+    @ (7.0522 in,4.3583 in): Pad 2 on TOP.Cu, Non-copper of R74
+ErrType(2): Unconnected items
+    @ (6.0374 in,4.6396 in): Track 0.0200 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0453 in
+    @ (5.8228 in,4.7264 in): Track 0.0200 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0276 in
+ErrType(2): Unconnected items
+    @ (7.3898 in,3.6614 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0223 in
+    @ (7.6181 in,3.6181 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0445 in
+ErrType(2): Unconnected items
+    @ (7.6102 in,4.1358 in): Pad 63 on TOP.Cu, Non-copper of U21
+    @ (7.3740 in,4.1358 in): Pad 51 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (6.6388 in,4.9488 in): Pad 2 on TOP.Cu, Non-copper of C58
+    @ (6.4902 in,4.7539 in): Pad 2 on TOP.Cu, Non-copper of R72
+ErrType(2): Unconnected items
+    @ (7.6654 in,3.6654 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0223 in
+    @ (7.9114 in,3.7559 in): Pad 92 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.9898 in,3.4681 in): Pad 2 on TOP.Cu, Non-copper of C118
+    @ (7.8701 in,3.2264 in): Pad 2 on TOP.Cu, Non-copper of C146
+ErrType(2): Unconnected items
+    @ (7.2638 in,4.1811 in): Pad 2 on TOP.Cu, Non-copper of C120
+    @ (7.0522 in,4.3583 in): Pad 2 on TOP.Cu, Non-copper of R74
+ErrType(2): Unconnected items
+    @ (7.3740 in,4.1358 in): Pad 51 on TOP.Cu, Non-copper of U21
+    @ (7.3917 in,3.8543 in): Via 0.0315 in net [+3.3V] (66) on layers TOP.Cu/BOTTOM.Cu
+ErrType(2): Unconnected items
+    @ (7.6142 in,3.4409 in): Pad 2 on TOP.Cu, Non-copper of C124
+    @ (7.8071 in,3.2254 in): Pad 2 on TOP.Cu, Non-copper of U18
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.7559 in): Pad 92 on TOP.Cu, Non-copper of U21
+    @ (7.9114 in,4.0512 in): Pad 77 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (8.3436 in,2.5637 in): Pad 8 on TOP.Cu, Non-copper of U4
+    @ (8.3858 in,2.2244 in): Track 0.0200 in, net [+3.3V] (66) on layer Power.Cu, length: 0.0610 in
+ErrType(2): Unconnected items
+    @ (8.6870 in,3.2953 in): Pad 1 on TOP.Cu, Non-copper of R93
+    @ (8.3386 in,3.2433 in): Pad 1 on TOP.Cu, Non-copper of J35
+ErrType(2): Unconnected items
+    @ (7.4419 in,5.0347 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0309 in
+    @ (7.3386 in,5.3740 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0138 in
+ErrType(2): Unconnected items
+    @ (5.7657 in,5.3740 in): Via 0.0315 in net [+3.3V] (66) on layers TOP.Cu/BOTTOM.Cu
+    @ (5.8690 in,5.0347 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0309 in
+ErrType(2): Unconnected items
+    @ (6.5531 in,5.3740 in): Via 0.0315 in net [+3.3V] (66) on layers TOP.Cu/BOTTOM.Cu
+    @ (6.6564 in,5.0347 in): Pad 8 on TOP.Cu, Non-copper of U6
+ErrType(2): Unconnected items
+    @ (8.1280 in,5.3740 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0138 in
+    @ (8.2312 in,5.0347 in): Pad 8 on TOP.Cu, Non-copper of U8
+ErrType(2): Unconnected items
+    @ (7.0522 in,4.3583 in): Pad 2 on TOP.Cu, Non-copper of R74
+    @ (6.6890 in,4.3661 in): Pad 2 on TOP.Cu, Non-copper of R71
+ErrType(2): Unconnected items
+    @ (7.2008 in,3.6693 in): Pad 2 on TOP.Cu, Non-copper of C122
+    @ (6.8541 in,3.5589 in): Track 0.0100 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0982 in
+ErrType(2): Unconnected items
+    @ (6.3740 in,4.5866 in): Track 0.0200 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0740 in
+    @ (6.6890 in,4.3661 in): Pad 2 on TOP.Cu, Non-copper of R71
+ErrType(2): Unconnected items
+    @ (7.9898 in,3.4681 in): Pad 2 on TOP.Cu, Non-copper of C118
+    @ (8.3386 in,3.2433 in): Pad 1 on TOP.Cu, Non-copper of J35
+ErrType(2): Unconnected items
+    @ (7.4242 in,4.9488 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0374 in
+    @ (7.0472 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J33
+ErrType(2): Unconnected items
+    @ (7.5906 in,2.6929 in): Track 0.0200 in, net [+3.3V] (66) on layer Power.Cu, length: 0.0501 in
+    @ (7.8071 in,3.2254 in): Pad 2 on TOP.Cu, Non-copper of U18
+ErrType(2): Unconnected items
+    @ (8.1280 in,5.3878 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0752 in
+    @ (7.3917 in,5.4409 in): Track 0.0098 in, net [+3.3V] (66) on layer TOP.Cu, length: 0.0020 in
+ErrType(2): Unconnected items
+    @ (5.3819 in,2.6575 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of F1
+    @ (5.4990 in,2.6417 in): Pad 2 on TOP.Cu, Non-copper of C142
+ErrType(2): Unconnected items
+    @ (7.2441 in,2.3425 in): Pad 2 on TOP.Cu, Non-copper of C41
+    @ (7.0915 in,2.3839 in): Zone Outline  (5BDD5A4E) [VMOT_FUSED] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (8.0315 in,2.3425 in): Track 0.0098 in, net [VMOT_FUSED] (67) on layer TOP.Cu, length: 0.0098 in
+    @ (7.8770 in,2.3839 in): Zone Outline  (5BDD5A2A) [VMOT_FUSED] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (6.4587 in,2.3425 in): Pad 2 on TOP.Cu, Non-copper of C14
+    @ (6.3022 in,2.3839 in): Zone Outline  (5BDD5A7B) [VMOT_FUSED] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (6.0344 in,5.1607 in): Pad 31 on TOP.Cu, Non-copper of U5
+    @ (5.8150 in,5.1634 in): Zone Outline  (5BDD59B2) [VMOT_FUSED] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (8.3966 in,5.1607 in): Pad 31 on TOP.Cu, Non-copper of U8
+    @ (8.1772 in,5.1634 in): Zone Outline  (5BDD59D6) [VMOT_FUSED] on TOP.Cu
+ErrType(2): Unconnected items
+    @ (6.6024 in,5.1634 in): Zone Outline  (5BDD598B) [VMOT_FUSED] on TOP.Cu
+    @ (6.8218 in,5.1607 in): Pad 31 on TOP.Cu, Non-copper of U6
+ErrType(2): Unconnected items
+    @ (7.3878 in,5.1634 in): Zone Outline  (5BDD597F) [VMOT_FUSED] on TOP.Cu
+    @ (7.6072 in,5.1607 in): Pad 31 on TOP.Cu, Non-copper of U7
+ErrType(2): Unconnected items
+    @ (5.5020 in,3.0364 in): Pad 2 on TOP.Cu, Non-copper of C140
+    @ (5.5462 in,2.9430 in): Zone Outline  (5BDD58BC) [+VIN] on Power.Cu
+ErrType(2): Unconnected items
+    @ (5.2500 in,3.9250 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of F3
+    @ (5.2195 in,3.7392 in): Pad 2 on TOP.Cu, Non-copper of C141
+ErrType(2): Unconnected items
+    @ (5.4104 in,3.7402 in): Pad 2 on TOP.Cu, Non-copper of C143
+    @ (5.3819 in,3.5524 in): Track 0.0350 in, net [+VIN_FUSED] (69) on layer TOP.Cu, length: 0.1339 in
+ErrType(2): Unconnected items
+    @ (5.5972 in,3.9232 in): Pad 2 on TOP.Cu, Non-copper of D15
+    @ (5.4104 in,3.7402 in): Pad 2 on TOP.Cu, Non-copper of C143
+ErrType(2): Unconnected items
+    @ (5.2500 in,4.4550 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of F3
+    @ (5.3839 in,4.4550 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of F3
+ErrType(2): Unconnected items
+    @ (5.2894 in,4.6181 in): Pad 2 on TOP.Cu, Non-copper of C144
+    @ (5.2500 in,4.4550 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of F3
+ErrType(2): Unconnected items
+    @ (5.2894 in,4.6181 in): Pad 2 on TOP.Cu, Non-copper of C144
+    @ (4.7468 in,4.8100 in): Track 0.0150 in, net [VBED_FUSED] (70) on layer TOP.Cu, length: 0.6715 in
+ErrType(2): Unconnected items
+    @ (5.8213 in,4.2616 in): Pad 2 on TOP.Cu, Non-copper of C163
+    @ (5.8252 in,4.3169 in): Pad 1 on TOP.Cu, Non-copper of R87
+ErrType(2): Unconnected items
+    @ (5.8213 in,4.2616 in): Pad 2 on TOP.Cu, Non-copper of C163
+    @ (5.9703 in,3.8522 in): Track 0.0350 in, net [+12V] (72) on layer TOP.Cu, length: 0.0281 in
+ErrType(2): Unconnected items
+    @ (6.3921 in,3.9921 in): Pad 2 on TOP.Cu, Non-copper of L3
+    @ (6.7106 in,4.5866 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J32
+ErrType(2): Unconnected items
+    @ (5.6896 in,3.1112 in): Track 0.0200 in, net [+12V] (72) on layer BOTTOM.Cu, length: 0.0724 in
+    @ (5.9703 in,3.8522 in): Track 0.0350 in, net [+12V] (72) on layer TOP.Cu, length: 0.0281 in
+ErrType(2): Unconnected items
+    @ (7.6378 in,4.3563 in): Track 0.0100 in, net [T1] (74) on layer TOP.Cu, length: 0.0453 in
+    @ (7.5787 in,4.3622 in): Pad 2 on TOP.Cu, Non-copper of R44
+ErrType(2): Unconnected items
+    @ (7.8740 in,4.3583 in): Track 0.0100 in, net [T2] (75) on layer TOP.Cu, length: 0.0453 in
+    @ (7.8143 in,4.4213 in): Pad 2 on TOP.Cu, Non-copper of R47
+ErrType(2): Unconnected items
+    @ (8.1181 in,4.3563 in): Track 0.0100 in, net [T3] (76) on layer TOP.Cu, length: 0.0453 in
+    @ (8.0594 in,4.3622 in): Pad 2 on TOP.Cu, Non-copper of R48
+ErrType(2): Unconnected items
+    @ (8.3583 in,4.3563 in): Pad 1 on TOP.Cu, Non-copper of C133
+    @ (8.2985 in,4.3622 in): Pad 2 on TOP.Cu, Non-copper of R51
+ErrType(2): Unconnected items
+    @ (6.6752 in,3.9528 in): Pad 2 on TOP.Cu, Non-copper of R65
+    @ (6.7323 in,3.8878 in): Pad 1 on TOP.Cu, Non-copper of C134
+ErrType(2): Unconnected items
+    @ (6.7323 in,3.8878 in): Pad 1 on TOP.Cu, Non-copper of C134
+    @ (7.6496 in,4.1358 in): Pad 65 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (6.6732 in,4.0906 in): Pad 2 on TOP.Cu, Non-copper of R66
+    @ (6.7313 in,4.0256 in): Pad 1 on TOP.Cu, Non-copper of C135
+ErrType(2): Unconnected items
+    @ (6.7313 in,4.0256 in): Pad 1 on TOP.Cu, Non-copper of C135
+    @ (7.9114 in,4.0315 in): Pad 78 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (6.8120 in,4.3602 in): Pad 1 on TOP.Cu, Non-copper of C136
+    @ (7.9114 in,4.0118 in): Pad 79 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (6.7303 in,4.2185 in): Pad 1 on TOP.Cu, Non-copper of C137
+    @ (6.6742 in,4.2244 in): Pad 2 on TOP.Cu, Non-copper of R70
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.9921 in): Pad 80 on TOP.Cu, Non-copper of U21
+    @ (6.7303 in,4.2185 in): Pad 1 on TOP.Cu, Non-copper of C137
+ErrType(2): Unconnected items
+    @ (7.1093 in,4.3524 in): Pad 1 on TOP.Cu, Non-copper of C138
+    @ (6.9892 in,4.3583 in): Pad 2 on TOP.Cu, Non-copper of R73
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.9724 in): Pad 81 on TOP.Cu, Non-copper of U21
+    @ (7.1093 in,4.3524 in): Pad 1 on TOP.Cu, Non-copper of C138
+ErrType(2): Unconnected items
+    @ (8.0051 in,4.5157 in): Track 0.0200 in, net [VREF] (84) on layer BOTTOM.Cu, length: 0.2398 in
+    @ (7.9984 in,4.4213 in): Pad 2 on TOP.Cu, Non-copper of R50
+ErrType(2): Unconnected items
+    @ (8.2362 in,4.4213 in): Pad 2 on TOP.Cu, Non-copper of R52
+    @ (8.2449 in,4.5157 in): Track 0.0200 in, net [VREF] (84) on layer BOTTOM.Cu, length: 0.1079 in
+ErrType(2): Unconnected items
+    @ (7.7650 in,4.5157 in): Track 0.0200 in, net [VREF] (84) on layer BOTTOM.Cu, length: 0.2406 in
+    @ (7.7520 in,4.4213 in): Pad 2 on TOP.Cu, Non-copper of R49
+ErrType(2): Unconnected items
+    @ (7.2805 in,4.4213 in): Pad 2 on TOP.Cu, Non-copper of R45
+    @ (7.3555 in,4.5157 in): Track 0.0200 in, net [VREF] (84) on layer BOTTOM.Cu, length: 0.1689 in
+ErrType(2): Unconnected items
+    @ (7.5244 in,4.5157 in): Track 0.0200 in, net [VREF] (84) on layer BOTTOM.Cu, length: 0.1689 in
+    @ (7.5167 in,4.3622 in): Pad 2 on TOP.Cu, Non-copper of R46
+ErrType(2): Unconnected items
+    @ (7.5276 in,3.2874 in): Pad 2 on TOP.Cu, Non-copper of R33
+    @ (7.4547 in,3.3425 in): Pad 2 on TOP.Cu, Non-copper of R35
+ErrType(2): Unconnected items
+    @ (7.2500 in,3.3425 in): Pad 2 on TOP.Cu, Non-copper of R36
+    @ (7.3228 in,3.2874 in): Pad 2 on TOP.Cu, Non-copper of R34
+ErrType(2): Unconnected items
+    @ (7.0472 in,3.3425 in): Pad 2 on TOP.Cu, Non-copper of R39
+    @ (7.1181 in,3.2874 in): Pad 2 on TOP.Cu, Non-copper of R37
+ErrType(2): Unconnected items
+    @ (6.9134 in,3.2874 in): Pad 2 on TOP.Cu, Non-copper of R38
+    @ (6.8425 in,3.3425 in): Pad 2 on TOP.Cu, Non-copper of R40
+ErrType(2): Unconnected items
+    @ (6.6299 in,3.3425 in): Pad 2 on TOP.Cu, Non-copper of R42
+    @ (6.7047 in,3.2854 in): Pad 2 on TOP.Cu, Non-copper of R41
+ErrType(2): Unconnected items
+    @ (8.9193 in,3.3437 in): Pad 5 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+    @ (7.7283 in,3.5335 in): Pad 7 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.8268 in,3.5335 in): Pad 2 on TOP.Cu, Non-copper of U21
+    @ (8.9193 in,3.2437 in): Pad 3 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+ErrType(2): Unconnected items
+    @ (7.7480 in,3.5335 in): Pad 6 on TOP.Cu, Non-copper of U21
+    @ (8.8193 in,3.2437 in): Pad 4 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+ErrType(2): Unconnected items
+    @ (7.3091 in,3.8937 in): Pad 41 on TOP.Cu, Non-copper of U21
+    @ (8.8213 in,4.2724 in): Pad 8 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J2
+ErrType(2): Unconnected items
+    @ (7.6299 in,4.1358 in): Pad 64 on TOP.Cu, Non-copper of U21
+    @ (8.9213 in,4.0724 in): Pad 3 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J2
+ErrType(2): Unconnected items
+    @ (8.9213 in,4.1724 in): Pad 5 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J2
+    @ (7.7087 in,3.5335 in): Pad 8 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.0709 in,3.9724 in): Track 0.0100 in, net [DIR_Y] (98) on layer TOP.Cu, length: 0.2382 in
+    @ (6.8030 in,2.8502 in): Track 0.0100 in, net [DIR_Y] (98) on layer TOP.Cu, length: 0.0497 in
+ErrType(2): Unconnected items
+    @ (8.1717 in,3.0389 in): Track 0.0100 in, net [STEP_Y] (99) on layer TOP.Cu, length: 0.2259 in
+    @ (7.7677 in,3.3863 in): Track 0.0100 in, net [STEP_Y] (99) on layer TOP.Cu, length: 0.1720 in
+ErrType(2): Unconnected items
+    @ (7.5806 in,2.7676 in): Track 0.0100 in, net [DIR_E0] (100) on layer TOP.Cu, length: 0.4409 in
+    @ (7.5512 in,4.1358 in): Pad 60 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.4724 in,3.5335 in): Pad 20 on TOP.Cu, Non-copper of U21
+    @ (7.5669 in,2.7835 in): Track 0.0100 in, net [STEP_E0] (101) on layer TOP.Cu, length: 0.0501 in
+ErrType(2): Unconnected items
+    @ (7.8071 in,3.5335 in): Pad 3 on TOP.Cu, Non-copper of U21
+    @ (8.3239 in,2.5637 in): Pad 7 on TOP.Cu, Non-copper of U4
+ErrType(2): Unconnected items
+    @ (8.3042 in,2.5637 in): Pad 6 on TOP.Cu, Non-copper of U4
+    @ (7.8465 in,3.5335 in): Pad 1 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (8.1929 in,3.0118 in): Track 0.0100 in, net [SPI_CS_E0] (104) on layer TOP.Cu, length: 0.2510 in
+    @ (7.9114 in,3.9528 in): Pad 82 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (8.1567 in,3.0706 in): Track 0.0100 in, net [SPI_CS_Y] (105) on layer TOP.Cu, length: 0.2400 in
+    @ (7.5315 in,4.1358 in): Pad 59 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.3878 in,3.2795 in): Pad 1 on TOP.Cu, Non-copper of U9
+    @ (7.3957 in,3.3425 in): Pad 1 on TOP.Cu, Non-copper of R35
+ErrType(2): Unconnected items
+    @ (7.1831 in,3.2795 in): Pad 1 on TOP.Cu, Non-copper of U10
+    @ (7.1909 in,3.3425 in): Pad 1 on TOP.Cu, Non-copper of R36
+ErrType(2): Unconnected items
+    @ (6.9783 in,3.2795 in): Pad 1 on TOP.Cu, Non-copper of U11
+    @ (6.9882 in,3.3425 in): Pad 1 on TOP.Cu, Non-copper of R39
+ErrType(2): Unconnected items
+    @ (6.7736 in,3.2795 in): Pad 1 on TOP.Cu, Non-copper of U12
+    @ (6.7835 in,3.3425 in): Pad 1 on TOP.Cu, Non-copper of R40
+ErrType(2): Unconnected items
+    @ (6.5630 in,3.2795 in): Pad 1 on TOP.Cu, Non-copper of U13
+    @ (6.5709 in,3.3425 in): Pad 1 on TOP.Cu, Non-copper of R42
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.0510 in): Pad 1 on TOP.Cu, Non-copper of R55
+    @ (5.3031 in,5.0317 in): Pad 1 on TOP.Cu, Non-copper of U14
+ErrType(2): Unconnected items
+    @ (5.3031 in,5.6290 in): Pad 1 on TOP.Cu, Non-copper of U15
+    @ (5.4191 in,5.6489 in): Pad 1 on TOP.Cu, Non-copper of R56
+ErrType(2): Unconnected items
+    @ (5.3031 in,5.3303 in): Pad 1 on TOP.Cu, Non-copper of U16
+    @ (5.4191 in,5.3500 in): Pad 1 on TOP.Cu, Non-copper of R61
+ErrType(2): Unconnected items
+    @ (5.3031 in,5.9276 in): Pad 1 on TOP.Cu, Non-copper of U17
+    @ (5.4191 in,5.9479 in): Pad 1 on TOP.Cu, Non-copper of R62
+ErrType(2): Unconnected items
+    @ (8.1654 in,3.0551 in): Track 0.0100 in, net [DIAG_Y] (155) on layer TOP.Cu, length: 0.2405 in
+    @ (7.5118 in,4.1358 in): Pad 58 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (5.8690 in,5.2277 in): Pad 21 on TOP.Cu, Non-copper of U5
+    @ (5.8493 in,5.2277 in): Pad 20 on TOP.Cu, Non-copper of U5
+ErrType(2): Unconnected items
+    @ (7.7480 in,4.1358 in): Pad 70 on TOP.Cu, Non-copper of U21
+    @ (7.4812 in,5.0347 in): Pad 6 on TOP.Cu, Non-copper of U7
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.9134 in): Pad 84 on TOP.Cu, Non-copper of U21
+    @ (8.2509 in,5.0347 in): Pad 7 on TOP.Cu, Non-copper of U8
+ErrType(2): Unconnected items
+    @ (8.2706 in,5.0347 in): Pad 6 on TOP.Cu, Non-copper of U8
+    @ (7.8071 in,4.1358 in): Pad 73 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.8740 in): Track 0.0100 in, net [SPI_CS_Z3] (166) on layer TOP.Cu, length: 0.0856 in
+    @ (8.3493 in,5.0347 in): Pad 2 on TOP.Cu, Non-copper of U8
+ErrType(2): Unconnected items
+    @ (7.5600 in,5.0347 in): Pad 2 on TOP.Cu, Non-copper of U7
+    @ (7.8258 in,3.9331 in): Track 0.0100 in, net [SPI_CS_Z2] (167) on layer TOP.Cu, length: 0.0856 in
+ErrType(2): Unconnected items
+    @ (7.7667 in,5.0000 in): Pad 2 on TOP.Cu, Non-copper of C101
+    @ (7.7598 in,5.1201 in): Pad 1 on TOP.Cu, Non-copper of R31
+ErrType(2): Unconnected items
+    @ (8.5561 in,5.0000 in): Pad 2 on TOP.Cu, Non-copper of C102
+    @ (8.5492 in,5.1201 in): Pad 1 on TOP.Cu, Non-copper of R32
+ErrType(2): Unconnected items
+    @ (8.1772 in,2.9724 in): Track 0.0100 in, net [DIAG_E0] (202) on layer TOP.Cu, length: 0.2355 in
+    @ (7.5709 in,4.1358 in): Pad 61 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (8.2598 in,2.7992 in): Track 0.0200 in, net [DIAG_E1] (203) on layer GND.Cu, length: 0.0547 in
+    @ (7.7874 in,3.5335 in): Pad 4 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (7.7874 in,4.1358 in): Pad 72 on TOP.Cu, Non-copper of U21
+    @ (7.5000 in,4.8474 in): Track 0.0200 in, net [DIAG_Z2] (204) on layer GND.Cu, length: 0.0813 in
+ErrType(2): Unconnected items
+    @ (7.9114 in,3.8937 in): Pad 85 on TOP.Cu, Non-copper of U21
+    @ (8.2081 in,4.8484 in): Track 0.0200 in, net [DIAG_Z3] (205) on layer GND.Cu, length: 0.0813 in
+ErrType(2): Unconnected items
+    @ (8.5677 in,5.0748 in): Zone Outline  (5BDD59F1) [Z3_OA1] on TOP.Cu
+    @ (8.6146 in,5.6984 in): Track 0.0591 in, net [Z3_OA1] (210) on layer BOTTOM.Cu, length: 0.1874 in
+ErrType(2): Unconnected items
+    @ (8.0610 in,3.9016 in): Pad 2 on TOP.Cu, Non-copper of C123
+    @ (8.0610 in,3.8425 in): Pad 2 on TOP.Cu, Non-copper of C125
+ErrType(2): Unconnected items
+    @ (8.0709 in,3.7746 in): Track 0.0100 in, net [Net-(C121-Pad1)] (215) on layer TOP.Cu, length: 0.0482 in
+    @ (8.0610 in,3.8425 in): Pad 2 on TOP.Cu, Non-copper of C125
+ErrType(2): Unconnected items
+    @ (8.0709 in,3.7746 in): Track 0.0100 in, net [Net-(C121-Pad1)] (215) on layer TOP.Cu, length: 0.0482 in
+    @ (8.1575 in,3.7756 in): Pad 1 on TOP.Cu, Non-copper of C121
+ErrType(2): Unconnected items
+    @ (7.8268 in,4.2063 in): Track 0.0070 in, net [D-] (227) on layer TOP.Cu, length: 0.0606 in
+    @ (7.8110 in,4.2456 in): Track 0.0070 in, net [D-] (227) on layer TOP.Cu, length: 0.0535 in
+ErrType(2): Unconnected items
+    @ (7.8551 in,4.2685 in): Track 0.0070 in, net [D+] (228) on layer TOP.Cu, length: 0.5046 in
+    @ (7.8708 in,4.2291 in): Track 0.0070 in, net [D+] (228) on layer TOP.Cu, length: 0.0411 in
+ErrType(2): Unconnected items
+    @ (7.7677 in,3.5335 in): Pad 5 on TOP.Cu, Non-copper of U21
+    @ (8.2255 in,2.5637 in): Pad 2 on TOP.Cu, Non-copper of U4
+ErrType(2): Unconnected items
+    @ (5.4191 in,4.9762 in): Pad 2 on TOP.Cu, Non-copper of R55
+    @ (5.4191 in,4.9016 in): Pad 2 on TOP.Cu, Non-copper of R53
+ErrType(2): Unconnected items
+    @ (5.4191 in,4.9016 in): Pad 2 on TOP.Cu, Non-copper of R53
+    @ (7.6693 in,4.1358 in): Pad 66 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.5741 in): Pad 2 on TOP.Cu, Non-copper of R56
+    @ (5.4191 in,5.4247 in): Pad 2 on TOP.Cu, Non-copper of R54
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.4247 in): Pad 2 on TOP.Cu, Non-copper of R54
+    @ (7.6890 in,4.1358 in): Pad 67 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.2752 in): Pad 2 on TOP.Cu, Non-copper of R61
+    @ (5.4191 in,5.2005 in): Pad 2 on TOP.Cu, Non-copper of R59
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.2005 in): Pad 2 on TOP.Cu, Non-copper of R59
+    @ (7.7087 in,4.1358 in): Pad 68 on TOP.Cu, Non-copper of U21
+ErrType(2): Unconnected items
+    @ (8.4921 in,3.2933 in): Pad 4 on TOP.Cu, Non-copper of J35
+    @ (8.6280 in,3.2953 in): Pad 2 on TOP.Cu, Non-copper of R93
+ErrType(2): Unconnected items
+    @ (7.9951 in,3.8671 in): Track 0.0100 in, net [RESETN] (301) on layer TOP.Cu, length: 0.0459 in
+    @ (8.4921 in,3.4433 in): Pad 10 on TOP.Cu, Non-copper of J35
+ErrType(2): Unconnected items
+    @ (8.8701 in,2.5469 in): Pad 4 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J3
+    @ (8.8193 in,3.1437 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+ErrType(2): Unconnected items
+    @ (7.4921 in,4.0502 in): Track 0.0080 in, net [PD_TX_RRFGD_BTN_ENC] (302) on layer TOP.Cu, length: 0.0481 in
+    @ (8.8193 in,3.1437 in): Pad 2 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+ErrType(2): Unconnected items
+    @ (8.8701 in,2.6469 in): Pad 3 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J3
+    @ (8.9193 in,3.1437 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+ErrType(2): Unconnected items
+    @ (8.9193 in,3.1437 in): Pad 1 on TOP.Cu, BOTTOM.Cu, Internal, Non-copper of J1
+    @ (7.4724 in,4.0394 in): Track 0.0080 in, net [PD_RX_RRFGD_BUZ] (303) on layer TOP.Cu, length: 0.0589 in
+ErrType(2): Unconnected items
+    @ (5.4191 in,5.7984 in): Pad 2 on TOP.Cu, Non-copper of R60
+    @ (5.4191 in,5.8731 in): Pad 2 on TOP.Cu, Non-copper of R62
+
+** End of Report **
