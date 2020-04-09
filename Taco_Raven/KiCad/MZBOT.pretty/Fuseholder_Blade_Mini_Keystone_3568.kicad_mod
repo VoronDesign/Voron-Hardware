@@ -1,4 +1,4 @@
-(module Fuseholder_Blade_Mini_Keystone_3568 (layer F.Cu) (tedit 5BAE45B1)
+(module Fuseholder_Blade_Mini_Keystone_3568 (layer F.Cu) (tedit 5E8E835C)
   (descr "fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306")
   (tags "car blade fuse mini")
   (fp_text reference REF** (at 0.06 -4.37) (layer F.SilkS)
@@ -29,7 +29,7 @@
   (pad 1 thru_hole circle (at -6.731 1.7) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 6.731 -1.7) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 6.731 1.7) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/keystone-PN3557-2.step
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/keystone-PN3557-2.step
     (offset (xyz 0 -0.2539999961853027 3.555999946594238))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

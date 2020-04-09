@@ -1,4 +1,4 @@
-update=2/1/2019 12:12:54 PM
+update=4/8/2020 10:58:13 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=VORON_DESIGN.kicad_wks
-PlotDirectoryName=Taco_Raven_Assmebly/
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

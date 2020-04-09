@@ -1,4 +1,4 @@
-(module C_0805 (layer F.Cu) (tedit 5C5261C2)
+(module C_0805 (layer F.Cu) (tedit 5E8E8303)
   (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
   (tags "capacitor 0805")
   (attr smd)
@@ -23,7 +23,7 @@
   (fp_line (start 1.75 0.87) (end -1.75 0.87) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../../Users/cruiz/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/C_0805.wrl
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/C_0805.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

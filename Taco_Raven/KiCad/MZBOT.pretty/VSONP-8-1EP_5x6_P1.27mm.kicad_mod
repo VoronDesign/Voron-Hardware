@@ -1,4 +1,4 @@
-(module VSONP-8-1EP_5x6_P1.27mm (layer F.Cu) (tedit 5BC0BE29)
+(module VSONP-8-1EP_5x6_P1.27mm (layer F.Cu) (tedit 5E8E8459)
   (descr "SON, 8-Leads, Body 5x6x1mm, Pitch 1.27mm; (see Texas Instruments CSD18531Q5A http://www.ti.com/lit/ds/symlink/csd18531q5a.pdf)")
   (tags "VSONP 1.27")
   (attr smd)
@@ -44,7 +44,7 @@
     (solder_paste_margin_ratio -0.15))
   (pad 3 smd rect (at 2.8 0.635) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.15))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/SON5x6.STEP
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/SON5x6.STEP
     (offset (xyz -3 -2.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

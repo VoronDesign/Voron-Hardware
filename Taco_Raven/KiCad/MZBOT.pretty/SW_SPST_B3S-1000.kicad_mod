@@ -1,4 +1,4 @@
-(module SW_SPST_B3S-1000 (layer F.Cu) (tedit 5BCA3298)
+(module SW_SPST_B3S-1000 (layer F.Cu) (tedit 5E8E855E)
   (descr "Surface Mount Tactile Switch for High-Density Packaging")
   (tags "Tactile Switch")
   (attr smd)
@@ -32,7 +32,7 @@
   (pad 1 smd rect (at 3.975 -2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3.975 2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.975 2.25) (size 1.55 1.3) (layers F.Cu F.Paste F.Mask))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/B3S-1000.STEP
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/B3S-1000.STEP
     (offset (xyz -3 3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

@@ -1,4 +1,4 @@
-(module R_1206 (layer F.Cu) (tedit 58E0A804)
+(module R_1206 (layer F.Cu) (tedit 5E8E8427)
   (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 1206")
   (attr smd)
@@ -23,7 +23,7 @@
   (fp_line (start 2.15 1.1) (end -2.15 1.1) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.45 0) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.45 0) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../../Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/R_1206.wrl
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/R_1206.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

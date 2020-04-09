@@ -1,4 +1,4 @@
-(module L_Vishay_IHLP-2525 (layer F.Cu) (tedit 5BAFA399)
+(module L_Vishay_IHLP-2525 (layer F.Cu) (tedit 5E8E859C)
   (descr "Inductor, Vishay, IHLP series, 6.3mmx6.3mm")
   (tags "inductor vishay ihlp smd")
   (attr smd)
@@ -27,7 +27,7 @@
   (fp_line (start 4.4 -3.45) (end -4.4 -3.45) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -2.921 0) (size 2.413 3.429) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.921 0) (size 2.413 3.429) (layers F.Cu F.Paste F.Mask))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/IHLP-2525CZ.step
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/IHLP-2525CZ.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

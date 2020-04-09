@@ -1,4 +1,4 @@
-(module PinHeader_2x04_P2.54mm_Vertical (layer F.Cu) (tedit 5BBC04C4)
+(module PinHeader_2x04_P2.54mm_Vertical (layer F.Cu) (tedit 5E8E8523)
   (descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x04 2.54mm double row")
   (fp_text reference REF** (at 1.27 -2.33) (layer F.SilkS)
@@ -35,7 +35,7 @@
   (pad 6 thru_hole oval (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 8 thru_hole oval (at 2.54 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/8-pin_Shrouded_Header.step
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/8-pin_Shrouded_Header.step
     (offset (xyz 1.28 -3.85 -1.75))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

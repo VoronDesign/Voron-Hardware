@@ -1,4 +1,4 @@
-(module SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 58CD0CDA)
+(module SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 5E8E8633)
   (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "SOIC 1.27")
   (attr smd)
@@ -35,7 +35,7 @@
   (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 2.7 -0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../../Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/SOIC_8_3_9x4_9mm_Pitch1_27mm.wrl
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/SOIC_8_3_9x4_9mm_Pitch1_27mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

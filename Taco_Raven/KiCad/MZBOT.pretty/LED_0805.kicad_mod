@@ -1,4 +1,4 @@
-(module LED_0805 (layer F.Cu) (tedit 5C5261A3)
+(module LED_0805 (layer F.Cu) (tedit 5E8E8365)
   (descr "LED 0805 smd package")
   (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
   (attr smd)
@@ -28,7 +28,7 @@
   )
   (pad 2 smd rect (at 1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.1 0 180) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../../Users/cruiz/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/LED_0805.wrl
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/LED_0805.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

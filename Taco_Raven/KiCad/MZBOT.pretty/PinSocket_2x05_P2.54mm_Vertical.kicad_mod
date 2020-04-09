@@ -1,4 +1,4 @@
-(module PinSocket_2x05_P2.54mm_Vertical (layer F.Cu) (tedit 5BB59CE7)
+(module PinSocket_2x05_P2.54mm_Vertical (layer F.Cu) (tedit 5E8E8539)
   (descr "Through hole straight socket strip, 2x05, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
   (tags "Through hole socket strip THT 2x05 2.54mm double row")
   (fp_text reference REF** (at -1.27 -2.77) (layer F.SilkS)
@@ -37,7 +37,7 @@
   (pad 8 thru_hole oval (at -2.54 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 9 thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 10 thru_hole oval (at -2.54 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/c-1761603-23-a1-3d.step
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/c-1761603-23-a1-3d.step
     (offset (xyz -1.2 -5.1 9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

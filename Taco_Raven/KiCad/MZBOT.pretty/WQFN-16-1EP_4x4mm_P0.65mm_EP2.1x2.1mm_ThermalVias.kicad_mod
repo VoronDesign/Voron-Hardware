@@ -1,4 +1,4 @@
-(module WQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias (layer F.Cu) (tedit 5BAF8CE2)
+(module WQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias (layer F.Cu) (tedit 5E8E85AB)
   (descr "16-Lead Plastic Quad Flat, No Lead - 4x4x0.75 mm Body [WQFN]; Thermal pad with vias; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
   (tags "QFN 0.65")
   (attr smd)
@@ -70,7 +70,7 @@
   (pad "" smd rect (at 0.6 0.6) (size 0.9 0.9) (layers F.Paste))
   (pad "" smd rect (at -0.6 0.6) (size 0.9 0.9) (layers F.Paste))
   (pad "" smd rect (at -0.6 -0.6) (size 0.9 0.9) (layers F.Paste))
-  (model C:/Users/cr185092/Documents/KiCAD_Projects/MZBOT_XY-Endstop/MZBOT.pretty/3D_Files/QFN16_4x4.step
+  (model ${KIPRJMOD}/MZBOT.pretty/3D_Files/QFN16_4x4.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
