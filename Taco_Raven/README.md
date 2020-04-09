@@ -8,15 +8,6 @@ Taco Raven is an 3D printer controller specifically design for a Voron V2. The i
 * 5 endtops, Z channel is supplied with 12V and a blocking diode.
 * ATSAMD51 MCU 
 
-## Issues with first revision
-* Footprints for J1, J2 are mirrored
-* Pullups for EXP_I2C_SDA,SCL are missing
-* Current sense resistors for the TMC drivers need to be lowered from 0.22Ohm to 0.11ohm to allow for more current (R5,R6,R7,R8,R13,R14,R15,R16,R21,R22,R23,R24,R29,R30,R31,R32)
-* Fan headers are mirrored from Duet (J13,J14,J15,J16,J17,J18,J19).
-* Thermistor circuits have and error. Connector pin 1 should be referenced to GND
-* R81 is too lowe of value for switching frequency. Should be 200k-210k
-* C163, C164 Feedforward capacitors need to be reduced to 8.2nF and 10nF respectively
-* R89 needs to be dropped to 3.48k
-* R83,R84, R85,R86 Current sense kelvin connection could be improved
-
 ![Alt text](ISO_Assembly.png?raw=true "Optional Title")
+
+[Take a look at the interactive BOM here](http://htmlpreview.github.io/?KiCad/bom/ibom.html)

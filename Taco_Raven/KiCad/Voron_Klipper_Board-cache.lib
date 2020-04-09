@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MZBOT:+12V
+# Voron_Klipper_Board-rescue_+12V-MZBOT
 #
-DEF MZBOT:+12V #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_+12V-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:+12V" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_+12V-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:+3.3V
+# Voron_Klipper_Board-rescue_+3.3V-MZBOT
 #
-DEF MZBOT:+3.3V #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_+3.3V-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:+3.3V" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_+3.3V-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3.3V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:+5V
+# Voron_Klipper_Board-rescue_+5V-MZBOT
 #
-DEF MZBOT:+5V #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_+5V-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:+5V" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_+5V-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:+VIN
+# Voron_Klipper_Board-rescue_+VIN-MZBOT
 #
-DEF MZBOT:+VIN #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_+VIN-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" -100 -250 50 H I C CNN
-F1 "MZBOT:+VIN" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_+VIN-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +61,11 @@ X +VIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:+VIN_FUSED
+# Voron_Klipper_Board-rescue_+VIN_FUSED-MZBOT
 #
-DEF MZBOT:+VIN_FUSED #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_+VIN_FUSED-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:+VIN_FUSED" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_+VIN_FUSED-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -76,11 +76,11 @@ X +VIN_FUSED 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:+V_FAN
+# Voron_Klipper_Board-rescue_+V_FAN-MZBOT
 #
-DEF MZBOT:+V_FAN #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_+V_FAN-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:+V_FAN" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_+V_FAN-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -91,11 +91,11 @@ X +V_FAN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:A4403
+# Voron_Klipper_Board-rescue_A4403-MZBOT
 #
-DEF MZBOT:A4403 U 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_A4403-MZBOT U 0 40 Y Y 1 F N
 F0 "U" -50 200 50 H V C CNN
-F1 "MZBOT:A4403" 0 650 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_A4403-MZBOT" 0 650 50 H V C CNN
 F2 "" -50 300 50 H I C CNN
 F3 "" -50 300 50 H I C CNN
 DRAW
@@ -120,11 +120,11 @@ X SGND 9 600 -300 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:AP2112-3.3
+# Voron_Klipper_Board-rescue_AP2112-3.3-MZBOT
 #
-DEF MZBOT:AP2112-3.3 U 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_AP2112-3.3-MZBOT U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "MZBOT:AP2112-3.3" 0 -250 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_AP2112-3.3-MZBOT" 0 -250 50 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -137,11 +137,11 @@ X VO 5 300 50 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# MZBOT:BAT43
+# Voron_Klipper_Board-rescue_BAT43-MZBOT
 #
-DEF MZBOT:BAT43 D 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_BAT43-MZBOT D 0 40 Y Y 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "MZBOT:BAT43" 0 150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_BAT43-MZBOT" 0 150 50 H V C CNN
 F2 "Diode_SMD:D_SOD-323" -50 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -152,11 +152,11 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_01X02
+# Voron_Klipper_Board-rescue_CONN_01X02-MZBOT
 #
-DEF MZBOT:CONN_01X02 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_01X02-MZBOT J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "MZBOT:CONN_01X02" 200 0 50 V V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_01X02-MZBOT" 200 0 50 V V C CNN
 F2 "" 85 325 50 H I C CNN
 F3 "" 55 420 50 H I C CNN
 $FPLIST
@@ -178,11 +178,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_01X03
+# Voron_Klipper_Board-rescue_CONN_01X03-MZBOT
 #
-DEF MZBOT:CONN_01X03 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_01X03-MZBOT J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "MZBOT:CONN_01X03" 200 -50 50 V V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_01X03-MZBOT" 200 -50 50 V V C CNN
 F2 "" 85 325 50 H I C CNN
 F3 "" 55 420 50 H I C CNN
 $FPLIST
@@ -208,11 +208,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_01X04
+# Voron_Klipper_Board-rescue_CONN_01X04-MZBOT
 #
-DEF MZBOT:CONN_01X04 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_01X04-MZBOT J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "MZBOT:CONN_01X04" 200 0 50 V V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_01X04-MZBOT" 200 0 50 V V C CNN
 F2 "MZBOT:1X4_CONN_L_RA" 85 325 50 H I C CNN
 F3 "http://www.molex.com/pdm_docs/sd/705530002_sd.pdf" 55 420 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_01X06
+# Voron_Klipper_Board-rescue_CONN_01X06-MZBOT
 #
-DEF MZBOT:CONN_01X06 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_01X06-MZBOT J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "MZBOT:CONN_01X06" 150 0 50 V V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_01X06-MZBOT" 150 0 50 V V C CNN
 F2 "" 85 425 50 H I C CNN
 F3 "" 55 420 50 H I C CNN
 $FPLIST
@@ -284,11 +284,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_02X03
+# Voron_Klipper_Board-rescue_CONN_02X03-MZBOT
 #
-DEF MZBOT:CONN_02X03 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_02X03-MZBOT J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "MZBOT:CONN_02X03" 50 -200 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_02X03-MZBOT" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -311,11 +311,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_02X04
+# Voron_Klipper_Board-rescue_CONN_02X04-MZBOT
 #
-DEF MZBOT:CONN_02X04 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_02X04-MZBOT J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "MZBOT:CONN_02X04" 0 -300 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_02X04-MZBOT" 0 -300 50 H V C CNN
 F2 "" -50 50 50 H I C CNN
 F3 "" -50 50 50 H I C CNN
 $FPLIST
@@ -342,11 +342,11 @@ X Pin_8 8 250 -150 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CONN_02X05
+# Voron_Klipper_Board-rescue_CONN_02X05-MZBOT
 #
-DEF MZBOT:CONN_02X05 J 0 40 Y N 1 F N
+DEF Voron_Klipper_Board-rescue_CONN_02X05-MZBOT J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "MZBOT:CONN_02X05" 0 -300 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_CONN_02X05-MZBOT" 0 -300 50 H V C CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" -50 100 50 H I C CNN
 $FPLIST
@@ -377,11 +377,11 @@ X Pin_9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CP1
+# Voron_Klipper_Board-rescue_CP1-MZBOT
 #
-DEF MZBOT:CP1 C 0 10 N N 1 F N
+DEF Voron_Klipper_Board-rescue_CP1-MZBOT C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "MZBOT:CP1" 25 -100 50 H V L CNN
+F1 "Voron_Klipper_Board-rescue_CP1-MZBOT" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -402,11 +402,11 @@ X ~ 2 0 -150 130 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:CSD18532
+# Voron_Klipper_Board-rescue_CSD18532-MZBOT
 #
-DEF MZBOT:CSD18532 U 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_CSD18532-MZBOT U 0 40 Y Y 1 F N
 F0 "U" 100 -100 50 H V C CNN
-F1 "MZBOT:CSD18532" 200 150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_CSD18532-MZBOT" 200 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -433,11 +433,11 @@ X ~ 3 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:C_0805
+# Voron_Klipper_Board-rescue_C_0805-MZBOT
 #
-DEF MZBOT:C_0805 C 0 10 N Y 1 F N
+DEF Voron_Klipper_Board-rescue_C_0805-MZBOT C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "MZBOT:C_0805" 25 -100 50 H V L CNN
+F1 "Voron_Klipper_Board-rescue_C_0805-MZBOT" 25 -100 50 H V L CNN
 F2 "MZBOT:C_0805" 30 -260 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 F4 "16V" -60 -70 16 H V C CNN "Voltage"
@@ -458,11 +458,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:C_1210
+# Voron_Klipper_Board-rescue_C_1210-MZBOT
 #
-DEF MZBOT:C_1210 C 0 10 N Y 1 F N
+DEF Voron_Klipper_Board-rescue_C_1210-MZBOT C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "MZBOT:C_1210" 25 -100 50 H V L CNN
+F1 "Voron_Klipper_Board-rescue_C_1210-MZBOT" 25 -100 50 H V L CNN
 F2 "MZBOT:C_1210" 30 -260 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 F4 "16V" -60 -70 16 H V C CNN "Voltage"
@@ -483,11 +483,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:DB2W40300L
+# Voron_Klipper_Board-rescue_DB2W40300L-MZBOT
 #
-DEF MZBOT:DB2W40300L D 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_DB2W40300L-MZBOT D 0 40 Y Y 1 F N
 F0 "D" 0 -200 50 H V C CNN
-F1 "MZBOT:DB2W40300L" 0 100 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_DB2W40300L-MZBOT" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -498,11 +498,11 @@ X ~ 2 -150 0 98 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:FIDUCIAL_1MM
+# Voron_Klipper_Board-rescue_FIDUCIAL_1MM-MZBOT
 #
-DEF ~MZBOT:FIDUCIAL_1MM FID 0 40 Y Y 1 L N
+DEF Voron_Klipper_Board-rescue_FIDUCIAL_1MM-MZBOT FID 0 40 Y Y 1 L N
 F0 "FID" 0 0 50 H I C CNN
-F1 "MZBOT:FIDUCIAL_1MM" 0 0 50 H I C CNN
+F1 "Voron_Klipper_Board-rescue_FIDUCIAL_1MM-MZBOT" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -512,11 +512,11 @@ P 2 1 0 0 30 30 -30 -30 N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:Ferrite_0805
+# Voron_Klipper_Board-rescue_Ferrite_0805-MZBOT
 #
-DEF MZBOT:Ferrite_0805 L 0 10 N N 1 F N
+DEF Voron_Klipper_Board-rescue_Ferrite_0805-MZBOT L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "MZBOT:Ferrite_0805" 30 -40 50 H V L CNN
+F1 "Voron_Klipper_Board-rescue_Ferrite_0805-MZBOT" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -535,11 +535,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:Fuse_Holder
+# Voron_Klipper_Board-rescue_Fuse_Holder-MZBOT
 #
-DEF MZBOT:Fuse_Holder F 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_Fuse_Holder-MZBOT F 0 40 Y Y 1 F N
 F0 "F" 0 -150 50 H V C CNN
-F1 "MZBOT:Fuse_Holder" 0 150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_Fuse_Holder-MZBOT" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -550,11 +550,11 @@ X ~ 2 250 0 100 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MZBOT:GND
+# Voron_Klipper_Board-rescue_GND-MZBOT
 #
-DEF MZBOT:GND #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_GND-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "MZBOT:GND" 0 -150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_GND-MZBOT" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -563,11 +563,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:Inductor
+# Voron_Klipper_Board-rescue_Inductor-MZBOT
 #
-DEF MZBOT:Inductor L 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_Inductor-MZBOT L 0 40 Y Y 1 F N
 F0 "L" 0 -50 50 H V C CNN
-F1 "MZBOT:Inductor" 0 100 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_Inductor-MZBOT" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -582,11 +582,11 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:LED_0805
+# Voron_Klipper_Board-rescue_LED_0805-MZBOT
 #
-DEF MZBOT:LED_0805 D 0 10 N N 1 F N
+DEF Voron_Klipper_Board-rescue_LED_0805-MZBOT D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "MZBOT:LED_0805" -175 -100 50 H V L CNN
+F1 "Voron_Klipper_Board-rescue_LED_0805-MZBOT" -175 -100 50 H V L CNN
 F2 "MZBOT:LED_0805" -150 25 50 H I C CNN
 F3 "" -50 125 50 H V C CNN
 $FPLIST
@@ -603,11 +603,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:MountingHole
+# Voron_Klipper_Board-rescue_MountingHole-MZBOT
 #
-DEF MZBOT:MountingHole MH 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_MountingHole-MZBOT MH 0 40 Y Y 1 F N
 F0 "MH" 0 200 50 H V C CNN
-F1 "MZBOT:MountingHole" 0 125 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_MountingHole-MZBOT" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -618,11 +618,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:PMV40UN
+# Voron_Klipper_Board-rescue_PMV40UN-MZBOT
 #
-DEF MZBOT:PMV40UN U 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_PMV40UN-MZBOT U 0 40 Y Y 1 F N
 F0 "U" 100 -100 50 H V C CNN
-F1 "MZBOT:PMV40UN" 200 150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_PMV40UN-MZBOT" 200 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -649,11 +649,11 @@ X ~ 3 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:R_0805
+# Voron_Klipper_Board-rescue_R_0805-MZBOT
 #
-DEF MZBOT:R_0805 R 0 0 N Y 1 F N
+DEF Voron_Klipper_Board-rescue_R_0805-MZBOT R 0 0 N Y 1 F N
 F0 "R" 80 50 50 V V C CNN
-F1 "MZBOT:R_0805" 0 0 28 V V C CNN
+F1 "Voron_Klipper_Board-rescue_R_0805-MZBOT" 0 0 28 V V C CNN
 F2 "MZBOT:R_0805" -130 -10 50 V I C CNN
 F3 "" 80 0 50 V I C CNN
 F4 "0805" -60 -70 16 V V C CNN "Package"
@@ -670,11 +670,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:R_1210
+# Voron_Klipper_Board-rescue_R_1210-MZBOT
 #
-DEF MZBOT:R_1210 R 0 0 N Y 1 F N
+DEF Voron_Klipper_Board-rescue_R_1210-MZBOT R 0 0 N Y 1 F N
 F0 "R" 80 50 50 V V C CNN
-F1 "MZBOT:R_1210" 0 0 28 V V C CNN
+F1 "Voron_Klipper_Board-rescue_R_1210-MZBOT" 0 0 28 V V C CNN
 F2 "MZBOT:R_1210" -130 -10 50 V I C CNN
 F3 "" 80 0 50 V I C CNN
 F4 "1210" -60 -70 16 V V C CNN "Package"
@@ -691,11 +691,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:SAM51
+# Voron_Klipper_Board-rescue_SAM51-MZBOT
 #
-DEF MZBOT:SAM51 U 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_SAM51-MZBOT U 0 40 Y Y 1 F N
 F0 "U" 450 3150 50 H V C CNN
-F1 "MZBOT:SAM51" -50 3150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_SAM51-MZBOT" -50 3150 50 H V C CNN
 F2 "" -1250 800 50 H I C CNN
 F3 "" -1250 800 50 H I C CNN
 DRAW
@@ -803,11 +803,11 @@ X PB02/EINT2/ADC0.14/SERCOM5.0 99 1650 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MZBOT:SPIFLASH_SOIC8
+# Voron_Klipper_Board-rescue_SPIFLASH_SOIC8-MZBOT
 #
-DEF MZBOT:SPIFLASH_SOIC8 U 0 40 Y Y 1 L N
+DEF Voron_Klipper_Board-rescue_SPIFLASH_SOIC8-MZBOT U 0 40 Y Y 1 L N
 F0 "U" -500 500 59 H V L BNN
-F1 "MZBOT:SPIFLASH_SOIC8" -500 -400 59 H V L BNN
+F1 "Voron_Klipper_Board-rescue_SPIFLASH_SOIC8-MZBOT" -500 -400 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -826,11 +826,11 @@ X VCC 8 600 300 100 L 50 50 1 0 U
 ENDDRAW
 ENDDEF
 #
-# MZBOT:SW_Push
+# Voron_Klipper_Board-rescue_SW_Push-MZBOT
 #
-DEF MZBOT:SW_Push SW 0 40 N N 1 F N
+DEF Voron_Klipper_Board-rescue_SW_Push-MZBOT SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "MZBOT:SW_Push" 0 -60 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_SW_Push-MZBOT" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -843,11 +843,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:TACo
+# Voron_Klipper_Board-rescue_TACo-MZBOT
 #
-DEF ~MZBOT:TACo #G 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_TACo-MZBOT #G 0 40 Y Y 1 F N
 F0 "#G" 0 -243 60 H I C CNN
-F1 "MZBOT:TACo" 0 243 60 H I C CNN
+F1 "Voron_Klipper_Board-rescue_TACo-MZBOT" 0 243 60 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -891,11 +891,11 @@ P 1072 0 0 1 -13 -164 -16 -160 -13 -160 -5 -164 -1 -168 3 -171 3 -172 6 -174 7 -
 ENDDRAW
 ENDDEF
 #
-# MZBOT:TMC2130
+# Voron_Klipper_Board-rescue_TMC2130-MZBOT
 #
-DEF MZBOT:TMC2130 U 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_TMC2130-MZBOT U 0 40 Y Y 1 F N
 F0 "U" -50 1050 50 H V C CNN
-F1 "MZBOT:TMC2130" 300 -1150 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_TMC2130-MZBOT" 300 -1150 50 H V C CNN
 F2 "" -150 150 50 H I C CNN
 F3 "" -150 150 50 H I C CNN
 DRAW
@@ -940,11 +940,11 @@ X N.C.1 9 600 -900 100 L 39 39 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MZBOT:USB_MINI
+# Voron_Klipper_Board-rescue_USB_MINI-MZBOT
 #
-DEF MZBOT:USB_MINI J 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_USB_MINI-MZBOT J 0 40 Y Y 1 F N
 F0 "J" 150 -350 50 H V C CNN
-F1 "MZBOT:USB_MINI" 0 350 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_USB_MINI-MZBOT" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -972,11 +972,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MZBOT:VBED_FUSED
+# Voron_Klipper_Board-rescue_VBED_FUSED-MZBOT
 #
-DEF MZBOT:VBED_FUSED #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_VBED_FUSED-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:VBED_FUSED" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_VBED_FUSED-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -987,11 +987,11 @@ X VBED_FUSED 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:VBUS
+# Voron_Klipper_Board-rescue_VBUS-MZBOT
 #
-DEF MZBOT:VBUS #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_VBUS-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:VBUS" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_VBUS-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1002,11 +1002,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:VMOT
+# Voron_Klipper_Board-rescue_VMOT-MZBOT
 #
-DEF MZBOT:VMOT #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_VMOT-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:VMOT" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_VMOT-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1017,11 +1017,11 @@ X VMOT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:VMOT_FUSED
+# Voron_Klipper_Board-rescue_VMOT_FUSED-MZBOT
 #
-DEF MZBOT:VMOT_FUSED #PWR 0 0 Y Y 1 F P
+DEF Voron_Klipper_Board-rescue_VMOT_FUSED-MZBOT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "MZBOT:VMOT_FUSED" 0 140 50 H V C CNN
+F1 "Voron_Klipper_Board-rescue_VMOT_FUSED-MZBOT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1032,11 +1032,11 @@ X VMOT_FUSED 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# MZBOT:mzbot
+# Voron_Klipper_Board-rescue_mzbot-MZBOT
 #
-DEF ~MZBOT:mzbot #G 0 40 Y Y 1 F N
+DEF Voron_Klipper_Board-rescue_mzbot-MZBOT #G 0 40 Y Y 1 F N
 F0 "#G" 0 -300 60 H I C CNN
-F1 "MZBOT:mzbot" 0 300 60 H I C CNN
+F1 "Voron_Klipper_Board-rescue_mzbot-MZBOT" 0 300 60 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
