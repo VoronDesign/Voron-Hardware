@@ -1,0 +1,256 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3.3V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V_BATT
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +9V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +VIN
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +VIN_FUSED
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +V_FAN
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP A1319
+D Linear Hall-Effect Sensor ICs with Analog Output
+K Hall Effect, Magnetic
+$ENDCMP
+#
+$CMP ARDUINO_DUE_SHIELD
+D Original by nicholasclewis
+K Arduino
+F http://www.thingiverse.com/thing:9630
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CONN_01X02
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_01X06
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_01X08
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_02X03
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_02X04
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CONN_02X05
+D Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP CP1
+D Polarised capacitor
+$ENDCMP
+#
+$CMP C_0402
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C_0603
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C_0805
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C_1206
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP C_1210
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP Ferrite_0603
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP Ferrite_0805
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP GND
+D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP HX711
+D 24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales
+K ADC
+$ENDCMP
+#
+$CMP LED_0805
+D Led
+$ENDCMP
+#
+$CMP LED_DUAL
+D Led
+$ENDCMP
+#
+$CMP LM193
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
+$ENDCMP
+#
+$CMP LM293
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
+$ENDCMP
+#
+$CMP LM393
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
+$ENDCMP
+#
+$CMP MMBT2222
+D 40V Vce, 1A Ic, NPN, General Purpose Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP MMBT4403
+D 40V Vce, 1A Ic, NPN, General Purpose Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_0402
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_0603
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_0805
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_1206
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP R_1210
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP TRIMPOT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP VBED
+K POWER, PWR
+$ENDCMP
+#
+$CMP VBED_FUSED
+K POWER, PWR
+$ENDCMP
+#
+$CMP VBUS
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VDD
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VMOT
+K POWER, PWR
+$ENDCMP
+#
+$CMP VMOT_FUSED
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

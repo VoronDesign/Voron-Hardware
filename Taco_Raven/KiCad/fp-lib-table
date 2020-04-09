@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MZBOT)(type KiCad)(uri ${GITHUB}/Voron-Hardware/Taco_Raven/KiCad/MZBOT.pretty)(options "")(descr ""))
+)
