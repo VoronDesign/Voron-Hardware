@@ -1,0 +1,3 @@
+[submodule "Klipper_Expander/TRA_KiCad_Library"]
+	path = Klipper_Expander/TRA_KiCad_Library
+	url = https://github.com/timmit99/TRA_KiCad_Library.git
