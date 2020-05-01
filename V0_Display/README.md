@@ -1,5 +1,5 @@
 # V0 Display #
-![V-Naught_Display](Images\V0_Display.PNG)
+![V-Naught_Display](Images/V0_Display.PNG)
 ## The board has: ##
  - STM32F042F6P6 MCU with internal oscillator
  - SWD header for easy debugging
