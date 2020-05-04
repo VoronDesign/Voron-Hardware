@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KlipperExpander)(type Legacy)(uri ${GITHUB}/Voron-Hardware/Klipper_Expander/KiCad/Library/KlipperExpander.lib)(options "")(descr ""))
+)

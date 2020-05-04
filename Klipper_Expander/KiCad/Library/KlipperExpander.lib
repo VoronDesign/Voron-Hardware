@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# KlipperExpander_+3V3
+# +3V3
 #
-DEF KlipperExpander_+3V3 #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "KlipperExpander_+3V3" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_74LVC1G17
+# 74LVC1G17
 #
-DEF KlipperExpander_74LVC1G17 U 0 40 Y Y 1 F N
+DEF 74LVC1G17 U 0 40 Y Y 1 F N
 F0 "U" -100 150 50 H V C CNN
-F1 "KlipperExpander_74LVC1G17" 0 -150 50 H V C CNN
+F1 "74LVC1G17" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -38,11 +38,11 @@ X VCC 5 0 100 0 U 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_AP2127K-3.3
+# AP2127K-3.3
 #
-DEF KlipperExpander_AP2127K-3.3 U 0 10 Y Y 1 F N
+DEF AP2127K-3.3 U 0 10 Y Y 1 F N
 F0 "U" -200 225 50 H V L CNN
-F1 "KlipperExpander_AP2127K-3.3" 0 225 50 H V L CNN
+F1 "AP2127K-3.3" 0 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -58,11 +58,11 @@ X VOUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_C
+# C
 #
-DEF KlipperExpander_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "KlipperExpander_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -76,11 +76,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Conn_01x01
+# Conn_01x01
 #
-DEF KlipperExpander_Conn_01x01 J 0 40 Y N 1 F N
+DEF Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "KlipperExpander_Conn_01x01" 0 -100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -93,11 +93,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Conn_01x02
+# Conn_01x02
 #
-DEF KlipperExpander_Conn_01x02 J 0 40 Y N 1 F N
+DEF Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "KlipperExpander_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -112,11 +112,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Conn_01x03
+# Conn_01x03
 #
-DEF KlipperExpander_Conn_01x03 J 0 40 Y N 1 F N
+DEF Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "KlipperExpander_Conn_01x03" 0 -200 50 H V C CNN
+F1 "Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -133,11 +133,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Conn_01x04
+# Conn_01x04
 #
-DEF KlipperExpander_Conn_01x04 J 0 40 Y N 1 F N
+DEF Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "KlipperExpander_Conn_01x04" 0 -300 50 H V C CNN
+F1 "Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -156,11 +156,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Fuse
+# Fuse
 #
-DEF KlipperExpander_Fuse F 0 0 N Y 1 F N
+DEF Fuse F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "KlipperExpander_Fuse" -75 0 50 V V C CNN
+F1 "Fuse" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -174,11 +174,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_GND
+# GND
 #
-DEF KlipperExpander_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "KlipperExpander_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -187,11 +187,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_IRLML6344TRPBF
+# IRLML6344TRPBF
 #
-DEF KlipperExpander_IRLML6344TRPBF Q 0 0 Y Y 1 F N
+DEF IRLML6344TRPBF Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "KlipperExpander_IRLML6344TRPBF" 136 0 60 V V C CNN
+F1 "IRLML6344TRPBF" 136 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" 200 300 60 H I L CNN
 F4 "IRLML6344TRPBFCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -227,11 +227,11 @@ X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_LED
+# LED
 #
-DEF KlipperExpander_LED D 0 40 N N 1 F N
+DEF LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "KlipperExpander_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -250,11 +250,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_R
+# R
 #
-DEF KlipperExpander_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "KlipperExpander_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -267,11 +267,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_STM32F042F6Px
+# STM32F042F6Px
 #
-DEF KlipperExpander_STM32F042F6Px U 0 20 Y Y 1 F N
+DEF STM32F042F6Px U 0 20 Y Y 1 F N
 F0 "U" -500 650 50 H V L CNN
-F1 "KlipperExpander_STM32F042F6Px" 0 650 50 H V L CNN
+F1 "STM32F042F6Px" 0 650 50 H V L CNN
 F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" -500 -700 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -302,11 +302,11 @@ X PA3 9 600 200 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_SW_SPST
+# SW_SPST
 #
-DEF KlipperExpander_SW_SPST SW 0 0 Y N 1 F N
+DEF SW_SPST SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "KlipperExpander_SW_SPST" 0 -100 50 H V C CNN
+F1 "SW_SPST" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -318,11 +318,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Screw_Terminal_01x02
+# Screw_Terminal_01x02
 #
-DEF KlipperExpander_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+DEF Screw_Terminal_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "KlipperExpander_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F1 "Screw_Terminal_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -341,11 +341,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_Screw_Terminal_01x08
+# Screw_Terminal_01x08
 #
-DEF KlipperExpander_Screw_Terminal_01x08 J 0 40 Y N 1 F N
+DEF Screw_Terminal_01x08 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "KlipperExpander_Screw_Terminal_01x08" 0 -500 50 H V C CNN
+F1 "Screw_Terminal_01x08" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -388,11 +388,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KlipperExpander_USB_B_Micro
+# USB_B_Micro
 #
-DEF KlipperExpander_USB_B_Micro J 0 40 Y Y 1 F N
+DEF USB_B_Micro J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "KlipperExpander_USB_B_Micro" -200 350 50 H V L CNN
+F1 "USB_B_Micro" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -420,21 +420,6 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 w
 X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
