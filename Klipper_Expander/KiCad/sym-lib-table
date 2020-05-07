@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KlipperExpander)(type Legacy)(uri ${KIPRJMOD}/Library/KlipperExpander.lib)(options "")(descr ""))
+)
