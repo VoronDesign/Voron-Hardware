@@ -1,6 +1,6 @@
 XY Endstop
 
-# MZBOT XY Endstop
+# Voron Design XY Endstop
 Hall effect endstop board for X and Y axes
 
 ![Alt text](XY_Endstop_Top.JPG?raw=true "Optional Title")

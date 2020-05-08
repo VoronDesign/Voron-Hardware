@@ -1,0 +1,12 @@
+"Comment","Designator","Footprint","LCSC"
+"0.1uF","C2,C1","HallEffect:C_0603","C1591"
+"1uF","C7,C6,C5,C3,C4","HallEffect:C_0603","C15849"
+"10uF","C8","HallEffect:C_0805","C19702"
+"LED_0805","D2,D1","HallEffect:LED_0805","C84256"
+"CONN_01X04","J1","HallEffect:1X4_CONN_L_RA",
+"1.00K","R1,R3,R9,R10","HallEffect:R_0603","C21190"
+"10.0k","R4,R2","HallEffect:R_0603","C25804"
+"SS49E","U1,U2","HallEffect:SIP-3",
+"LM393","U3","HallEffect:SOIC-8_3.9x4.9mm_Pitch1.27mm","C7955"
+"AP2210N","U4","HallEffect:SOT-23","C5446"
+"10.0K","VR2,VR1","HallEffect:CT6EP103_",
