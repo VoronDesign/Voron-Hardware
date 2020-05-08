@@ -2,6 +2,7 @@
 
 ![Image no work =(](Images/STM32_Klipper_Expander.png?raw=true)
 
+[Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/KiCad/KlipperExpander_iBOM.html)
 
 Simple MCU board for use with Klipper 3D Printer firmware with:
  - STM32F042F6P6 MCU with internal oscilator

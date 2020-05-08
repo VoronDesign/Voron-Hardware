@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name KlipperExpander)(type KiCad)(uri ${KIPRJMOD}/Library/KlipperExpander.pretty)(options "")(descr ""))
+)
