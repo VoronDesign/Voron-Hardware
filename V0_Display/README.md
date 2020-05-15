@@ -1,5 +1,8 @@
 # V0 Display #
 ![V-Naught_Display](Images/V0_Display.PNG)
+
+
+[Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/KiCad/V0_Display-ibom.html)
 ## The board has: ##
  - STM32F042F6P6 MCU with internal oscillator
  - SWD header for easy debugging
