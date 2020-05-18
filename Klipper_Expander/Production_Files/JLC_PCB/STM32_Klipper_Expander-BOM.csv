@@ -1,0 +1,22 @@
+"Comment","Designator","Footprint"," LCSC"
+"0.1uF","C1,C3","KlipperExpander:C_0805_2012Metric","C49678"
+"4.7uF","C4,C2,C5,C6","KlipperExpander:C_0805_2012Metric","C1779"
+"LED","D1,D2,D4,D3,D5,D7,D6","KlipperExpander:LED_0805_2012Metric","C84256"
+"Fuse","F1","KlipperExpander:3544-2_FuseHolder",
+"MountingHole","H1,H2","KlipperExpander:MountingHole_3.2mm_M3",
+"USB_B_Micro","J1","KlipperExpander:Molex-105017-0001-USBMicroB",
+"Conn_01x01","J10","KlipperExpander:PinHeader_1x01_P2.54mm_Vertical",
+"Conn_01x03","J11,J12,J4","KlipperExpander:PinHeader_1x03_P2.54mm_Vertical",
+"Conn_01x04","J2","KlipperExpander:PinHeader_1x04_P2.54mm_Vertical",
+"Vin","J5","KlipperExpander:1x02_ScrewTerminal_Phoenix",
+"Screw_Terminal_01x08","J6","KlipperExpander:1x08_ScrewTerminal_Phoenix",
+"Conn_01x02","J7,J8,J9","KlipperExpander:PinHeader_1x02_P2.54mm_Vertical",
+"IRLML6344TRPBF","Q1,Q3,Q2,Q4","KlipperExpander:SOT-23","C20917"
+"10K","R2,R1,R13,R12,R11,R6,R14","KlipperExpander:R_0805_2012Metric","C17414"
+"1K","R3,R21","KlipperExpander:R_0805_2012Metric","C17513"
+"4.7K","R5,R4,R15,R19,R18,R20,R22,R16,R17","KlipperExpander:R_0805_2012Metric","C17673"
+"100","R7,R8,R9,R10","KlipperExpander:R_0805_2012Metric","C17408"
+"SW_SPST","SW2","KlipperExpander:2PinTactileButton",
+"STM32F042F6Px","U1","KlipperExpander:TSSOP-20_4.4x6.5mm_P0.65mm","C81000"
+"AP2127K-3.3","U2","KlipperExpander:SOT-23-5","C156285"
+"74LVC1G17","U3","KlipperExpander:SOT-753","C6076"
