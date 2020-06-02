@@ -18,21 +18,21 @@
 6) Run `CD ~/klipper` from the command line to enter the Klipper directory
 7) Run `make menuconfig` settings should be:
 
-		- [\*] Enable extra low-level configuration options 
+	- [\*] Enable extra low-level configuration options 
  
-		- Micro-controller Architecture (STMicroelectronics STM32)
+	- Micro-controller Architecture (STMicroelectronics STM32)
 
-		- Processor model (STM32F042)
+	- Processor model (STM32F042)
 
-		- Clock Reference (Internal clock)
+	- Clock Reference (Internal clock)
 
-		- [\*] Use USB for communication (instead of serial)
+	- [\*] Use USB for communication (instead of serial)
 
-		- [\*] Use PA9/PA10 for USB or CAN
+	- [\*] Use PA9/PA10 for USB or CAN
 
-		- USB ids  --->[ ] Specify a custom step pulse duration
+	- USB ids  --->[ ] Specify a custom step pulse duration
 
-		- ()  GPIO pins to set at micro-controller startup 
+	- ()  GPIO pins to set at micro-controller startup 
 	
 	Exit and Save
 8) Run `make clean` to clean up the make environment.
