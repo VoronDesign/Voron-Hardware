@@ -15,7 +15,7 @@ This is **NOT** an instruction manual. While the components here were picked as 
 	- If there are shorts, examine the components for solder bridges and recheck.
 	- If there are no shorts, continue.
 
-- Plug board into Pi and follow the Setup guide until step 5 to verify that the MCU is operational and detected.
+- Plug board into Pi and follow the [Setup guide](Setup_Guide.md) until step 5 to verify that the MCU is operational and detected.
 
 - Finish the SMD assembly by installing the:
 	- Neopixel buffer (U3)
@@ -29,7 +29,7 @@ This is **NOT** an instruction manual. While the components here were picked as 
 	- *optional* USB (J7)
 	- *optional* Neopixel Data Out(J8)
 	
-- Install encoder or 4 tactile switched for navigation
+- Install encoder or 4 tactile switches for navigation
 - Install 6mm x 6mm x 4.3mm for Kill Switch (SW6) and Reset Switch (SW5)
 	-Needs to be 4.3mm tall for the stock button lever to work.
 	
