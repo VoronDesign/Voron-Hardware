@@ -1,5 +1,5 @@
 # V0 Display #
-![V-Naught_Display](Images/V0_Display.PNG)
+![V-Naught_Display](Images/Overview.png)
 
 
 [Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/KiCad/V0_Display-ibom.html)
