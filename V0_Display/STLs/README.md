@@ -11,4 +11,4 @@ In addition to the printed parts you will need:
 
 
 ### The Skirts in this folder are IDENTICAL to the skirts on the main V0 repo as of 6-27-2020.
-If you have printed skirts BEFORE this date please print the Left or Right version depending on which side you want top mount the screen on.
+If you have printed skirts BEFORE this date please print the Left or Right version depending on which side you want to mount the screen on.
