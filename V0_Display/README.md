@@ -1,6 +1,7 @@
 # V0 Display #
 ![V-Naught_Display](Images/Overview.png)
 
+Remember, this board is still **Beta** so some issues may arise. Please let me know if you encounter anything!
 
 [Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/KiCad/V0_Display-ibom.html)
 ## The board has: ##
