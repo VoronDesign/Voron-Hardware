@@ -13,7 +13,7 @@ Simple MCU board for use with Klipper 3D Printer firmware with:
  - 1 GPIO header
  - I2C Header with Pullup Resistors
  
-[Documentation](Documentation/Documentation.md)
+[Documentation](Documentation/README.md)
  
  Parts that need to be sourced if assembled by JLC:
   - Micro USB port [Molex 105017-0001](https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885) or equivalent [Amazon](https://www.amazon.com/gp/product/B01IQ8VN94)
