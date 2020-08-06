@@ -32,10 +32,10 @@ First we will go through the basic functionality of the board that most users wi
 ## Indicator LEDs
 
 There are 3 status indicator LEDs on the board:
-- 5v Status near the USB port indicates that there is 5V present and feeding the board
-- Board Ready near the IC indicates that the board is communicating with Klipper
-- Vin status indicates that there is power present on the Vin and GND feeding the board through the screw terminals
-There are 4 more indicator LEDs near each of the MOSFETs and screw terminals, these indicate if the MOSFET is enabled
+- 5v Status near the USB port indicates that there is 5V present and feeding the board (D6)
+- Board Ready near the IC indicates that the board is communicating with Klipper (D1)
+- Vin status indicates that there is power present on the Vin and GND feeding the board through the screw terminals (D7)
+- 4 indicator LEDs (D2-D5) near each of the MOSFETs and screw terminals, these indicate if the MOSFET is enabled
 
 <img src="../Images/LEDs.png" width="600">\
 
