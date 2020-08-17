@@ -1,6 +1,6 @@
 XY Endstop
 
-# MZBOT XY Endstop
+# Voron Design XY Endstop Board
 Hall effect endstop board for X and Y axes
 
 The Hall Effect board allows contact less homing for X and Y axis on a Voron 2.When hall sensor reaches close to magnet it produces a voltage. The circuit then compares that with a reference voltage. The compartor flips based on threshold set using the trim pots.
