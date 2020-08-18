@@ -4,10 +4,10 @@ Microswitch endstop board for X and Y axes. Designed with Omron D2F-L switches i
 You will need a different stl for the pod.
 Check https://github.com/VoronDesign/VoronUsers for the microswitch pcb pod.
 
-![Alt text](images/picture2.jpg "Optional Title")
-![Alt text](images/picture1.jpg "Optional Title")
-![Alt text](images/picture3.jpg "Optional Title")
+![Alt text](images/picture2.jpg?raw=true "Optional Title")
+![Alt text](images/picture1.jpg?raw=true "Optional Title")
+![Alt text](images/picture3.jpg?raw=true "Optional Title")
 
-![Alt text](images/render_top.jpg "Optional Title")
-![Alt text](images/render_top.jpg "Optional Title")
-![Alt text](images/render_top.jpg "Optional Title")
+![Alt text](images/render_top.jp?raw=trueg "Optional Title")
+![Alt text](images/render_top.jpg?raw=true "Optional Title")
+![Alt text](images/render_top.jpg?raw=true "Optional Title")
