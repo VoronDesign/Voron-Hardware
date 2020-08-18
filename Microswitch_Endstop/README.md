@@ -7,8 +7,7 @@ Check https://github.com/VoronDesign/VoronUsers for the microswitch pcb pod.
 ![Installed](Images/picture2.jpg?raw=true "Installed")
 ![Mounted 1](Images/picture1.jpg?raw=true "Mounted 2")
 ![Mounted 2](Images/picture3.jpg?raw=true "Mounted 3")
-
-![Render Top](Images/render_top.jp?raw=trueg "Render Top")
+![Render Top](Images/render_top.jp?raw=true "Render Top")
 ![Render Back](Images/render_back.jpg?raw=true "Render Back")
 ![Render Bottom](Images/render_bottom.jpg?raw=true "Render Bottom")
 
