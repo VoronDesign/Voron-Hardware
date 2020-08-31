@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC, Category, DK_Datasheet_Link, DK_Detail_Page, Description, Digi-Key_PN, Family, MPN, Manufacturer, Status
+"Pololu_Breakout_A4988","A1","PT100Stick:Pololu_Breakout-16_15.2x20.3mm",""
+"0.1uF","C1,C2,C3","PT100Stick:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder",""
+"Ferrite_Bead_Small","FB1","PT100Stick:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder",""
+"Cut for 4","JP1","PT100Stick:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",""
+"Cut for 3/4","JP2","PT100Stick:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm",""
+"SolderJumper_3_Bridged12","JP3","PT100Stick:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",""
+"430","R1","PT100Stick:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder",""
+"MAX31865ATP_","U1","PT100Stick:TQFN-20-1EP_5x5mm_P0.65mm_EP3.1x3.1mm","","Integrated Circuits (ICs)","https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf","/product-detail/en/maxim-integrated/MAX31865ATP-/MAX31865ATP--ND/3681476","IC RTD TO DIGITAL CONVERT 20QFN","MAX31865ATP+-ND","PMIC - Thermal Management","MAX31865ATP+","Maxim Integrated","Active"

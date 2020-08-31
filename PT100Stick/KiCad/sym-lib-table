@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name V0_Display)(type Legacy)(uri C:/Users/adminlocal/Voron-Hardware/V0_Display/KiCad/V0_Display.lib)(options "")(descr ""))
+  (lib (name PT100stick)(type Legacy)(uri ${KIPRJMOD}/Library/PT100stick.lib)(options "")(descr ""))
+)
