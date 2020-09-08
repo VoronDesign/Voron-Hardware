@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pt100stick-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -25,15 +26,6 @@ Text Label 1250 2350 0    50   ~ 0
 MISO
 Text Label 1250 2550 0    50   ~ 0
 CS
-Wire Wire Line
-	1500 1750 1450 1750
-Wire Wire Line
-	1450 1750 1450 1650
-Wire Wire Line
-	1450 1650 1500 1650
-Wire Wire Line
-	1250 1650 1450 1650
-Connection ~ 1450 1650
 Text Label 1250 2450 0    50   ~ 0
 SCK
 $Comp
@@ -150,7 +142,7 @@ L PT100stick:R_Small_US R1
 U 1 1 5EBADD3B
 P 4250 1700
 F 0 "R1" H 4183 1654 50  0000 R CNN
-F 1 "430" H 4183 1745 50  0000 R CNN
+F 1 "402" H 4183 1745 50  0000 R CNN
 F 2 "PT100Stick:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 1700 50  0001 C CNN
 F 3 "~" H 4250 1700 50  0001 C CNN
 	1    4250 1700
@@ -452,4 +444,19 @@ F 3 "https://www.pololu.com/product/2980/pictures" H 2000 1750 50  0001 C CNN
 	1    1900 2050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1250 1650 1500 1650
+$Comp
+L power:+24V #PWR0113
+U 1 1 5F580864
+P 2100 1100
+F 0 "#PWR0113" H 2100 950 50  0001 C CNN
+F 1 "+24V" H 2115 1273 50  0000 C CNN
+F 2 "" H 2100 1100 50  0001 C CNN
+F 3 "" H 2100 1100 50  0001 C CNN
+	1    2100 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1100 2100 1350
 $EndSCHEMATC
