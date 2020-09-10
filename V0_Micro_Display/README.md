@@ -1,6 +1,6 @@
 # V0-Micro Display
 
-![Image no work =(](Images/Front.png?raw=true)
+![Image no work =(](Images/Front.PNG)
 
 [Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/V0-Micro/V0_Micro_Display/InteractiveBOM.html)
 
