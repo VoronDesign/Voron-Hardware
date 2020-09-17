@@ -145,6 +145,7 @@ F 0 "R1" H 4183 1654 50  0000 R CNN
 F 1 "402" H 4183 1745 50  0000 R CNN
 F 2 "PT100Stick:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 1700 50  0001 C CNN
 F 3 "~" H 4250 1700 50  0001 C CNN
+F 4 "0.1% or better" H 3900 1825 50  0000 C CNN "Tolerance"
 	1    4250 1700
 	1    0    0    1   
 $EndComp
