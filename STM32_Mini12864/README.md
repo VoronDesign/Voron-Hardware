@@ -12,10 +12,6 @@ The intention is to reduce the number of wires to connect your display to your V
 
 The [Nano Display](https://github.com/VoronDesign/Voron-Hardware/tree/master/Nano_Display) came first, and yes, it does a similar thing. And yeah, it's easier to build, and it's likely cheaper. It's not a bad option.
 
-## The schematic looks very familiar, did you steal 95% of the design from the Klipper Expander?
-
-I prefer the term "borrowed".
-
 # Setup Guide
 
 ## Physical Setup
