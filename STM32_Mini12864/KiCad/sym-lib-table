@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Custom)(type Legacy)(uri /Users/john/Downloads/Voron-Hardware-master/stm32-mini12864/KiCad/Library/Custom.lib)(options "")(descr ""))
+)
