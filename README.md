@@ -8,3 +8,4 @@ Cool Hardware designed by the Voron Design group
 | Nano Display        | Adapts an Arduino Nano to the RepRap standard 2 2x5pin IDC Connectors               |
 | Taco Raven          | 3D Printer controller with 8 integrated stepper drivers for use with Klipper        |
 | Voron 0 Display     | Small Form Factor Display with OLED, Rotory Encoder or Buttons and Neopixel LED     |
+| PT100 Stick         | PT100 board in StepStick format                                                     |
