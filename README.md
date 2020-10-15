@@ -9,3 +9,4 @@ Cool Hardware designed by the Voron Design group
 | Taco Raven          | 3D Printer controller with 8 integrated stepper drivers for use with Klipper        |
 | Voron 0 Display     | Small Form Factor Display with OLED, Rotory Encoder or Buttons and Neopixel LED     |
 | STM32 Mini12864     | A standalone MCU for use with Klipper to drive a FYSETC Mini 12864 Display.         |
+| PT100 Stick         | PT100 board in StepStick format                                                     |
