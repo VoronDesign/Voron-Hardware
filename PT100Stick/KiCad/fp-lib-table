@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PT100Stick)(type KiCad)(uri ${KIPRJMOD}/Library/PT100Stick.pretty)(options "")(descr ""))
+)
