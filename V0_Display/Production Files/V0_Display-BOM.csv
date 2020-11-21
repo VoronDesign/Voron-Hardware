@@ -16,4 +16,4 @@
 "Rotary_Encoder_Switch","SW7","V0-Display:EN11_Encoder","","EN11-HSB1AF15 or equivalent",
 "AP2127K-3.3","U1","V0-Display:SOT-23-5","C156285","Voltage Regulator",
 "STM32F042F6Px","U2","V0-Display:TSSOP-20_4.4x6.5mm_P0.65mm","C81000"," MCU ",
-"74LVC1G17","U3","V0-Display:SOT-753","C6076"," Buffer"
+"74LVC1G17","U3","V0-Display:SOT-753","C6076"," Buffer",
