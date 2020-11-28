@@ -4,7 +4,7 @@
 [Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/KiCad/V0_Display-ibom.html)
 ## The board has: ##
  - STM32F042F6P6 MCU with internal oscillator
- - SWD header for easy debugging
+ - SWD header for easy debugging (not populated by default)
  - I2C Screen connections for  1.3" display with jumpers on back for slecting which pins (1 or 2) are power and ground
  - 4 way button pad OR EN11-style click encoder support
  - Reset/kill button
