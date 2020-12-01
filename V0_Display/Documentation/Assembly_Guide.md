@@ -15,7 +15,7 @@ This is **NOT** an instruction manual. While the components here were picked as 
 	- If there are shorts, examine the components for solder bridges and recheck.
 	- If there are no shorts, continue.
 
-- Plug board into Pi and follow the [Setup guide](Setup_Guide.md) until step 5 to verify that the MCU is operational and detected.
+- Plug board into Pi and follow the [Setup guide](Setup_and_Flashing_Guide.md) until step 5 to verify that the MCU is operational and detected.
 
 - Finish the SMD assembly by installing the:
 	- Neopixel buffer (U3)
