@@ -1,0 +1,1015 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "XY-Endstop"
+Date "2017-11-08"
+Rev "B"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 " CARLOS RUIZ"
+Comment4 " MAKSIM ZOLIN"
+$EndDescr
+$Comp
+L HallEffect_XY:Conn_01x04 J1
+U 1 1 5A00B701
+P 9400 4750
+F 0 "J1" H 9400 5000 50  0000 C CNN
+F 1 "CONN_01X04" V 9600 4750 50  0000 C CNN
+F 2 "HallEffect_XY:PinHeader_1x04_P2.54mm_Vertical" H 9485 5075 50  0001 C CNN
+F 3 "http://www.molex.com/pdm_docs/sd/705530002_sd.pdf" H 9455 5170 50  0001 C CNN
+F 4 "Molex" H 9400 4750 60  0001 C CNN "Manufacture"
+F 5 "0705530003" H 9400 4750 60  0001 C CNN "Manufacture P/N"
+F 6 "WM4902-ND" H 9400 4750 60  0001 C CNN "Digi-Key"
+F 7 "$1.10" H 9400 4750 60  0001 C CNN "Price @ 1"
+F 8 "$0.83780" H 9400 4750 60  0001 C CNN "Price @ 100 "
+F 9 "C225490" H 9400 4750 50  0001 C CNN "LCSC"
+	1    9400 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5A00BAF3
+P 4900 6250
+F 0 "#PWR01" H 4900 6000 50  0001 C CNN
+F 1 "GND" H 4900 6100 50  0000 C CNN
+F 2 "" H 4900 6250 50  0000 C CNN
+F 3 "" H 4900 6250 50  0000 C CNN
+	1    4900 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5A00BD6A
+P 3150 6250
+F 0 "R4" V 3230 6300 50  0000 C CNN
+F 1 "10.0k" V 3150 6250 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 3020 6240 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 3230 6250 50  0001 C CNN
+F 4 "0603" V 3090 6180 16  0000 C CNN "Package"
+F 5 "1%" V 3210 6170 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 3090 6310 16  0000 C CNN "Power"
+F 7 "Yageo" V 3150 6250 60  0001 C CNN "Manufacture"
+F 8 "RC0603FR-0710KL" V 3150 6250 60  0001 C CNN "Manufacture P/N"
+F 9 "311-10.0KHRCT-ND" V 3150 6250 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 3150 6250 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 3150 6250 60  0001 C CNN "Price @ 100"
+F 12 "C17414" H 3150 6250 50  0001 C CNN "LCSC"
+	1    3150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5A00BE90
+P 3450 6250
+F 0 "C2" H 3475 6350 50  0000 L CNN
+F 1 "0.1uF" H 3475 6150 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 3480 5990 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3450 6250 50  0001 C CNN
+F 4 "16V" H 3390 6180 16  0000 C CNN "Voltage"
+F 5 "X7R" H 3390 6150 16  0000 C CNN "Dielectric"
+F 6 "0603" H 3380 6120 16  0000 C CNN "Package"
+F 7 "Yageo" H 3450 6250 60  0001 C CNN "Manufacture"
+F 8 "CC0603KRX7R7BB104" H 3450 6250 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1088-1-ND" H 3450 6250 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 3450 6250 60  0001 C CNN "Price @ 1"
+F 11 "$0.0095" H 3450 6250 60  0001 C CNN "Price @ 100"
+F 12 "C49678" H 3450 6250 50  0001 C CNN "LCSC"
+	1    3450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5A00C4D1
+P 3150 6500
+F 0 "#PWR02" H 3150 6250 50  0001 C CNN
+F 1 "GND" H 3150 6350 50  0000 C CNN
+F 2 "" H 3150 6500 50  0000 C CNN
+F 3 "" H 3150 6500 50  0000 C CNN
+	1    3150 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5A00C5CC
+P 4900 5300
+F 0 "#PWR03" H 4900 5150 50  0001 C CNN
+F 1 "+3.3V" H 4900 5440 50  0000 C CNN
+F 2 "" H 4900 5300 50  0000 C CNN
+F 3 "" H 4900 5300 50  0000 C CNN
+	1    4900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM VR2
+U 1 1 5A0111B4
+P 3150 5150
+F 0 "VR2" H 3150 5050 50  0000 C CNN
+F 1 "10.0K" H 3150 5150 50  0000 C CNN
+F 2 "HallEffect_XY:CT6EP103" H 3150 5150 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" H 3150 5150 50  0001 C CNN
+F 4 "Nidec Copal Electronics" H 3150 5150 60  0001 C CNN "Manufacture"
+F 5 "CT6EP103" H 3150 5150 60  0001 C CNN "Manufacture P/N"
+F 6 "CT6EP103-ND" H 3150 5150 60  0001 C CNN "Digi-Key"
+F 7 "$0.79" H 3150 5150 60  0001 C CNN "Price @ 1"
+F 8 "$0.5852" H 3150 5150 60  0001 C CNN "Price @ 100"
+F 9 "C118956" H 3150 5150 50  0001 C CNN "LCSC"
+	1    3150 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5A013218
+P 3150 4850
+F 0 "#PWR04" H 3150 4700 50  0001 C CNN
+F 1 "+3.3V" H 3150 4990 50  0000 C CNN
+F 2 "" H 3150 4850 50  0000 C CNN
+F 3 "" H 3150 4850 50  0000 C CNN
+	1    3150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect_XY:AP2127K-3.3 U4
+U 1 1 5A026ACB
+P 8550 2300
+F 0 "U4" H 8750 2050 50  0000 C CNN
+F 1 "AP2127K-3.3" H 8550 2500 50  0000 C CNN
+F 2 "HallEffect_XY:SOT-23-5" H 8600 1900 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2210.pdf" H 8550 2300 50  0001 C CNN
+F 4 "Diodes Incorporated" H 8550 2300 60  0001 C CNN "Manufacture "
+F 5 "AP2210N-3.3TRG1" H 8550 2300 60  0001 C CNN "Manufacture P/N"
+F 6 "AP2210N-3.3TRG1DICT-ND" H 8550 2300 60  0001 C CNN "Digi-Key"
+F 7 "$0.42" H 8550 2300 60  0001 C CNN "Price @ 1"
+F 8 "$0.1973" H 8550 2300 60  0001 C CNN "Price @ 100"
+F 9 "C156285" H 8550 2300 50  0001 C CNN "LCSC"
+	1    8550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5A02910F
+P 8400 4450
+F 0 "#PWR05" H 8400 4300 50  0001 C CNN
+F 1 "+5V" H 8400 4590 50  0000 C CNN
+F 2 "" H 8400 4450 50  0000 C CNN
+F 3 "" H 8400 4450 50  0000 C CNN
+	1    8400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5A0297BC
+P 9150 4950
+F 0 "#PWR06" H 9150 4700 50  0001 C CNN
+F 1 "GND" H 9150 4800 50  0000 C CNN
+F 2 "" H 9150 4950 50  0000 C CNN
+F 3 "" H 9150 4950 50  0000 C CNN
+	1    9150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5A02A979
+P 8050 2650
+F 0 "#PWR07" H 8050 2400 50  0001 C CNN
+F 1 "GND" H 8050 2500 50  0000 C CNN
+F 2 "" H 8050 2650 50  0000 C CNN
+F 3 "" H 8050 2650 50  0000 C CNN
+	1    8050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5A02B21B
+P 9050 2650
+F 0 "#PWR08" H 9050 2400 50  0001 C CNN
+F 1 "GND" H 9050 2500 50  0000 C CNN
+F 2 "" H 9050 2650 50  0000 C CNN
+F 3 "" H 9050 2650 50  0000 C CNN
+	1    9050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5A02B2EC
+P 8550 2700
+F 0 "#PWR09" H 8550 2450 50  0001 C CNN
+F 1 "GND" H 8550 2550 50  0000 C CNN
+F 2 "" H 8550 2700 50  0000 C CNN
+F 3 "" H 8550 2700 50  0000 C CNN
+	1    8550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR010
+U 1 1 5A02C2AC
+P 9050 2100
+F 0 "#PWR010" H 9050 1950 50  0001 C CNN
+F 1 "+3.3V" H 9050 2240 50  0000 C CNN
+F 2 "" H 9050 2100 50  0000 C CNN
+F 3 "" H 9050 2100 50  0000 C CNN
+	1    9050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5A02CE65
+P 8050 2100
+F 0 "#PWR011" H 8050 1950 50  0001 C CNN
+F 1 "+5V" H 8050 2240 50  0000 C CNN
+F 2 "" H 8050 2100 50  0000 C CNN
+F 3 "" H 8050 2100 50  0000 C CNN
+	1    8050 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5925 5900 2    60   Input ~ 0
+Y_SIG
+$Comp
+L power:GND #PWR012
+U 1 1 5A0304A7
+P 4900 3300
+F 0 "#PWR012" H 4900 3050 50  0001 C CNN
+F 1 "GND" H 4900 3150 50  0000 C CNN
+F 2 "" H 4900 3300 50  0000 C CNN
+F 3 "" H 4900 3300 50  0000 C CNN
+	1    4900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5A0304D5
+P 3150 3550
+F 0 "#PWR013" H 3150 3300 50  0001 C CNN
+F 1 "GND" H 3150 3400 50  0000 C CNN
+F 2 "" H 3150 3550 50  0000 C CNN
+F 3 "" H 3150 3550 50  0000 C CNN
+	1    3150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR014
+U 1 1 5A0304DB
+P 4900 2600
+F 0 "#PWR014" H 4900 2450 50  0001 C CNN
+F 1 "+3.3V" H 4900 2740 50  0000 C CNN
+F 2 "" H 4900 2600 50  0000 C CNN
+F 3 "" H 4900 2600 50  0000 C CNN
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5A0304F1
+P 4050 2250
+F 0 "#PWR015" H 4050 2000 50  0001 C CNN
+F 1 "GND" H 4050 2100 50  0000 C CNN
+F 2 "" H 4050 2250 50  0000 C CNN
+F 3 "" H 4050 2250 50  0000 C CNN
+	1    4050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect_XY:LM393 U3
+U 1 1 5A030543
+P 4900 2950
+F 0 "U3" H 5050 3100 50  0000 C CNN
+F 1 "LM393" H 5150 2800 50  0000 C CNN
+F 2 "HallEffect_XY:SOIC-8_3.9x4.9mm_P1.27mm" H 4900 2950 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LM/LM2903.pdf" H 4900 2950 50  0001 C CNN
+F 4 "ON Semiconductor" H 4900 2950 60  0001 C CNN "Manufacture"
+F 5 "LM393M" H 4900 2950 60  0001 C CNN "Manufacture P/N "
+F 6 "LM393MFS-ND" H 4900 2950 60  0001 C CNN "Digi-Key"
+F 7 "$0.35" H 4900 2950 60  0001 C CNN "Price @ 1"
+F 8 "$0.1949" H 4900 2950 60  0001 C CNN "Price @ 100"
+F 9 "C7955" H 4900 2950 50  0001 C CNN "LCSC"
+	1    4900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR016
+U 1 1 5A03054D
+P 3150 1900
+F 0 "#PWR016" H 3150 1750 50  0001 C CNN
+F 1 "+3.3V" H 3150 2040 50  0000 C CNN
+F 2 "" H 3150 1900 50  0000 C CNN
+F 3 "" H 3150 1900 50  0000 C CNN
+	1    3150 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5925 2950 2    60   Input ~ 0
+X_SIG
+Text GLabel 9000 4750 0    55   Input ~ 0
+X_SIG
+Text GLabel 9000 4650 0    55   Input ~ 0
+Y_SIG
+$Comp
+L power:+3.3V #PWR017
+U 1 1 5A0380A4
+P 5750 2225
+F 0 "#PWR017" H 5750 2075 50  0001 C CNN
+F 1 "+3.3V" H 5750 2365 50  0000 C CNN
+F 2 "" H 5750 2225 50  0000 C CNN
+F 3 "" H 5750 2225 50  0000 C CNN
+	1    5750 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5A03CE67
+P 3550 2600
+F 0 "#PWR018" H 3550 2350 50  0001 C CNN
+F 1 "GND" H 3550 2450 50  0000 C CNN
+F 2 "" H 3550 2600 50  0000 C CNN
+F 3 "" H 3550 2600 50  0000 C CNN
+	1    3550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR019
+U 1 1 5A03DD60
+P 3550 2100
+F 0 "#PWR019" H 3550 1950 50  0001 C CNN
+F 1 "+3.3V" H 3550 2240 50  0000 C CNN
+F 2 "" H 3550 2100 50  0000 C CNN
+F 3 "" H 3550 2100 50  0000 C CNN
+	1    3550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5A042915
+P 8400 4800
+F 0 "C8" H 8425 4900 50  0000 L CNN
+F 1 "10uF" H 8425 4700 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 8430 4540 50  0001 C CNN
+F 3 "https://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/05/16/CL21A106KOQNNNG.pdf" H 8400 4800 50  0001 C CNN
+F 4 "16V" H 8340 4730 16  0000 C CNN "Voltage"
+F 5 "X7R" H 8340 4700 16  0000 C CNN "Dielectric"
+F 6 "0805" H 8330 4670 16  0000 C CNN "Package"
+F 7 "Samsung Electro-Mechanics" H 8400 4800 60  0001 C CNN "Manufacture"
+F 8 "CL21A106KOQNNNG" H 8400 4800 60  0001 C CNN "Manufacture P/N"
+F 9 "1276-6455-1-ND" H 8400 4800 60  0001 C CNN "Digi-Key"
+F 10 "$0.13" H 8400 4800 60  0001 C CNN "Price @ 1"
+F 11 "$0.0444" H 8400 4800 60  0001 C CNN "Price @ 100"
+F 12 "C15850" H 8400 4800 50  0001 C CNN "LCSC"
+	1    8400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5A044B68
+P 4050 5200
+F 0 "#PWR020" H 4050 4950 50  0001 C CNN
+F 1 "GND" H 4050 5050 50  0000 C CNN
+F 2 "" H 4050 5200 50  0000 C CNN
+F 3 "" H 4050 5200 50  0000 C CNN
+	1    4050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect_XY:SS49E U2
+U 1 1 5A044B78
+P 4050 5000
+F 0 "U2" H 3820 5200 50  0000 L CNN
+F 1 "SS39ET" H 4030 5190 50  0000 L CNN
+F 2 "HallEffect_XY:SOT-23" H 4050 5250 50  0001 C CNN
+F 3 "https://sensing.honeywell.com/index.php?ci_id=50359" H 4240 4410 50  0001 C CNN
+F 4 "Honeywell Sensing and Productivity Solutions" H 4050 5000 60  0001 C CNN "Manufacture"
+F 5 "SS39ET" H 4050 5000 60  0001 C CNN "Manufacture P/N"
+F 6 "480-3845-1-ND" H 4050 5000 60  0001 C CNN "Digi-Key"
+F 7 "$0.89" H 4050 5000 60  0001 C CNN "Price @ 1"
+F 8 "$0.6716" H 4050 5000 60  0001 C CNN "Price @ 100"
+F 9 "C126669" H 4050 5000 50  0001 C CNN "LCSC"
+	1    4050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5A044B84
+P 3550 5550
+F 0 "#PWR021" H 3550 5300 50  0001 C CNN
+F 1 "GND" H 3550 5400 50  0000 C CNN
+F 2 "" H 3550 5550 50  0000 C CNN
+F 3 "" H 3550 5550 50  0000 C CNN
+	1    3550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR022
+U 1 1 5A044B8A
+P 3550 5050
+F 0 "#PWR022" H 3550 4900 50  0001 C CNN
+F 1 "+3.3V" H 3550 5190 50  0000 C CNN
+F 2 "" H 3550 5050 50  0000 C CNN
+F 3 "" H 3550 5050 50  0000 C CNN
+	1    3550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect_XY:LED D2
+U 1 1 5A047734
+P 5750 5350
+F 0 "D2" H 5700 5475 50  0000 L CNN
+F 1 "LED_0805" H 5575 5250 50  0001 L CNN
+F 2 "HallEffect_XY:LED_0805_2012Metric" H 5600 5375 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf" H 5700 5475 50  0001 C CNN
+F 4 "OSRAM Opto Semiconductors Inc." H 5750 5350 60  0001 C CNN "Manufacture"
+F 5 "LS R976-NR-1" H 5750 5350 60  0001 C CNN "Manufacture P/N"
+F 6 "475-1278-1-ND" H 5750 5350 60  0001 C CNN "Digi-Key"
+F 7 "$0.26" H 5750 5350 60  0001 C CNN "Price @ 1"
+F 8 "$0.0998" H 5750 5350 60  0001 C CNN "Price @ 100"
+F 9 "C84256" H 5750 5350 50  0001 C CNN "LCSC"
+	1    5750 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR023
+U 1 1 5A04773A
+P 5750 5175
+F 0 "#PWR023" H 5750 5025 50  0001 C CNN
+F 1 "+3.3V" H 5750 5315 50  0000 C CNN
+F 2 "" H 5750 5175 50  0000 C CNN
+F 3 "" H 5750 5175 50  0000 C CNN
+	1    5750 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5A04A077
+P 8400 5000
+F 0 "#PWR024" H 8400 4750 50  0001 C CNN
+F 1 "GND" H 8400 4850 50  0000 C CNN
+F 2 "" H 8400 5000 50  0000 C CNN
+F 3 "" H 8400 5000 50  0000 C CNN
+	1    8400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5A04B1F6
+P 5100 5450
+F 0 "C7" V 5200 5300 50  0000 L CNN
+F 1 "1uF" V 5050 5550 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 5130 5190 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK107B7105KA-T&fileName=EMK107B7105KA-T_SS&mode=specSheetDownload" H 5100 5450 50  0001 C CNN
+F 4 "16V" H 5040 5380 16  0000 C CNN "Voltage"
+F 5 "X7R" H 5040 5350 16  0000 C CNN "Dielectric"
+F 6 "0603" H 5030 5320 16  0000 C CNN "Package"
+F 7 "Taiyo Yuden" H 5100 5450 60  0001 C CNN "Manufacture"
+F 8 "EMK107B7105KA-T" H 5100 5450 60  0001 C CNN "Manufacture P/N"
+F 9 "587-1241-1-ND" H 5100 5450 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 5100 5450 60  0001 C CNN "Price @ 1"
+F 11 "$0.031" H 5100 5450 60  0001 C CNN "Price @ 100"
+F 12 "C28323" H 5100 5450 50  0001 C CNN "LCSC"
+	1    5100 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5A04B386
+P 5350 5500
+F 0 "#PWR025" H 5350 5250 50  0001 C CNN
+F 1 "GND" H 5350 5350 50  0000 C CNN
+F 2 "" H 5350 5500 50  0000 C CNN
+F 3 "" H 5350 5500 50  0000 C CNN
+	1    5350 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 1800 6000 0    60   ~ 0
+VREF MIN = 1.57V\nVREF MAX = 3V
+Text Notes 1950 3100 0    60   ~ 0
+VREF MIN = 1.57V\nVREF MAX = 3V
+Text Notes 3800 1250 0    180  ~ 36
+X-AXIS
+Text Notes 3800 4250 0    180  ~ 36
+Y-AXIS
+Text Notes 8050 1700 0    60   ~ 0
+LDO: 250mV @ 300mA
+Text Notes 8100 1800 0    60   ~ 0
+400mA MAX current
+$Comp
+L Device:R R1
+U 1 1 5A0574A7
+P 3150 2800
+F 0 "R1" V 3230 2850 50  0000 C CNN
+F 1 "1.00K" V 3150 2800 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 3020 2790 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 3230 2800 50  0001 C CNN
+F 4 "0603" V 3090 2730 16  0000 C CNN "Package"
+F 5 "1%" V 3210 2720 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 3090 2860 16  0000 C CNN "Power"
+F 7 "Yageo" V 3150 2800 60  0001 C CNN "Manufacture"
+F 8 "RC0402FR-071KL" V 3150 2800 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1.00KLRCT-ND" V 3150 2800 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 3150 2800 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 3150 2800 60  0001 C CNN "Price @ 100"
+F 12 "C17513" H 3150 2800 50  0001 C CNN "LCSC"
+	1    3150 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L HallEffect_XY:LED D1
+U 1 1 5A0591B0
+P 5750 2400
+F 0 "D1" H 5700 2525 50  0000 L CNN
+F 1 "LED_0805" H 5575 2300 50  0001 L CNN
+F 2 "HallEffect_XY:LED_0805_2012Metric" H 5600 2425 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf" H 5700 2525 50  0001 C CNN
+F 4 "OSRAM Opto Semiconductors Inc." H 5750 2400 60  0001 C CNN "Manufacture"
+F 5 "LS R976-NR-1" H 5750 2400 60  0001 C CNN "Manufacture P/N"
+F 6 "475-1278-1-ND" H 5750 2400 60  0001 C CNN "Digi-Key"
+F 7 "$0.26" H 5750 2400 60  0001 C CNN "Price @ 1"
+F 8 "$0.0998" H 5750 2400 60  0001 C CNN "Price @ 100"
+F 9 "C84256" H 5750 2400 50  0001 C CNN "LCSC"
+	1    5750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5A05A462
+P 3150 5750
+F 0 "R3" V 3230 5800 50  0000 C CNN
+F 1 "1.00K" V 3150 5750 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 3020 5740 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 3230 5750 50  0001 C CNN
+F 4 "0603" V 3090 5680 16  0000 C CNN "Package"
+F 5 "1%" V 3210 5670 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 3090 5810 16  0000 C CNN "Power"
+F 7 "Yageo" V 3150 5750 60  0001 C CNN "Manufacture"
+F 8 "RC0603FR-071KL" V 3150 5750 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1.00KHRCT-ND" V 3150 5750 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 3150 5750 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 3150 5750 60  0001 C CNN "Price @ 100"
+F 12 "C17513" H 3150 5750 50  0001 C CNN "LCSC"
+	1    3150 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5A05C646
+P 3550 5350
+F 0 "C6" H 3600 5250 50  0000 L CNN
+F 1 "1uF" H 3600 5150 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 3580 5090 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK107B7105KA-T&fileName=EMK107B7105KA-T_SS&mode=specSheetDownload" H 3550 5350 50  0001 C CNN
+F 4 "16V" H 3490 5280 16  0000 C CNN "Voltage"
+F 5 "X7R" H 3490 5250 16  0000 C CNN "Dielectric"
+F 6 "0603" H 3480 5220 16  0000 C CNN "Package"
+F 7 "Taiyo Yuden" H 3550 5350 60  0001 C CNN "Manufacture"
+F 8 "EMK107B7105KA-T" H 3550 5350 60  0001 C CNN "Manufacture P/N"
+F 9 "587-1241-1-ND" H 3550 5350 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 3550 5350 60  0001 C CNN "Price @ 1"
+F 11 "$0.031" H 3550 5350 60  0001 C CNN "Price @ 100"
+F 12 "C28323" H 3550 5350 50  0001 C CNN "LCSC"
+	1    3550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5A05CF4B
+P 3550 2400
+F 0 "C5" H 3600 2300 50  0000 L CNN
+F 1 "1uF" H 3600 2200 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 3580 2140 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK107B7105KA-T&fileName=EMK107B7105KA-T_SS&mode=specSheetDownload" H 3550 2400 50  0001 C CNN
+F 4 "16V" H 3490 2330 16  0000 C CNN "Voltage"
+F 5 "X7R" H 3490 2300 16  0000 C CNN "Dielectric"
+F 6 "0603" H 3480 2270 16  0000 C CNN "Package"
+F 7 "Taiyo Yuden" H 3550 2400 60  0001 C CNN "Manufacture"
+F 8 "EMK107B7105KA-T" H 3550 2400 60  0001 C CNN "Manufacture P/N"
+F 9 "587-1241-1-ND" H 3550 2400 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 3550 2400 60  0001 C CNN "Price @ 1"
+F 11 "$0.031" H 3550 2400 60  0001 C CNN "Price @ 100"
+F 12 "C28323" H 3550 2400 50  0001 C CNN "LCSC"
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5A05E066
+P 8050 2450
+F 0 "C3" H 8100 2550 50  0000 L CNN
+F 1 "1uF" H 8100 2350 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 8080 2190 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK107B7105KA-T&fileName=EMK107B7105KA-T_SS&mode=specSheetDownload" H 8050 2450 50  0001 C CNN
+F 4 "16V" H 7990 2380 16  0000 C CNN "Voltage"
+F 5 "X7R" H 7990 2350 16  0000 C CNN "Dielectric"
+F 6 "0603" H 7980 2320 16  0000 C CNN "Package"
+F 7 "Taiyo Yuden" H 8050 2450 60  0001 C CNN "Manufacture"
+F 8 "EMK107B7105KA-T" H 8050 2450 60  0001 C CNN "Manufacture P/N"
+F 9 "587-1241-1-ND" H 8050 2450 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 8050 2450 60  0001 C CNN "Price @ 1"
+F 11 "$0.031" H 8050 2450 60  0001 C CNN "Price @ 100"
+F 12 "C28323" H 8050 2450 50  0001 C CNN "LCSC"
+	1    8050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5A05E33A
+P 9050 2450
+F 0 "C4" H 9100 2550 50  0000 L CNN
+F 1 "1uF" H 9100 2350 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 9080 2190 50  0001 C CNN
+F 3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=EMK107B7105KA-T&fileName=EMK107B7105KA-T_SS&mode=specSheetDownload" H 9050 2450 50  0001 C CNN
+F 4 "16V" H 8990 2380 16  0000 C CNN "Voltage"
+F 5 "X7R" H 8990 2350 16  0000 C CNN "Dielectric"
+F 6 "0603" H 8980 2320 16  0000 C CNN "Package"
+F 7 "Taiyo Yuden" H 9050 2450 60  0001 C CNN "Manufacture"
+F 8 "EMK107B7105KA-T" H 9050 2450 60  0001 C CNN "Manufacture P/N"
+F 9 "587-1241-1-ND" H 9050 2450 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 9050 2450 60  0001 C CNN "Price @ 1"
+F 11 "$0.031" H 9050 2450 60  0001 C CNN "Price @ 100"
+F 12 "C28323" H 9050 2450 50  0001 C CNN "LCSC"
+	1    9050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HallEffect_XY:SS49E U1
+U 1 1 5A063F20
+P 4050 2050
+F 0 "U1" H 3850 2350 50  0000 L CNN
+F 1 "SS39ET" H 4050 2350 50  0000 L CNN
+F 2 "HallEffect_XY:SOT-23" H 4050 2300 50  0001 C CNN
+F 3 "https://sensing.honeywell.com/index.php?ci_id=50359" H 4240 1460 50  0001 C CNN
+F 4 "Honeywell Sensing and Productivity Solutions" H 4050 2050 60  0001 C CNN "Manufacture"
+F 5 "SS39ET" H 4050 2050 60  0001 C CNN "Manufacture P/N"
+F 6 "480-3845-1-ND" H 4050 2050 60  0001 C CNN "Digi-Key"
+F 7 "$0.89" H 4050 2050 60  0001 C CNN "Price @ 1"
+F 8 "$0.6716" H 4050 2050 60  0001 C CNN "Price @ 100"
+F 9 "C126669" H 4050 2050 50  0001 C CNN "LCSC"
+	1    4050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5A067D5E
+P 3150 3300
+F 0 "R2" V 3230 3350 50  0000 C CNN
+F 1 "10.0k" V 3150 3300 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 3020 3290 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 3230 3300 50  0001 C CNN
+F 4 "0603" V 3090 3230 16  0000 C CNN "Package"
+F 5 "1%" V 3210 3220 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 3090 3360 16  0000 C CNN "Power"
+F 7 "Yageo" V 3150 3300 60  0001 C CNN "Manufacture"
+F 8 "RC0603FR-0710KL" V 3150 3300 60  0001 C CNN "Manufacture P/N"
+F 9 "311-10.0KHRCT-ND" V 3150 3300 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 3150 3300 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 3150 3300 60  0001 C CNN "Price @ 100"
+F 12 "C17414" H 3150 3300 50  0001 C CNN "LCSC"
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5A068C4E
+P 3450 3300
+F 0 "C1" H 3475 3400 50  0000 L CNN
+F 1 "0.1uF" H 3475 3200 50  0000 L CNN
+F 2 "HallEffect_XY:C_0805_2012Metric" H 3480 3040 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3450 3300 50  0001 C CNN
+F 4 "16V" H 3390 3230 16  0000 C CNN "Voltage"
+F 5 "X7R" H 3390 3200 16  0000 C CNN "Dielectric"
+F 6 "0603" H 3380 3170 16  0000 C CNN "Package"
+F 7 "Yageo" H 3450 3300 60  0001 C CNN "Manufacture"
+F 8 "CC0603KRX7R7BB104" H 3450 3300 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1088-1-ND" H 3450 3300 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" H 3450 3300 60  0001 C CNN "Price @ 1"
+F 11 "$0.0095" H 3450 3300 60  0001 C CNN "Price @ 100"
+F 12 "C49678" H 3450 3300 50  0001 C CNN "LCSC"
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5A06B573
+P 5750 2725
+F 0 "R9" V 5830 2775 50  0000 C CNN
+F 1 "1.00K" V 5750 2725 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 5620 2715 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 5830 2725 50  0001 C CNN
+F 4 "0603" V 5690 2655 16  0000 C CNN "Package"
+F 5 "1%" V 5810 2645 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 5690 2785 16  0000 C CNN "Power"
+F 7 "Yageo" V 5750 2725 60  0001 C CNN "Manufacture"
+F 8 "RC0603FR-071KL" V 5750 2725 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1.00KHRCT-ND" V 5750 2725 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 5750 2725 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 5750 2725 60  0001 C CNN "Price @ 100"
+F 12 "C17513" H 5750 2725 50  0001 C CNN "LCSC"
+	1    5750 2725
+	1    0    0    -1  
+$EndComp
+Text Notes 4350 4750 0    60   ~ 0
+1.4mV/Gauss
+Text Notes 4400 1850 0    60   ~ 0
+1.4mV/Gauss
+Wire Wire Line
+	4900 6200 4900 6250
+Wire Wire Line
+	4900 5300 4900 5450
+Wire Wire Line
+	3150 5900 3150 6000
+Wire Wire Line
+	3450 6100 3450 6000
+Wire Wire Line
+	3150 6000 3450 6000
+Connection ~ 3150 6000
+Connection ~ 3450 6000
+Wire Wire Line
+	3150 5300 3150 5450
+Wire Wire Line
+	3450 6400 3450 6450
+Wire Wire Line
+	3450 6450 3150 6450
+Wire Wire Line
+	3150 6400 3150 6450
+Connection ~ 3150 6450
+Wire Wire Line
+	5300 5900 5750 5900
+Wire Wire Line
+	5750 5900 5750 5825
+Wire Wire Line
+	3000 5150 2950 5150
+Wire Wire Line
+	2950 5150 2950 5450
+Wire Wire Line
+	2950 5450 3150 5450
+Connection ~ 3150 5450
+Connection ~ 5750 5900
+Wire Wire Line
+	3150 4850 3150 5000
+Wire Wire Line
+	8050 2100 8050 2200
+Connection ~ 8050 2200
+Wire Wire Line
+	9050 2100 9050 2200
+Connection ~ 9050 2200
+Wire Wire Line
+	8400 4450 8400 4550
+Wire Wire Line
+	8400 4550 9200 4550
+Wire Wire Line
+	9200 4850 9150 4850
+Wire Wire Line
+	9150 4850 9150 4950
+Wire Wire Line
+	8050 2600 8050 2650
+Wire Wire Line
+	9050 2600 9050 2650
+Wire Wire Line
+	8550 2600 8550 2700
+Wire Wire Line
+	4900 3250 4900 3300
+Wire Wire Line
+	4900 2600 4900 2650
+Wire Wire Line
+	3150 2950 3150 3050
+Wire Wire Line
+	3450 3150 3450 3050
+Wire Wire Line
+	3150 3050 3450 3050
+Connection ~ 3150 3050
+Connection ~ 3450 3050
+Wire Wire Line
+	3150 2350 3150 2500
+Wire Wire Line
+	3450 3450 3450 3500
+Wire Wire Line
+	3450 3500 3150 3500
+Wire Wire Line
+	3150 3450 3150 3500
+Connection ~ 3150 3500
+Wire Wire Line
+	4200 2850 4500 2850
+Wire Wire Line
+	4050 2150 4050 2250
+Wire Wire Line
+	5750 2950 5750 2875
+Wire Wire Line
+	5750 2550 5750 2575
+Wire Wire Line
+	4200 2150 4200 2850
+Wire Wire Line
+	3000 2200 2950 2200
+Wire Wire Line
+	2950 2200 2950 2500
+Wire Wire Line
+	2950 2500 3150 2500
+Connection ~ 3150 2500
+Connection ~ 5750 2950
+Wire Wire Line
+	3150 1900 3150 2050
+Wire Wire Line
+	9200 4650 9000 4650
+Wire Wire Line
+	9200 4750 9000 4750
+Wire Wire Line
+	5750 2225 5750 2250
+Wire Wire Line
+	3900 2150 3900 2200
+Wire Wire Line
+	3900 2200 3550 2200
+Wire Wire Line
+	3550 2550 3550 2600
+Wire Wire Line
+	4200 5800 4500 5800
+Wire Wire Line
+	4050 5100 4050 5200
+Wire Wire Line
+	4200 5100 4200 5800
+Wire Wire Line
+	3900 5100 3900 5150
+Wire Wire Line
+	3900 5150 3550 5150
+Wire Wire Line
+	3550 5050 3550 5150
+Connection ~ 3550 5150
+Wire Wire Line
+	3550 5500 3550 5550
+Wire Wire Line
+	5750 5175 5750 5200
+Wire Wire Line
+	5750 5500 5750 5525
+Connection ~ 8400 4550
+Wire Wire Line
+	8400 4950 8400 5000
+Wire Wire Line
+	4950 5450 4900 5450
+Connection ~ 4900 5450
+Wire Wire Line
+	5250 5450 5350 5450
+Wire Wire Line
+	5350 5450 5350 5500
+$Comp
+L Device:R R10
+U 1 1 5A00E749
+P 5750 5675
+F 0 "R10" V 5830 5725 50  0000 C CNN
+F 1 "1.00K" V 5750 5675 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 5620 5665 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 5830 5675 50  0001 C CNN
+F 4 "0603" V 5690 5605 16  0000 C CNN "Package"
+F 5 "1%" V 5810 5595 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 5690 5735 16  0000 C CNN "Power"
+F 7 "Yageo" V 5750 5675 60  0001 C CNN "Manufacture"
+F 8 "RC0603FR-071KL" V 5750 5675 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1.00KHRCT-ND" V 5750 5675 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 5750 5675 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 5750 5675 60  0001 C CNN "Price @ 100"
+F 12 "C17513" H 5750 5675 50  0001 C CNN "LCSC"
+	1    5750 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM VR1
+U 1 1 5A4E811F
+P 3150 2200
+F 0 "VR1" H 3000 2150 50  0000 C CNN
+F 1 "10.0K" V 3150 2200 50  0000 C CNN
+F 2 "HallEffect_XY:CT6EP103" H 3150 2200 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" H 3150 2200 50  0001 C CNN
+F 4 "Nidec Copal Electronics" H 3150 2200 60  0001 C CNN "Manufacture"
+F 5 "CT6EP103" H 3150 2200 60  0001 C CNN "Manufacture P/N"
+F 6 "CT6EP103-ND" H 3150 2200 60  0001 C CNN "Digi-Key"
+F 7 "$0.79" H 3150 2200 60  0001 C CNN "Price @ 1"
+F 8 "$0.5852" H 3150 2200 60  0001 C CNN "Price @ 100"
+F 9 "C118956" H 3150 2200 50  0001 C CNN "LCSC"
+	1    3150 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 6000 3150 6100
+Wire Wire Line
+	3450 6000 4500 6000
+Wire Wire Line
+	3150 6450 3150 6500
+Wire Wire Line
+	3150 5450 3150 5600
+Wire Wire Line
+	5750 5900 5925 5900
+Wire Wire Line
+	8050 2200 8050 2300
+Wire Wire Line
+	9050 2200 9050 2300
+Wire Wire Line
+	3150 3050 3150 3150
+Wire Wire Line
+	3450 3050 4500 3050
+Wire Wire Line
+	3150 3500 3150 3550
+Wire Wire Line
+	3150 2500 3150 2650
+Wire Wire Line
+	5750 2950 5925 2950
+Wire Wire Line
+	3550 5150 3550 5200
+Wire Wire Line
+	8400 4550 8400 4650
+Wire Wire Line
+	4900 5450 4900 5600
+Wire Wire Line
+	3550 2100 3550 2200
+Connection ~ 3550 2200
+Wire Wire Line
+	3550 2200 3550 2250
+Wire Wire Line
+	5300 2950 5750 2950
+$Comp
+L HallEffect_XY:LM393 U3
+U 2 1 5F05449C
+P 4900 5900
+F 0 "U3" H 5050 6050 50  0000 C CNN
+F 1 "LM393" H 5150 5750 50  0000 C CNN
+F 2 "HallEffect_XY:SOIC-8_3.9x4.9mm_P1.27mm" H 4900 5900 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LM/LM2903.pdf" H 4900 5900 50  0001 C CNN
+F 4 "ON Semiconductor" H 4900 5900 60  0001 C CNN "Manufacture"
+F 5 "LM393M" H 4900 5900 60  0001 C CNN "Manufacture P/N "
+F 6 "LM393MFS-ND" H 4900 5900 60  0001 C CNN "Digi-Key"
+F 7 "$0.35" H 4900 5900 60  0001 C CNN "Price @ 1"
+F 8 "$0.1949" H 4900 5900 60  0001 C CNN "Price @ 100"
+F 9 "C7955" H 4900 5900 50  0001 C CNN "LCSC"
+	2    4900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2200 9050 2200
+Wire Wire Line
+	8250 2300 8200 2300
+Wire Wire Line
+	8200 2300 8200 2200
+Wire Wire Line
+	8050 2200 8200 2200
+Wire Wire Line
+	8250 2200 8200 2200
+Connection ~ 8200 2200
+$Comp
+L HallEffect_XY:LED D3
+U 1 1 5F10349F
+P 7300 4550
+F 0 "D3" H 7250 4675 50  0000 L CNN
+F 1 "LED_0805" H 7125 4450 50  0001 L CNN
+F 2 "HallEffect_XY:LED_0805_2012Metric" H 7150 4575 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic8/00078896_0.pdf" H 7250 4675 50  0001 C CNN
+F 4 "OSRAM Opto Semiconductors Inc." H 7300 4550 60  0001 C CNN "Manufacture"
+F 5 "LS R976-NR-1" H 7300 4550 60  0001 C CNN "Manufacture P/N"
+F 6 "475-1278-1-ND" H 7300 4550 60  0001 C CNN "Digi-Key"
+F 7 "$0.26" H 7300 4550 60  0001 C CNN "Price @ 1"
+F 8 "$0.0998" H 7300 4550 60  0001 C CNN "Price @ 100"
+F 9 "C84256" H 7300 4550 50  0001 C CNN "LCSC"
+	1    7300 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F10AB6B
+P 7300 5200
+F 0 "#PWR0101" H 7300 4950 50  0001 C CNN
+F 1 "GND" H 7300 5050 50  0000 C CNN
+F 2 "" H 7300 5200 50  0000 C CNN
+F 3 "" H 7300 5200 50  0000 C CNN
+	1    7300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F113302
+P 7300 4950
+F 0 "R5" V 7380 5000 50  0000 C CNN
+F 1 "1.00K" V 7300 4950 40  0000 C CNN
+F 2 "HallEffect_XY:R_0805_2012Metric" V 7170 4940 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" V 7380 4950 50  0001 C CNN
+F 4 "0603" V 7240 4880 16  0000 C CNN "Package"
+F 5 "1%" V 7360 4870 16  0000 C CNN "Tolerance"
+F 6 "1/10W" V 7240 5010 16  0000 C CNN "Power"
+F 7 "Yageo" V 7300 4950 60  0001 C CNN "Manufacture"
+F 8 "RC0402FR-071KL" V 7300 4950 60  0001 C CNN "Manufacture P/N"
+F 9 "311-1.00KLRCT-ND" V 7300 4950 60  0001 C CNN "Digi-Key"
+F 10 "$0.10" V 7300 4950 60  0001 C CNN "Price @ 1"
+F 11 "$0.006" V 7300 4950 60  0001 C CNN "Price @ 100"
+F 12 "C17513" H 7300 4950 50  0001 C CNN "LCSC"
+	1    7300 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 4300 7300 4400
+Wire Wire Line
+	7300 4700 7300 4800
+Wire Wire Line
+	7300 5100 7300 5200
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F1334E1
+P 7300 4300
+F 0 "#PWR0102" H 7300 4150 50  0001 C CNN
+F 1 "+5V" H 7300 4440 50  0000 C CNN
+F 2 "" H 7300 4300 50  0000 C CNN
+F 3 "" H 7300 4300 50  0000 C CNN
+	1    7300 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
