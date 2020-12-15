@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name V0-Micro-Display)(type Legacy)(uri ${KIPRJMOD}/Library/V0-Micro-Display.lib)(options "")(descr ""))
+  (lib (name V0_Display)(type Legacy)(uri S:/Documents/GitHub/Voron-Hardware/V0_Display/KiCad/V0-Display.lib)(options "")(descr ""))
+)
