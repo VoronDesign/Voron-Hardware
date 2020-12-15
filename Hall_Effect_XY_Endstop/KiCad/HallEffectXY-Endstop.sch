@@ -374,14 +374,14 @@ L HallEffect_XY:SS49E U2
 U 1 1 5A044B78
 P 4050 5000
 F 0 "U2" H 3820 5200 50  0000 L CNN
-F 1 "SS49E" H 4030 5190 50  0000 L CNN
+F 1 "SS39ET" H 4030 5190 50  0000 L CNN
 F 2 "HallEffect_XY:SOT-23" H 4050 5250 50  0001 C CNN
 F 3 "https://sensing.honeywell.com/index.php?ci_id=50359" H 4240 4410 50  0001 C CNN
 F 4 "Honeywell Sensing and Productivity Solutions" H 4050 5000 60  0001 C CNN "Manufacture"
-F 5 "SS49E" H 4050 5000 60  0001 C CNN "Manufacture P/N"
-F 6 "480-2006-ND" H 4050 5000 60  0001 C CNN "Digi-Key"
-F 7 "$2.37" H 4050 5000 60  0001 C CNN "Price @ 1"
-F 8 "$1.1757" H 4050 5000 60  0001 C CNN "Price @ 100"
+F 5 "SS39ET" H 4050 5000 60  0001 C CNN "Manufacture P/N"
+F 6 "480-3845-1-ND" H 4050 5000 60  0001 C CNN "Digi-Key"
+F 7 "$0.89" H 4050 5000 60  0001 C CNN "Price @ 1"
+F 8 "$0.6716" H 4050 5000 60  0001 C CNN "Price @ 100"
 F 9 "C126669" H 4050 5000 50  0001 C CNN "LCSC"
 	1    4050 5000
 	1    0    0    -1  
@@ -632,14 +632,14 @@ L HallEffect_XY:SS49E U1
 U 1 1 5A063F20
 P 4050 2050
 F 0 "U1" H 3850 2350 50  0000 L CNN
-F 1 "SS49E" H 4050 2350 50  0000 L CNN
+F 1 "SS39ET" H 4050 2350 50  0000 L CNN
 F 2 "HallEffect_XY:SOT-23" H 4050 2300 50  0001 C CNN
 F 3 "https://sensing.honeywell.com/index.php?ci_id=50359" H 4240 1460 50  0001 C CNN
 F 4 "Honeywell Sensing and Productivity Solutions" H 4050 2050 60  0001 C CNN "Manufacture"
-F 5 "SS49E" H 4050 2050 60  0001 C CNN "Manufacture P/N"
-F 6 "480-2006-ND" H 4050 2050 60  0001 C CNN "Digi-Key"
-F 7 "$2.37" H 4050 2050 60  0001 C CNN "Price @ 1"
-F 8 "$1.1757" H 4050 2050 60  0001 C CNN "Price @ 100"
+F 5 "SS39ET" H 4050 2050 60  0001 C CNN "Manufacture P/N"
+F 6 "480-3845-1-ND" H 4050 2050 60  0001 C CNN "Digi-Key"
+F 7 "$0.89" H 4050 2050 60  0001 C CNN "Price @ 1"
+F 8 "$0.6716" H 4050 2050 60  0001 C CNN "Price @ 100"
 F 9 "C126669" H 4050 2050 50  0001 C CNN "LCSC"
 	1    4050 2050
 	1    0    0    -1  

@@ -1,6 +1,9 @@
 # Change Log #
 
 ## Rev C:
+ - Removing 4 directional buttons as noone ever used them. 
+
+## Rev C:
  - Removing secondary OLED connector, adding selection jumpers in its place.
  - Adding rev label and Voron Logo.
  - Adding note to check jumpers on back for setup.

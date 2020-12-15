@@ -1,0 +1,235 @@
+
+(gui_defaults
+  (windows
+    (board_frame
+      visible
+      (bounds
+        120 23 1150 896
+      )
+    )
+    (color_manager
+      not_visible
+      (bounds
+        0 600 1110 126
+      )
+    )
+    (layer_visibility
+      not_visible
+      (bounds
+        0 450 354 185
+      )
+    )
+    (object_visibility
+      not_visible
+      (bounds
+        0 550 370 536
+      )
+    )
+    (display_miscellanious
+      not_visible
+      (bounds
+        0 350 336 342
+      )
+    )
+    (snapshots
+      not_visible
+      (bounds
+        0 250 214 267
+      )
+    )
+    (select_parameter
+      visible
+      (bounds
+        0 23 356 464
+      )
+    )
+    (route_parameter
+      not_visible
+      (bounds
+        0 100 356 567
+      )
+    )
+    (manual_rules
+      not_visible
+      (bounds
+        0 23 356 205
+      )
+    )
+    (route_details
+      not_visible
+      (bounds
+        0 23 356 248
+      )
+    )
+    (move_parameter
+      not_visible
+      (bounds
+        0 50 412 146
+      )
+    )
+    (clearance_matrix
+      not_visible
+      (bounds
+        0 150 560 272
+      )
+    )
+    (via_rules
+      not_visible
+      (bounds
+        50 150 496 459
+      )
+    )
+    (edit_vias
+      not_visible
+      (bounds
+        100 150 404 113
+      )
+    )
+    (edit_net_rules
+      visible
+      (bounds
+        100 200 904 129
+      )
+    )
+    (assign_net_rules
+      visible
+      (bounds
+        100 250 204 362
+      )
+    )
+    (padstack_info
+      not_visible
+      (bounds
+        100 30 0 0
+      )
+    )
+    (package_info
+      not_visible
+      (bounds
+        200 30 0 0
+      )
+    )
+    (component_info
+      not_visible
+      (bounds
+        300 30 0 0
+      )
+    )
+    (net_info
+      not_visible
+      (bounds
+        350 30 0 0
+      )
+    )
+    (incompletes_info
+      not_visible
+      (bounds
+        400 30 0 0
+      )
+    )
+    (violations_info
+      not_visible
+      (bounds
+        500 30 0 0
+      )
+    )
+  )
+  (colors
+    (background
+      70 70 70
+    )
+    (hilight 0.8
+      255 255 255
+    )
+    (incompletes 1.0
+      255 255 255
+    )
+    (outline
+      100 150 255
+    )
+    (component_front
+      0 0 255
+    )
+    (component_back
+      255 0 0
+    )
+    (violations
+      255 0 255
+    )
+    (length_matching 0.1
+      0 255 0
+    )
+    (traces 0.4
+      255 0 0
+      0 0 255
+    )
+    (fixed_traces 0.4
+      255 0 0
+      0 0 255
+    )
+    (vias 0.6
+      200 200 0
+      200 200 0
+    )
+    (fixed_vias 0.6
+      200 200 0
+      200 200 0
+    )
+    (pins 0.6
+      150 50 0
+      160 80 0
+    )
+    (conduction 0.2
+      0 150 0
+      100 100 0
+    )
+    (keepout 0.2
+      0 110 110
+      0 100 160
+    )
+    (via_keepout 0.2
+      100 100 100
+      100 100 100
+    )
+  )
+  (parameter
+    (selection_layers 
+      all_visible
+    )
+    (selectable_items 
+      TRACES VIAS PINS FIXED UNFIXED 
+    )
+    (via_snap_to_smd_center 
+      on
+    )
+    (route_mode 
+      dynamic
+    )
+    (shove_enabled 
+      on
+    )
+    (drag_components_enabled 
+      on
+    )
+    (hilight_routing_obstacle 
+      off
+    )
+    (pull_tight_region 
+      2147483647
+    )
+    (pull_tight_accuracy 
+      500
+    )
+    (clearance_compensation 
+      off
+    )
+    (ignore_conduction_areas 
+      on
+    )
+    (automatic_layer_dimming 
+      0.7
+    )
+    (deselected_snapshot_attributes 
+    )
+  )
+)

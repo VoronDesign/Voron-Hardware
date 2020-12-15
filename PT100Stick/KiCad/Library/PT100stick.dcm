@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP MAX31865ATP_
+D IC RTD TO DIGITAL CONVERT 20QFN
+K MAX31865ATP+-ND
+F https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf
+$ENDCMP
+#
+$CMP Pololu_Breakout_A4988
+D Pololu Breakout Board, Stepper Driver A4988
+K Pololu Breakout Board Stepper Driver A4988
+F https://www.pololu.com/product/2980/pictures
+$ENDCMP
+#
+$CMP R_Small_US
+D Resistor, small US symbol
+K r resistor
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Bridged
+D Solder Jumper, 2-pole, closed/bridged
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Bridged12
+D 3-pole Solder Jumper, pins 1+2 closed/bridged
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+#End Doc Library
