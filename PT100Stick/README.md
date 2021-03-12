@@ -5,4 +5,4 @@ The PT100 Stick is a Pololu formfactor MAX31865 breakboard for SKR 1.3/1.4 and s
 
 ![PT100_stick](Docs/PT100.PNG)
 
-[Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/PT100Stick/blob/master/Docs/ibom.html)
+[Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/PT100Stick/Docs/ibom.html)
