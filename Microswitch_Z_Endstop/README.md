@@ -1,5 +1,5 @@
 
-# Afterburner Toolhead Board #
+# Microswitch Z Endstop PCB  #
 ![PCB](Images/2.png)
 
 
