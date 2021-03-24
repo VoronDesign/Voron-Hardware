@@ -1,5 +1,6 @@
 
 # Microswitch Z Endstop PCB  #
+![PCB](Images/pcb.png)
 ![PCB](Images/2.png)
 
 
