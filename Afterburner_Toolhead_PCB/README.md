@@ -1,9 +1,20 @@
 
 # Afterburner Toolhead Board #
-![PCB](Images/Rev3.1/1.png)
+
+
 
 
 ### NOTE: THERE ARE A FEW DIFFERENT VERSIONS OF THIS BOARD GOING AROUND, 3.0 and 3.1, BOTH WIRING DIAGRAMS WILL BE UPLOADED HERE SHORTLY 
+
+## This is 3.1
+![PCB](Images/Rev3.1/1.png)
+
+
+
+
+## This is 3.0
+![PCB](Images/Rev3.0/1.png)
+
 
 ## The board has: ##
  - BAT85 Diode for abl probe
