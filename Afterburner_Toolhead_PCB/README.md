@@ -14,7 +14,7 @@
 
 ## This is 3.0
 ![PCB](Images/Rev3.0/1.png)
-
+ [Here](Images/Rev3.0/wiringDiagram.png) is the wiring diagram
 
 ## The board has: ##
  - BAT85 Diode for abl probe
