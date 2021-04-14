@@ -6,7 +6,7 @@
 
 ### NOTE: THERE ARE A FEW DIFFERENT VERSIONS OF THIS BOARD GOING AROUND, 3.0 and 3.1, BOTH WIRING DIAGRAMS WILL BE UPLOADED HERE SHORTLY 
 
-## This is 3.1
+## This is 3.1 - [Here](Images/Rev3.1/2.png) is the wiring diagram
 ![PCB](Images/Rev3.1/1.png)
 
 
