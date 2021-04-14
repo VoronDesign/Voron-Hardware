@@ -8,12 +8,14 @@
 
 ## This is 3.1 -
 ![PCB](Images/Rev3.1/1.png)
+
  [Here](Images/Rev3.1/wiringDiagram.png) is the wiring diagram
 
 
 
 ## This is 3.0
 ![PCB](Images/Rev3.0/1.png)
+
  [Here](Images/Rev3.0/wiringDiagram.png) is the wiring diagram
 
 ## The board has: ##
