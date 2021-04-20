@@ -32,4 +32,6 @@ This board was designed to make wiring the toolhead a bit easier, to help get ri
 Since this board has provisions for the X endstop, this should be compatible with V1, V2, and Switchwire
 
 
+### Here is how the board and PCB spacer get installed using 2 M3x8 SHCS
+![Mounting](Images/Installation.png)
 
