@@ -34,7 +34,25 @@ This board was designed to make wiring the toolhead a bit easier, to help get ri
 Since this board has provisions for the X endstop, this should be compatible with V1, V2, and Switchwire
 
 ### chamber thermistor config settings for SKR1.4 connected to TH1
+ ##CONFIG FOR 3.2
+    #######################################
+    #### Enclosure Temp Sensor Section ####
+    #######################################
+    [thermistor chamber_temp]
+    temperature1: 25
+    resistance1: 10000
+    beta: 3950
+    
+	
+	[temperature_sensor enclosure_temp]
+    sensor_type: chamber_temp
+    sensor_pin: P0.23
+    min_temp: 0
+    max_temp: 100
+    gcode_id: C
+	
 
+ ## Config for 3.0-3.1
     #######################################
     #### Enclosure Temp Sensor Section ####
     #######################################
