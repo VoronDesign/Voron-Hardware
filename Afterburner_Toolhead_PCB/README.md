@@ -4,26 +4,20 @@
 
 
 
-### NOTE: THERE ARE A FEW DIFFERENT VERSIONS OF THIS BOARD GOING AROUND, 3.0 and 3.1, BOTH WIRING DIAGRAMS WILL BE UPLOADED HERE SHORTLY 
+### NOTE: THERE ARE A FEW DIFFERENT VERSIONS OF THIS BOARD GOING AROUND MAKE SURE YOU FIND THE CORRECT WIRING DIAGRAM FOR YOU VERSION, IF YOU DONT KNOW WHAT VERSION FEEL FREE TO ASK ME ON DISCORD
 
-## This is 3.1 -
-![PCB](Images/Rev3.1/1.png)
+## This is 3.2 (Newest version)
+![PCB](Images/Rev3.2/1.png)
 
- [Here](Images/Rev3.1/wiringDiagram.png) is the wiring diagram
+ [Here](Images/Rev3.2/wiringDiagram.png) is the wiring diagram
 
-
-
-## This is 3.0
-![PCB](Images/Rev3.0/1.png)
-
- [Here](Images/Rev3.0/wiringDiagram.png) is the wiring diagram
 
 ## The board has: ##
  - BAT85 Diode for abl probe
  - Indicator LED to show when hotend is on
  - 2/3/4 pin headers for most components on the toolhead
  - 2 Pin Microfit 3.0 for the heater
- - 0402 pkg thermistor to be used as a chamber temperature 
+ - 0805 pkg thermistor to be used as a chamber temperature 
  - 14 Pin Microfit 3.0 for the main connector back to the MCU 
  - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/0430251400)
  - I used 18awg for 24v, GND, and HE0 and 24awg for everything else 
