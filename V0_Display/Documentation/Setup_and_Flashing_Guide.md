@@ -49,5 +49,5 @@
 
 11) After completion `ls /dev/serial/by-id/*` should return a device begining with `/dev/serial/by-id/usb-Klipper_stm32f042x6...`
 
-Your board should now be usable with Klipper. Use the example config files to get started
-Best optioon is to copty the config you want to use into the same directory as `printer.cfg` then add `[include NAME_OF_CONFIG.CFG]` to the end of your `printer.cfg` to include the file.
+Your board should now be usable with Klipper. Use the example config file to get started
+Best optioon is to copy the config file into the same directory as `printer.cfg` then add `[include DisplayEncoder.cfg]` to the end of your `printer.cfg` to include the file.
