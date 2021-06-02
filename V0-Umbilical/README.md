@@ -2,6 +2,10 @@
 # 10 connectors in, 1x14 pin out.
 
 ![Alt text](/V0-Umbilical/Images/Overview.jpg?raw=true "Title")
+![Alt text](/V0-Umbilical/Images/Toolhead_PCB_Overview.png?raw=true "Title")
+
+PLACEHOLDER FOR TOOLHEAD PCB DESCRIPTION
+
 
 ## BOM
 | Part      | Quantity | LCSC Part Number | Link|

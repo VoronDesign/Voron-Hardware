@@ -19,7 +19,7 @@ U 1 1 60B6E959
 P 2250 1600
 F 0 "J1" H 2300 2117 50  0000 C CNN
 F 1 "Conn_02x07_Top_Bottom" H 2300 2026 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-1400_2x07_P3.00mm_Horizontal" H 2250 1600 50  0001 C CNN
+F 2 "Toolhead_PCB:Molex_Micro-Fit_3.0_43045-1400_2x07_P3.00mm_Horizontal" H 2250 1600 50  0001 C CNN
 F 3 "~" H 2250 1600 50  0001 C CNN
 	1    2250 1600
 	1    0    0    -1  
@@ -98,24 +98,24 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 60B78134
-P 3750 1700
-F 0 "J3" H 3900 1650 50  0000 C CNN
-F 1 "Hotend Fan" H 4200 1650 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3750 1700 50  0001 C CNN
-F 3 "~" H 3750 1700 50  0001 C CNN
-	1    3750 1700
-	1    0    0    1   
+P 3750 1600
+F 0 "J3" H 3900 1550 50  0000 C CNN
+F 1 "Hotend Fan" H 4200 1550 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3750 1600 50  0001 C CNN
+F 3 "~" H 3750 1600 50  0001 C CNN
+	1    3750 1600
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J6
 U 1 1 60B7844F
-P 4000 1900
-F 0 "J6" H 4150 1850 50  0000 C CNN
-F 1 "Thermistor" H 4450 1850 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4000 1900 50  0001 C CNN
-F 3 "~" H 4000 1900 50  0001 C CNN
-	1    4000 1900
-	1    0    0    1   
+P 4000 1800
+F 0 "J6" H 4150 1750 50  0000 C CNN
+F 1 "Thermistor" H 4450 1750 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4000 1800 50  0001 C CNN
+F 3 "~" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 1900 2550 1900
@@ -134,23 +134,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60B8D3E9
-P 6500 650
-F 0 "H1" H 6600 696 50  0000 L CNN
-F 1 "MountingHole" H 6600 605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 650 50  0001 C CNN
-F 3 "~" H 6500 650 50  0001 C CNN
-	1    6500 650 
+P 800 700
+F 0 "H1" H 900 746 50  0000 L CNN
+F 1 "MountingHole" H 900 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 700 50  0001 C CNN
+F 3 "~" H 800 700 50  0001 C CNN
+	1    800  700 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60B8DE4B
-P 6500 950
-F 0 "H2" H 6600 996 50  0000 L CNN
-F 1 "MountingHole" H 6600 905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 950 50  0001 C CNN
-F 3 "~" H 6500 950 50  0001 C CNN
-	1    6500 950 
+P 800 1000
+F 0 "H2" H 900 1046 50  0000 L CNN
+F 1 "MountingHole" H 900 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1000 50  0001 C CNN
+F 3 "~" H 800 1000 50  0001 C CNN
+	1    800  1000
 	1    0    0    -1  
 $EndComp
 Text Label 2600 1400 0    50   ~ 0
@@ -194,10 +194,27 @@ Wire Wire Line
 	2950 900  2850 900 
 Wire Wire Line
 	2950 1200 2950 900 
-Text Label 2950 900  0    50   ~ 0
-Endstop_Gnd
 Text Label 1650 1900 2    50   ~ 0
 Heater1
 Text Label 1650 1800 2    50   ~ 0
 Heater2
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 60BD21F9
+P 3400 2350
+F 0 "J8" H 3550 2300 50  0000 C CNN
+F 1 "Part Cooling Fan" H 3950 2300 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	1    0    0    1   
+$EndComp
+Text Label 2750 2250 0    50   ~ 0
+PartFan+
+Text Label 2750 2350 0    50   ~ 0
+PartFan-
+Wire Wire Line
+	2750 2250 3200 2250
+Wire Wire Line
+	2750 2350 3200 2350
 $EndSCHEMATC
