@@ -162,22 +162,8 @@ If you purchased your board from someone in the Voron community this is likely a
 
 8) Run `make menuconfig` settings should be:
 
-	- [\*] Enable extra low-level configuration options 
- 
-	- Micro-controller Architecture (STMicroelectronics STM32)
+<img src="../Images/Menuconfig_Options.png" width="1000">
 
-	- Processor model (STM32F042)
-
-	- Clock Reference (Internal clock)
-
-	- [\*] Use USB for communication (instead of serial)
-
-	- [\*] Use PA9/PA10 for USB or CAN
-
-	- USB ids  --->[ ] Specify a custom step pulse duration
-
-	- ( )  GPIO pins to set at micro-controller startup 
-	
 	Exit and Save
 9) Run `make clean` to clean up the make environment.
 
