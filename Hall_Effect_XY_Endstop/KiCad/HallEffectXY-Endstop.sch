@@ -370,23 +370,6 @@ F 3 "" H 4050 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HallEffect_XY:SS49E U2
-U 1 1 5A044B78
-P 4050 5000
-F 0 "U2" H 3820 5200 50  0000 L CNN
-F 1 "SS39ET" H 4030 5190 50  0000 L CNN
-F 2 "HallEffect_XY:SOT-23" H 4050 5250 50  0001 C CNN
-F 3 "https://sensing.honeywell.com/index.php?ci_id=50359" H 4240 4410 50  0001 C CNN
-F 4 "Honeywell Sensing and Productivity Solutions" H 4050 5000 60  0001 C CNN "Manufacture"
-F 5 "SS39ET" H 4050 5000 60  0001 C CNN "Manufacture P/N"
-F 6 "480-3845-1-ND" H 4050 5000 60  0001 C CNN "Digi-Key"
-F 7 "$0.89" H 4050 5000 60  0001 C CNN "Price @ 1"
-F 8 "$0.6716" H 4050 5000 60  0001 C CNN "Price @ 100"
-F 9 "C126669" H 4050 5000 50  0001 C CNN "LCSC"
-	1    4050 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR021
 U 1 1 5A044B84
 P 3550 5550
@@ -632,15 +615,15 @@ L HallEffect_XY:SS49E U1
 U 1 1 5A063F20
 P 4050 2050
 F 0 "U1" H 3850 2350 50  0000 L CNN
-F 1 "SS39ET" H 4050 2350 50  0000 L CNN
+F 1 "RR112-1G42-531" H 4050 2350 50  0000 L CNN
 F 2 "HallEffect_XY:SOT-23" H 4050 2300 50  0001 C CNN
-F 3 "https://sensing.honeywell.com/index.php?ci_id=50359" H 4240 1460 50  0001 C CNN
-F 4 "Honeywell Sensing and Productivity Solutions" H 4050 2050 60  0001 C CNN "Manufacture"
+F 3 "https://media.cotorelay.com/wp-content/uploads/2020/10/04163217/RedRock-RR112-1G42-1G43-531-532-Datasheet-1.pdf" H 4240 1460 50  0001 C CNN
+F 4 "RR112-1G42-531" H 4050 2050 60  0001 C CNN "Manufacture"
 F 5 "SS39ET" H 4050 2050 60  0001 C CNN "Manufacture P/N"
-F 6 "480-3845-1-ND" H 4050 2050 60  0001 C CNN "Digi-Key"
-F 7 "$0.89" H 4050 2050 60  0001 C CNN "Price @ 1"
-F 8 "$0.6716" H 4050 2050 60  0001 C CNN "Price @ 100"
-F 9 "C126669" H 4050 2050 50  0001 C CNN "LCSC"
+F 6 "306-RR112-1G42-531CT-ND" H 4050 2050 60  0001 C CNN "Digi-Key"
+F 7 "$1.07" H 4050 2050 60  0001 C CNN "Price @ 1"
+F 8 "$0.832" H 4050 2050 60  0001 C CNN "Price @ 100"
+F 9 "n/a" H 4050 2050 50  0001 C CNN "LCSC"
 	1    4050 2050
 	1    0    0    -1  
 $EndComp
@@ -704,10 +687,6 @@ F 12 "C17513" H 5750 2725 50  0001 C CNN "LCSC"
 	1    5750 2725
 	1    0    0    -1  
 $EndComp
-Text Notes 4350 4750 0    60   ~ 0
-1.4mV/Gauss
-Text Notes 4400 1850 0    60   ~ 0
-1.4mV/Gauss
 Wire Wire Line
 	4900 6200 4900 6250
 Wire Wire Line
@@ -1010,6 +989,25 @@ F 1 "+5V" H 7300 4440 50  0000 C CNN
 F 2 "" H 7300 4300 50  0000 C CNN
 F 3 "" H 7300 4300 50  0000 C CNN
 	1    7300 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 1950 0    60   ~ 0
+5mV/Gauss
+$Comp
+L HallEffect_XY:SS49E U2
+U 1 1 60B3C002
+P 4050 5000
+F 0 "U2" H 3850 5300 50  0000 L CNN
+F 1 "RR112-1G42-531" H 4050 5300 50  0000 L CNN
+F 2 "HallEffect_XY:SOT-23" H 4050 5250 50  0001 C CNN
+F 3 "https://media.cotorelay.com/wp-content/uploads/2020/10/04163217/RedRock-RR112-1G42-1G43-531-532-Datasheet-1.pdf" H 4240 4410 50  0001 C CNN
+F 4 "RR112-1G42-531" H 4050 5000 60  0001 C CNN "Manufacture"
+F 5 "SS39ET" H 4050 5000 60  0001 C CNN "Manufacture P/N"
+F 6 "306-RR112-1G42-531CT-ND" H 4050 5000 60  0001 C CNN "Digi-Key"
+F 7 "$1.07" H 4050 5000 60  0001 C CNN "Price @ 1"
+F 8 "$0.832" H 4050 5000 60  0001 C CNN "Price @ 100"
+F 9 "n/a" H 4050 5000 50  0001 C CNN "LCSC"
+	1    4050 5000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
