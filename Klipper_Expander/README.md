@@ -4,7 +4,7 @@
 
 [Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/Klipper_Expander/KiCad/KlipperExpander_iBOM.html)
 
-Simple MCU board for use with Klipper 3D Printer firmware with:
+### Simple MCU board for use with Klipper 3D Printer firmware with:
  - [STM32F042F6P6 MCU with internal oscilator](https://www.st.com/en/microcontrollers-microprocessors/stm32f042f6.html#overview)
  - SWD (Serial Wire Debug) header for easy debugging
  - 4 3A Mosfet outputs
@@ -12,8 +12,11 @@ Simple MCU board for use with Klipper 3D Printer firmware with:
  - 1 Level Shifted Neopixel output
  - 1 GPIO header
  - I2C Header with Pullup Resistors
+
+### Mounting
+ Mounts are located in the "CAD" folder and there are both horizontal and vertical mounts that can be used with M3 hardware for both 2020 and 1515 extrusions.
  
-[Documentation](Documentation/README.md)
+[Documentation and Setup information here](Documentation/README.md)
  
  Parts that need to be sourced if assembled by JLC:
   - Micro USB port [Molex 105017-0001](https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885) or equivalent [Amazon](https://www.amazon.com/gp/product/B01IQ8VN94)
