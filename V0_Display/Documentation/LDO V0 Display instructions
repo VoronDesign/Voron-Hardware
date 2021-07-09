@@ -72,7 +72,7 @@ Save and close printer.cfg
 	V0_Display.cfg
 
 11. Edit V0_Display.cfg and copy the following to V0_Display.cfg  
--ensure to change the serial address to the address from prior step
+-ensure to change the serial address to the address from step 8
 
 [mcu displayEncoder]
 serial: /dev/serial/by-id/usb-Klipper_stm32f042x6_050000000D43535035373520-if00
