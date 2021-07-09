@@ -1,0 +1,105 @@
+LDO V0 Display instructions
+
+1. Install Boot Jumper
+	-connect USB to PI
+	-SSH to PI
+
+2.Run command: 
+	LSUSB
+
+	-Verify you are in DFU mode
+
+Bus 001 Device 006: ID 0483:df11 STMicroelectronics STM Device in DFU Mode
+
+3. Run command
+	dfu-util --list
+
+Copy the output for later, we are interested in the DFU address [0483:df11]
+-----------------------------------
+dfu-util 0.9
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2016 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Found DFU: [0483:df11] ver=2200, devnum=6, cfg=1, intf=0, path="1-1.1", alt=1, name="@Option Bytes  /0x1FFFF800/01*016 e", serial="FFFFFFFEFFFF"
+Found DFU: [0483:df11] ver=2200, devnum=6, cfg=1, intf=0, path="1-1.1", alt=0, name="@Internal Flash  /0x08000000/032*0001Kg", serial="FFFFFFFEFFFF"
+------------------------------------------
+
+4. Remove boot jumper
+	-USB can stay connected
+
+5.Run command
+	cd ~/klipper
+	make menuconfig
+
+6.Config as per 
+
+           Klipper Firmware Configuration
+[*] Enable extra low-level configuration options
+    Micro-controller Architecture (STMicroelectronics STM32)  --->
+    Processor model (STM32F042)  --->
+    Clock Reference (Internal clock)  --->
+    Communication interface (USB (on PA9/PA10))  --->
+    USB ids  --->
+[ ] Specify a custom step pulse duration
+()  GPIO pins to set at micro-controller startup
+
+  -Exit and save
+
+7.Run command (where flash_device is set to DFU address from Step 3)
+	make flash FLASH_DEVICE=0483:df11
+	-enter password for SUDO when prompted
+
+8.Run command
+	ls /dev/serial/by-id/*
+ 	-copy output for later
+
+/dev/serial/by-id/usb-Klipper_stm32f042x6_050000000D43535035373520-if00
+/dev/serial/by-id/usb-Klipper_stm32f103xe_30FFD3054255353817721057-if00
+
+	-We are interested in the line with the stm32f042 chip, the other line is your MCU
+
+9. Open mainsail in browser and edit printer.cfg, add the following 
+
+	# Required to enable V0 display
+	[include V0_Display.cfg]
+
+	-I entered it above [mcu] but location is upto you
+	-Save and close printer.cfg
+	
+10.Create new file in mainsail callled
+
+	V0_Display.cfg
+
+11. Edit V0_Display.cfg and copy the following to V0_Display.cfg  
+-ensure to change the serial address to the address from step 8
+
+[mcu displayEncoder]
+serial: /dev/serial/by-id/usb-Klipper_stm32f042x6_050000000D43535035373520-if00
+restart_method: command
+
+[display]
+lcd_type: sh1106
+i2c_mcu: displayEncoder
+i2c_bus: i2c1a
+encoder_pins: ^displayEncoder:PA4, ^displayEncoder:PA3
+click_pin: ^!displayEncoder:PA1
+kill_pin: ^!displayEncoder:PA5
+vcomh: 17
+#   Set the Vcomh value on SSD1306/SH1106 displays. This value is
+#   associated with a "smearing" effect on some OLED displays. The
+#   value may range from 0 to 63. Default is 0.
+#   Adjust this value if you get some vertical stripes on your display. (31 seems to be a good value)
+
+[neopixel displayStatus]
+pin: displayEncoder:PA0
+chain_count: 1
+color_order: GRB
+initial_RED: 0.01
+initial_GREEN: 0
+initial_BLUE: 0.01
+
+12. Select save and restart
+la fin
