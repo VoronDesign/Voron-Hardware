@@ -38,7 +38,9 @@
 
 	- [\*] Use PA9/PA10 for USB or CAN
 
-	- USB ids  --->[ ] Specify a custom step pulse duration
+	- USB ids  --->
+
+	- [_] Specify a custom step pulse duration
 
 	- ( )  GPIO pins to set at micro-controller startup 
 	
