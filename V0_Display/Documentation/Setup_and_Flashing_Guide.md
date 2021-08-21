@@ -34,8 +34,9 @@
 	 [\*] Use PA9/PA10 for USB or CAN
 	 USB ids  --->
 	 [ ] Specify a custom step pulse duration
-	 ()  GPIO pins to set at micro-controller startup```
-	 
+	 ()  GPIO pins to set at micro-controller startup
+```
+
 		- Exit and Save
 
 9) Run `make clean` to clean up the make environment.
