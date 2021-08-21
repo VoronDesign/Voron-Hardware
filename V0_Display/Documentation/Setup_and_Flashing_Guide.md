@@ -40,7 +40,7 @@
 
 	- USB ids  --->
 	
-	- [ ] Specify a custom step pulse duration
+	- \[ \] Specify a custom step pulse duration
 
 	- ( )  GPIO pins to set at micro-controller startup 
 	
