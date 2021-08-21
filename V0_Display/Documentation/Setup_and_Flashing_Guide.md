@@ -39,7 +39,7 @@
 	
 ```
 	
-	Exit and Save
+	- Exit and Save
 
 9) Run `make clean` to clean up the make environment.
 
