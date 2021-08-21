@@ -28,24 +28,19 @@
 
 ```
 [\*] Enable extra low-level configuration options 
- 
-	- Micro-controller Architecture (STMicroelectronics STM32)
-
-	- Processor model (STM32F042)
-
-	- Clock Reference (Internal clock)
-
-	- [\*] Use USB for communication (instead of serial)
-
-	- [\*] Use PA9/PA10 for USB or CAN
-
-	- USB ids  --->
+     Micro-controller Architecture (STMicroelectronics STM32)
+     Processor model (STM32F042)
+     Clock Reference (Internal clock)
+	 [\*] Use USB for communication (instead of serial)
+	 [\*] Use PA9/PA10 for USB or CAN
+	 USB ids  --->
+	 [ ] Specify a custom step pulse duration
+	 ()  GPIO pins to set at micro-controller startup
 	
-	- [] Specify a custom step pulse duration
-
-	- ()  GPIO pins to set at micro-controller startup```
+	```
 	
 	Exit and Save
+
 9) Run `make clean` to clean up the make environment.
 
 10) Run `make flash FLASH_DEVICE=xxxx:yyyy` (using xxxx:yyyy from above)
