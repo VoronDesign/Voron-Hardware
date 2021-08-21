@@ -29,10 +29,10 @@
 ```
 [\*] Enable extra low-level configuration options 
      Micro-controller Architecture (STMicroelectronics STM32)
-   	 Processor model (STM32F042)
-   	 Clock Reference (Internal clock)
+     Processor model (STM32F042)
+     Clock Reference (Internal clock)
      Use USB for communication (USB (on PA9/PA10))
-	 USB ids  --->
+     USB ids  --->
 [ ] Specify a custom step pulse duration
 ()  GPIO pins to set at micro-controller startup
 ```
