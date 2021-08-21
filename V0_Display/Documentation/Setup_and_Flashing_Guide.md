@@ -37,7 +37,7 @@
 	 [ ] Specify a custom step pulse duration
 	 ()  GPIO pins to set at micro-controller startup
 	
-	```
+```
 	
 	Exit and Save
 
