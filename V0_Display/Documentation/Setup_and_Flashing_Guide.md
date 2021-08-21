@@ -37,7 +37,7 @@
 	 ()  GPIO pins to set at micro-controller startup
 ```
 
-	-	 Exit and Save
+		- Exit and Save
 
 9) Run `make clean` to clean up the make environment.
 
