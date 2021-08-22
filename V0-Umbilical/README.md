@@ -1,13 +1,14 @@
 # Compress, Extend, Uncompress
 
-***Overview image here***
+![Solidworks overview of the PCB's](/V0-Umbilical/Images/Overview.png?raw=true "Title")
+Overview.png
 
 This mod adds two PCB's ([Frame PCB](#frame-pcb), [Toolhead PCB](#toolhead-pcb)) to the V0.1 that can aid in wire management and rrouting as well as making the toolhead ablle to be swappable.
 The frame PCB mounts between the A/B motors at the back of the printer and condenses the heater, thermistor, part cooling fan, hotend cooling fan, extruder motor and the X-endstop into a single 14 pin micro-fit 3 connector while also adding a chamber thermistor and hookups for 3 continous NeoPixel (WS2812) strips.
 
 ### Frame PCB
 Mounting between the motors, this board takes in all the wires and merges them into a 14 pin harness
-![Alt text](/V0-Umbilical/Images/Overview.jpg?raw=true "Title")
+![Alt text](/V0-Umbilical/Images/Frame_PCB.png?raw=true "Title")
 
 
 ### Frame PCB BOM
@@ -26,7 +27,7 @@ Mounting between the motors, this board takes in all the wires and merges them i
 
 Mounting on the toolhead, this breaks out the 14 pin harness into all needed connectors (including a second part fan conenctor so the user doesnt have to spice both fans together)
 
-![Alt text](/V0-Umbilical/Images/toolhead.png?raw=true "Title")
+![Alt text](/V0-Umbilical/Images/Toolhead_PCB_Overview.png?raw=true "Title")
 
 
 ### Toolhead PCB BOM
