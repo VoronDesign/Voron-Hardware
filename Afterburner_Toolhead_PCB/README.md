@@ -1,15 +1,31 @@
 
 # Afterburner Toolhead Board #
 
+### 4.0 IS NOT COMPATIBLE WITH SPIDER/OCTOPUS IF YOU USE DIFFERENT FAN VOLTAGES. IF YOU WANT TO USE A DIFFERENT VOLTAGE FAN, THE ERCF IS THE BOARD YOU WOULD WANT TO USE.
 
+### If you are using 3.2 or older please use some sort of m3 plastic washer when mounting the PCB 
 
-
-### NOTE: THERE ARE A FEW DIFFERENT VERSIONS OF THIS BOARD GOING AROUND MAKE SURE YOU FIND THE CORRECT WIRING DIAGRAM FOR YOUR VERSION, IF YOU DONT KNOW WHAT VERSION YOU CURRENTLY HAVE FEEL FREE TO ASK ME ON DISCORD
-
-## This is 3.2 (Newest version)
-![PCB](Images/Rev3.2/1.png)
+## NEWEST VERSION 4.0 
+![PCB](Images/Rev4.0/1.png)
+#### note: the bat85 diode has been rotated 180 deg for v4 , so double check that it is in the correct orientaion on your board 
 
  [Here](Images/Rev3.2/wiringDiagram.png) is the wiring diagram
+ 
+    Pinout 
+    24V  - PSU +V 
+    GND  - PSU -V (NOT MAINS GND)
+    PROBE/ABL  - Probe Signal Pin
+    HE0  - Hotend Heater -V
+    CT   - Chamber Thermistor Signal Pin (TH1)
+    PCF  - Part Cooling Fan -V
+    HEF  - Hotend Cooling Fan -V
+    AGND - Hotend Thermistor -V
+    TH0  - Hotend Thermistor Signal Pin (TH0)
+    XES  - X Endstop Signal Pin 
+    S1A  - Red Stepper Wire
+    S2A  - Green Stepper Wire
+    S1B  - Blue Stepper Wire
+    S2B  - Black Stepper Wire 
 
 
 ## The board has: ##
@@ -28,7 +44,7 @@ This board was designed to make wiring the toolhead a bit easier, to help get ri
 Since this board has provisions for the X endstop, this should be compatible with V1, V2, and Switchwire
 
 ### chamber thermistor config settings for SKR1.4 connected to TH1
- ## Config for 3.2
+ ## Config for 3.2,4.0,ERCF
     #######################################
     #### Enclosure Temp Sensor Section ####
     #######################################
@@ -58,7 +74,9 @@ Since this board has provisions for the X endstop, this should be compatible wit
     gcode_id: C
 
 
-
+### Changes for the ERCF version
+ there are now solder jumpers on the back to select 24v or 5v for fans and probes. the fan and probe jumpers are defaulted to 24v if you want a different voltage you will need to cut the trace and solder the other side
+ 
 
 ### Here is how the board and PCB spacer get installed using 2 M3x8 SHCS
 ![Mounting](Images/Installation.png)
