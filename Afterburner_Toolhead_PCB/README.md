@@ -5,7 +5,7 @@
 
 ### If you are using 3.2 or older please use some sort of m3 plastic washer when mounting the PCB 
 
-## NEWEST VERSION 4.0 
+## NEWEST VERSION 4.0
 ![PCB](Images/Rev4.0/1.png)
 #### note: the bat85 diode has been rotated 180 deg for v4 , so double check that it is in the correct orientaion on your board 
 
@@ -44,7 +44,7 @@ This board was designed to make wiring the toolhead a bit easier, to help get ri
 Since this board has provisions for the X endstop, this should be compatible with V1, V2, and Switchwire
 
 ### chamber thermistor config settings for SKR1.4 connected to TH1
- ## Config for 3.2,4.0,ERCF
+ ## Config for 3.2,4.0,4.1,ERCF
     #######################################
     #### Enclosure Temp Sensor Section ####
     #######################################
