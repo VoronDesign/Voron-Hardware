@@ -42,11 +42,11 @@ Mounting on the toolhead, this breaks out the 14 pin harness into all needed con
 
 ## Umbilical cable
 
-The Umbilical cable is a 220-240mm dual ended 14P (2x7) microfit cable. the connectors are wired 1:1 so pin 1 connects to pin 1adnd so forth for all 14 pins.
+The Umbilical cable is a 220-240mm dual ended 14P (2x7) microfit cable. The connectors are wired 1:1 so pin 1 connects to pin 1 and so forth for all 14 pins.
 
 ### Cable BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
 | ----------- | :-: | ----------- | ----------- |----------- |
-| 14 Pin Plug     | 2 | Molex 430251400 | C293526   | https://lcsc.com/product-detail/Rectangular-Connectors-Housings_MOLEX-430251400_C293526.html |
-| Microfit Crimp  | 1 | Molex 430300001 | C259786   | https://lcsc.com/product-detail/Line-Pressing-Terminals_MOLEX-430300001_C259786.html |
-| 20AWG Wire      | 14 | 220mm sections | C293526   | PTFE/Silicone/Hefulon for motion rated, PVC *could* work since it isn't constraind to a cable chain |
+| 14 Pin Plug     | 2  | Molex 430251400 | C293526   | https://lcsc.com/product-detail/Rectangular-Connectors-Housings_MOLEX-430251400_C293526.html |
+| Microfit Crimp  | 28 | Molex 430300001 | C259786   | https://lcsc.com/product-detail/Line-Pressing-Terminals_MOLEX-430300001_C259786.html |
+| 20AWG Wire      | 14 | 220mm Sections  | C293526   | PTFE/Silicone/Hefulon for motion rated, PVC *could* work since it isn't constraind to a cable chain |
