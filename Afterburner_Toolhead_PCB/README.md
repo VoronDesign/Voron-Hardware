@@ -9,10 +9,12 @@
 ![PCB](Images/Rev4.0/1.png)
 #### note: the bat85 diode has been rotated 180 deg for v4 , so double check that it is in the correct orientaion on your board 
 
+
+
  [Here](Images/Rev3.2/wiringDiagram.png) is the wiring diagram
  
     Pinout 
-    24V  - PSU +V 
+    24V  - HE0 +V 
     GND  - PSU -V (NOT MAINS GND)
     PROBE/ABL  - Probe Signal Pin
     HE0  - Hotend Heater -V
@@ -26,6 +28,8 @@
     S2A  - Green Stepper Wire
     S1B  - Blue Stepper Wire
     S2B  - Black Stepper Wire 
+    
+    NOTE: 14 Pin pinout is the same from for 3.1-4.0 and ERCF 
 
 
 ## The board has: ##
