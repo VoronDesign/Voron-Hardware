@@ -12,7 +12,7 @@
  [Here](Images/Rev3.2/wiringDiagram.png) is the wiring diagram
  
     Pinout 
-    24V  - PSU +V 
+    24V  - HE0 +V 
     GND  - PSU -V (NOT MAINS GND)
     PROBE/ABL  - Probe Signal Pin
     HE0  - Hotend Heater -V
