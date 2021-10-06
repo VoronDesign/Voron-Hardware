@@ -10,4 +10,4 @@ Taco Raven is an 3D printer controller specifically design for a Voron V2. The i
 
 ![Alt text](ISO_Assembly.png?raw=true "Optional Title")
 
-[Take a look at the interactive BOM here](http://htmlpreview.github.io/?KiCad/bom/ibom.html)
+[Take a look at the interactive BOM here](https://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/Taco_Raven/KiCad/bom/ibom.html)

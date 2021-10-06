@@ -2,7 +2,7 @@
 
 ![Image no work =(](Images/Front.PNG)
 
-[Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/V0-Micro/V0_Micro_Display/InteractiveBOM.html)
+[Interactive bom](http://htmlpreview.github.io/?https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Micro_Display/InteractiveBOM.html)
 
 Tiny display designed for the VORON Design V0:
  - STM32F042F6P6 MCU with internal oscilator
