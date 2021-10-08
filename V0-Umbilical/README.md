@@ -2,8 +2,8 @@
 
 ![Solidworks overview of the PCB's](/V0-Umbilical/Images/Overview.png?raw=true "Title")
 
-This mod adds two PCB's ([Frame PCB](#frame-pcb), [Toolhead PCB](#toolhead-pcb)) and a cable ([Umbilical Cable](#umbilical-cable)) to the V0.1 that can aid in wire management and routing as well as making the toolhead able to be swappable.
-The frame PCB mounts between the A/B motors at the back of the printer and condenses the heater, thermistor, part cooling fan, hotend cooling fan, extruder motor and the X-endstop into a single 14 pin micro-fit 3 connector while also adding a chamber thermistor and hookups for 3 continous NeoPixel (WS2812) strips.
+This mod adds two PCBs ([Frame PCB](#frame-pcb), [Toolhead PCB](#toolhead-pcb)) and a cable ([Umbilical Cable](#umbilical-cable)) to the V0.1 that can aid in wire management and routing as well as making the toolhead able to be swappable.
+The frame PCB mounts between the A/B motors at the back of the printer and condenses the heater, thermistor, part cooling fan, hotend cooling fan, extruder motor and the X-endstop into a single 14 pin Micro-Fit 3.0 connector while also adding a chamber thermistor and hookups for 3 continous NeoPixel (WS2812) strips.
 
 ----
 
@@ -26,7 +26,7 @@ Mounting between the motors, this board takes in all the wires and merges them i
 
 ## Toolhead PCB
 
-Mounting on the toolhead, this breaks out the 14 pin harness into all needed connectors (including a second part fan conenctor so the user doesnt have to spice both fans together)
+Mounting on the toolhead, this breaks out the 14 pin harness into all needed connectors (including a second part fan conenctor so the user doesn't have to spice both fans together)
 
 ![Alt text](/V0-Umbilical/Images/Toolhead_PCB_Overview.png?raw=true "Title")
 
@@ -43,6 +43,8 @@ Mounting on the toolhead, this breaks out the 14 pin harness into all needed con
 ## Umbilical cable
 
 The Umbilical cable is a 220-240mm dual ended 14P (2x7) microfit cable. The connectors are wired 1:1 so pin 1 connects to pin 1 and so forth for all 14 pins.
+
+![Alt text](/V0-Umbilical/Images/Umbilical_connector.png?raw=true "Title")
 
 ### Cable BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
