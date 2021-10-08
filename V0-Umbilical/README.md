@@ -34,7 +34,7 @@ Mounting on the toolhead, this breaks out the 14 pin harness into all needed con
 ### Toolhead PCB BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
 | ----------- | :-: | ----------- | ----------- |----------- |
-| 14 Pin Socket   | 1 |  Molex 430451400  | C277677   | https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-span-430451400_C277677.html |
+| 14 Pin Socket (Right Angle)   | 1 |  Molex 430451400  | C277677   | https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-span-430451400_C277677.html |
 | 2 pin JST XH    | 6 |  B2B-XH  | C158012   | https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B2B-XH-A-LF-SN_C158012.html |
 | 4 pin JST XH    | 1 |  B4B-XH  | C144395   | https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-B4B-XH-A-LF-SN_C144395.html |
 
