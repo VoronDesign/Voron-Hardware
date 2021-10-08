@@ -44,6 +44,8 @@ Mounting on the toolhead, this breaks out the 14 pin harness into all needed con
 
 The Umbilical cable is a 220-240mm dual ended 14P (2x7) microfit cable. The connectors are wired 1:1 so pin 1 connects to pin 1 and so forth for all 14 pins.
 
+
+*Only 2 of the 14 wires are shown for clarity. Connect each number to its matching number.*
 ![Alt text](/V0-Umbilical/Images/Umbilical_connector.png?raw=true "Title")
 
 ### Cable BOM
