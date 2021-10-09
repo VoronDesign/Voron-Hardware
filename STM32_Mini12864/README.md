@@ -39,10 +39,10 @@ When compiling klipper, use the following options:
     │ │                                                                     │ │  
     │ └─────────────────────────────────────────────────────────────────────┘ │  
     
-Note that when switching between MCU architectures it is important to run "make clean" before a "make build". This prevents any strange build errors.
+Note that when switching between MCU architectures it is important to run "make clean" before a "make". This prevents any strange build errors.
 
     make clean
-    make build
+    make
 
 ## Firmware Flashing
 
