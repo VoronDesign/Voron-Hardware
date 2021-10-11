@@ -81,3 +81,6 @@ Since this board has provisions for the X endstop, this should be compatible wit
 ### Here is how the board and PCB spacer get installed using 2 M3x8 SHCS
 ![Mounting](Images/Installation.png)
 
+
+Thanks to user @Craxoor for the original pcb cover design that has been used to make the rest of the covers 
+https://github.com/craxoor
