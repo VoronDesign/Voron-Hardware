@@ -1,7 +1,8 @@
 # Afterburner Toolhead Board #
 
 ### VERSIONS COMPARISON
-Note that there is no downside of using ERCF or ERCFv2 even without an ERCF module. The ERCF board work perfectly fine with a regular printer.
+Note that there is no downside of using ERCF or ERCFv2 even without an ERCF module.  
+The ERCF board work perfectly fine with a regular printer.
 
 |Model|Feature|Note|Input|Voltage|LED|Designer|
 |-|-|-|-|-|-|-|
