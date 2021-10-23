@@ -9,8 +9,6 @@ The ERCF board work perfectly fine with a regular printer.
 |3.2|Standard|Mount with M3 washers|14 pins|24v|Red|Hartk|
 |[4.0](./Production%20Files/Standard/)|Standard|improved traces width|14 pins|24v|Red|Hartk|
 |[ERCF](./Production%20Files/ERCF/)|+Filament Sensor||14+2 pins|5/24v<br>jump solder/cut|Red|Hartk|
-|[ERCFv2](https://github.com/FlisherOfatale/Afterburner_Toolhead_PCB_ERCFv2)|+Filament Sensor<br>+RGB LED Header|WIP (Need Testing)|18 pins|5/12/24v<br>Jump Solder|RGB NeoPixel|Flisher (with Hartk)|
-
 
 ## IMPORTANT WARNINGS
 ### For Version 3.2 ###
@@ -91,10 +89,7 @@ Since this board has provisions for the X endstop, this should be compatible wit
 
 ### Changes for the ERCF version
 There are now solder jumpers on the back to select 24v or 5v for fans and probes. the fan and probe jumpers are defaulted to 24v if you want a different voltage you will need to cut the trace and solder the other side
- 
-### Changes for the ERCFv2 version
-This version still need field testing, detail on pinout and configuration are available outside of this repository for the momment.
-Link: [ERCFv2](https://github.com/FlisherOfatale/Afterburner_Toolhead_PCB_ERCFv2)
+
 
 ### Here is how the board and PCB spacer get installed using 2 M3x8 SHCS
 ![Mounting](Images/Installation.png)
