@@ -1,5 +1,6 @@
 
 # Afterburner Toolhead Board #
+## NOTE: 4.1 is not an official board done by me and it has a few issues with the probe and x endstop connections, 4.0 is the latest board that you should use...there was an issue and i have since updated the repo with a known good board if you have any problems please contact me on discord  ##
 
 ### 4.0 IS NOT COMPATIBLE WITH SPIDER/OCTOPUS IF YOU USE DIFFERENT FAN VOLTAGES. IF YOU WANT TO USE A DIFFERENT VOLTAGE FAN, THE ERCF IS THE BOARD YOU WOULD WANT TO USE.
 
