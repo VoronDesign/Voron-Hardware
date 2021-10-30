@@ -1,5 +1,6 @@
 
 # Afterburner Toolhead Board #
+## NOTE: 4.1 is not an official board done by me and it has a few issues with the probe and x endstop connections, 4.0 is the latest board that you should use...there was an issue and i have since updated the repo with a known good board if you have any problems please contact me on discord  ##
 
 ### 4.0 IS NOT COMPATIBLE WITH SPIDER/OCTOPUS IF YOU USE DIFFERENT FAN VOLTAGES. IF YOU WANT TO USE A DIFFERENT VOLTAGE FAN, THE ERCF IS THE BOARD YOU WOULD WANT TO USE.
 
@@ -8,8 +9,6 @@
 ## NEWEST VERSION 4.0
 ![PCB](Images/Rev4.0/1.png)
 #### note: the bat85 diode has been rotated 180 deg for v4 , so double check that it is in the correct orientaion on your board 
-
-
 
  [Here](Images/Rev3.2/wiringDiagram.png) is the wiring diagram
  
@@ -28,8 +27,6 @@
     S2A  - Green Stepper Wire
     S1B  - Blue Stepper Wire
     S2B  - Black Stepper Wire 
-    
-    NOTE: 14 Pin pinout is the same from for 3.1-4.0 and ERCF 
 
 
 ## The board has: ##
@@ -48,7 +45,7 @@ This board was designed to make wiring the toolhead a bit easier, to help get ri
 Since this board has provisions for the X endstop, this should be compatible with V1, V2, and Switchwire
 
 ### chamber thermistor config settings for SKR1.4 connected to TH1
- ## Config for 3.2,4.0,4.1,ERCF
+ ## Config for 3.2,4.0,ERCF
     #######################################
     #### Enclosure Temp Sensor Section ####
     #######################################
@@ -85,3 +82,6 @@ Since this board has provisions for the X endstop, this should be compatible wit
 ### Here is how the board and PCB spacer get installed using 2 M3x8 SHCS
 ![Mounting](Images/Installation.png)
 
+
+Thanks to user @Craxoor for the original pcb cover design that has been used to make the rest of the covers 
+https://github.com/craxoor
