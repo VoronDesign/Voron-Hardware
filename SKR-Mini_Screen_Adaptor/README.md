@@ -1,11 +1,13 @@
 # SKR Mini Screen Adaptor
 
-![Image no work =(](Images/PCB_Overview.png?raw=true)
+![Image no work =(](Images/PCB_Overview.png?raw=true) ![Image no work =(](Images/Screen_Test.png?raw=true)
 
 ### Simple passive board to adapt a dual 2x5 connector setup to work with the SKR Mini E3 V1.2/2.0
 
+Tested and known working on the SKR Mini E3 V2.0 at this time.
+
 ## Config
- downlaod the included config file, upload it to the same location as your `printer.cfg` and add the line `[include ScreenBreakout.cfg]`
+ Download the included config file, upload it to the same location as your `printer.cfg` and add the line `[include ScreenBreakout.cfg]`.
  
  
 ## Parts list:
