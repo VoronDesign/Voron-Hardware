@@ -15,3 +15,7 @@ Tested and known working on the SKR Mini E3 V2.0 at this time.
   - 1 x 2x5 [female header pin strip](https://www.amazon.com/Double-Female-Straight-Header-Socket/dp/B00R1LKZOM/ref=sr_1_2)
   - 1 x 2x3 [female header pin strip](https://www.amazon.com/Connectors-Pro-2-54mm-PCB-Through-Board/dp/B08R8LGM4L/ref=sr_1_2) (both can be cut from a single [dual pin header strip](https://www.amazon.com/Antrader-2-54mm-2x20Pin-Female-Connector/dp/B07D48WZTR/ref=sr_1_3))
  
+ 
+ # Changelog:
+  - RevA
+	- Initial Release
