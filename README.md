@@ -1,8 +1,8 @@
 # Voron-Hardware
 Cool Hardware designed by the Voron Design group
 
-| Project   |      Overview      |
-|----------|---------------|
+| Project                  |      Overview                                                                       |
+|--------------------------|-------------------------------------------------------------------------------------|
 | Afterburner_Toolhead_PCB | Breakout PCB for the Afterburner toolhead                                           |
 | Hall_Effect_XY_Endstop   | Replacement for mechanical endstop switches with an adjustable magnetic endstop PCB |
 | Klipper_Expander         | Standalone MCU for use with Klipper with various inputs and outputs                 |
@@ -13,6 +13,7 @@ Cool Hardware designed by the Voron Design group
 | SKR-Mini_Screen_Adaptor  | PCB to connect a 2 2x5 IDC cable screen to an SKR Mini E3 V1.2/2.0                  |
 | STM32_Mini12864          | A standalone MCU for use with Klipper to drive a FYSETC Mini 12864 Display          |
 | Taco_Raven               | 3D Printer controller with 8 integrated stepper drivers for use with Klipper        |
+| V0-Umbilical             | Set of two PCBs for use with the V0.1 to make wiring easier and more modular        |
 | V0_Display               | Small Form Factor Display with OLED, Rotary Encoder or Buttons and Neopixel LED     |
 | V0_Micro_Display         | Micro Form Factor Display with OLED, Clickable D-pad and Neopixel LED               |
 | V0_PCB_Mod               | V0 Mod by JNP                                                                       |

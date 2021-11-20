@@ -1,0 +1,109 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP 74LVC1G17
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP AP2127K-3.3
+D 300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2127.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x02
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Fuse
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP IRLML6344TRPBF
+D MOSFET N-CH 30V 5A SOT23
+K IRLML6344TRPBFCT-ND HEXFET®
+F https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP STM32F042F6Px
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 16 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x08
+D Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+#End Doc Library
