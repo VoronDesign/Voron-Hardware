@@ -43,7 +43,9 @@
 
 10) Run `make flash FLASH_DEVICE=xxxx:yyyy` (using xxxx:yyyy from above)
 
-11) After completion `ls /dev/serial/by-id/*` should return a device begining with `/dev/serial/by-id/usb-Klipper_stm32f042x6...`
+11) After completion `ls /dev/serial/by-id/*` should return a device begining with `/dev/serial/by-id/usb-Klipper_stm32f042x6...` 
+
+12) Copy this serial port name (`/dev/serial/by-id/usb-Klipper_stm32f042x6...` )and place it in your [mcu display] section of the display config file.
 
 Your board should now be usable with Klipper. Use the example config file to get started
-Best option is to copy the config file into the same directory as `printer.cfg` then add `[include DisplayEncoder.cfg]` to the end of your `printer.cfg` to include the file.
+Best option is to copy the config file into the same directory as `printer.cfg` then add `[include V0Display.cfg]` to the end of your `printer.cfg` to include the file.
