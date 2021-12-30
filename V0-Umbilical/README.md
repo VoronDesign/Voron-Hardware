@@ -8,7 +8,10 @@ The frame PCB mounts between the A/B motors at the back of the printer and conde
 ----
 
 ## Frame PCB
-Mounting between the motors, this board takes in all the wires and merges them into a 14 pin harness
+Mounting between the motors, this board takes in all the wires and merges them into a 14 pin harness.
+
+### *Note:* 
+Make sure that the X-endstop (-) connects to the endstop (-) on the controller, otherwise your neopixels will behave erratically and cause X endstop issues.
 ![Alt text](/V0-Umbilical/Images/Frame_PCB.png?raw=true "Title")
 
 
@@ -26,7 +29,7 @@ Mounting between the motors, this board takes in all the wires and merges them i
 
 ## Toolhead PCB
 
-Mounting on the toolhead, this breaks out the 14 pin harness into all needed connectors (including a second part fan conenctor so the user doesn't have to spice both fans together)
+Mounting on the toolhead, this breaks out the 14 pin harness into all needed connectors, including a second part fan connector so the user doesn't have to spice both fans together.
 
 ![Alt text](/V0-Umbilical/Images/Toolhead_PCB_Overview.png?raw=true "Title")
 
