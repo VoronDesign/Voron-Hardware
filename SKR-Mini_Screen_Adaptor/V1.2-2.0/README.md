@@ -16,6 +16,10 @@ Tested and known working on the SKR Mini E3 V2.0 at this time.
   - 1 x 2x3 [female header pin strip](https://www.amazon.com/Connectors-Pro-2-54mm-PCB-Through-Board/dp/B08R8LGM4L/ref=sr_1_2) (both can be cut from a single [dual pin header strip](https://www.amazon.com/Antrader-2-54mm-2x20Pin-Female-Connector/dp/B07D48WZTR/ref=sr_1_3))
  
  
- # Changelog:
-  - RevA
+# Changelog:
+ - Rev: B
+	- Update hole sizing on 2x5 pin shrouded header (0.75 -> 1.0mm)
+	- Update project to KiCad 6.0
+	
+ - Rev: A
 	- Initial Release
