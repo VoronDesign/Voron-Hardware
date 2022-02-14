@@ -20,7 +20,8 @@ For Klipper configuration, reference the [Klipper Configuraton Reference](https:
 ![Alt text](/SKR-Mini_TFT_Thermistor_Board/Images/Installation.png?raw=true "Title")
 
 ## BOM:
-| -- Reference -- | ------- Name ------- | ---------- Note ---------- |
+|    Reference    |        Name          |            Note            |
+|      :---:      |        :---:         |           :---:            |
 | R1, R2          |    4.7K Resistor     |   0805 SMD resistor, 1%    |
 | C1, C2          |   4.7uF Capacitor    |  0805 SMD capacitor, MLCC  |
 | T0, T1          | Thermistor Connector |    2-pin JST HX, B2B-XH    |
