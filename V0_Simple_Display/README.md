@@ -3,7 +3,10 @@
 ![PCB](Images/1.jpg)
 
 # Wiring Diagram #
+## This is diagam works for all revisions but rev2 can now also connect using a 10pin ribbon directly to the SKR mini e3 v2
 ![Wiring](Images/Simple_Display_Wiring.png)
+
+## for Rev2 if you are using an SKR mini e3 v2 you can connect it directly to the EXP1 header on the MCU 
 
 
 ## The board was designed to be a cheaper alternative to the V0 Display by Timmit: ##
@@ -19,7 +22,7 @@ Momentary tactile Switch | 1 | https://www.amazon.com/QTEATAK-Momentary-Tactile-
 PCB Ordered/assembled from JLCPCB | 1 | https://jlcpcb.com/
 
 
- ## Config for SKR Mini E3 V2.0 ##
+ ## Config for SKR Mini E3 V2.0 Rev1
     ################################
     ####  Simple Screen Config  ####
     ################################
@@ -28,10 +31,41 @@ PCB Ordered/assembled from JLCPCB | 1 | https://jlcpcb.com/
     click_pin: ^!PA15
     i2c_bus: i2c1a
     i2c_mcu = mcu
-    encoder_pins: ^PC14, ^PA1
+    encoder_pins: ^PA1, ^PC14
     kill_pin: ^!PB15
     vcomh: 60
     x_offset: 2
+    
+    [neopixel display_led]
+    pin: PA8
+    color_order: GRB
+    initial_RED: 0.5
+    initial_GREEN: 0.5
+    initial_BLUE: 0.5
+    
+    #sda = pb9
+    #scl = pb8
+
+ ## Config for SKR Mini E3 V2.0 Rev2
+    ################################
+    ####  Simple Screen Config  ####
+    ################################
+    [display]
+    lcd_type: sh1106
+    click_pin: ^!PA15
+    i2c_bus: i2c1a
+    i2c_mcu = mcu
+    encoder_pins: ^PA10, ^PA9
+    kill_pin: ^!PB15
+    vcomh: 60
+    x_offset: 2
+    
+    [neopixel display_led]
+    pin: PB5
+    color_order: GRB
+    initial_RED: 0.5
+    initial_GREEN: 0.5
+    initial_BLUE: 0.5
     
     #sda = pb9
     #scl = pb8
