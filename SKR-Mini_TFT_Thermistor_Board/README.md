@@ -6,9 +6,11 @@ This is helpfull if you want to use the [EXP1 and SPI header for a display](http
 ## Configuration:
 
 ### The SKR Mini E3 V1.2, V2.0, and V3 all use the same pins for the TFT header:
+| Thermistor | Board Pin Name | MCU Pin Name |
+|      :---:      |        :---:         |           :---:            |
+| T0 | TX2 | PA2 |
+| T1 | RX2 | PA3 |
 
-T0 = TX2 = PA2
-T1 = RX2 = PA3
 
 Both thermistors use a 4.7K pullup (Klipper's default pullup value) as well.
 
@@ -27,3 +29,9 @@ For Klipper configuration, reference the [Klipper Configuraton Reference](https:
 | T0, T1          | Thermistor Connector |    2-pin JST HX, B2B-XH    |
 | J1              | Mainboard Connector  |  5-pin Dupont Male, 2.54mm |
 | J2              |    3v3 Connector     |  1-pin Dupont Male, 2.54mm |
+
+# Changelog:
+- Rev A
+  - Initial Release
+- Rev B
+  - Rework of silkscreen and layout for easier assembly. Added link to back of board.
