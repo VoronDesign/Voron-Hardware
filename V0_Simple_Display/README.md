@@ -23,6 +23,7 @@ Momentary tactile Switch | 1 | https://www.amazon.com/QTEATAK-Momentary-Tactile-
 PCB Ordered/assembled from JLCPCB | 1 | https://jlcpcb.com/
 SchmittTrigger Buffer | 1 | https://lcsc.com/product-detail/Buffers---Drivers_Texas-Instruments-SN74LVC1G17DBVR_C7836.html
 WS2812B LED | 1 | https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-B_C114586.html
+10pin IDC Ribbon Cable | 1 | https://www.amazon.com/LIANSHU-Ribbon-2-54mm-Female-Connector/dp/B08HCKVSXR
 
 
  ## Config for SKR Mini E3 V2.0 Rev1
