@@ -27,7 +27,7 @@ For Klipper configuration, reference the [Klipper Configuraton Reference](https:
 | R1, R2          |    4.7K Resistor     |   0805 SMD resistor, 1%    |
 | C1, C2          |   4.7uF Capacitor    |  0805 SMD capacitor, MLCC  |
 | T0, T1          | Thermistor Connector |    2-pin JST HX, B2B-XH    |
-| J1              | Mainboard Connector  |  5-pin Dupont Male, 2.54mm |
+| J1              | Mainboard Connector  |  5-pin Dupont Female, 2.54mm |
 | J2              |    3v3 Connector     |  1-pin Dupont Male, 2.54mm |
 
 # Changelog:
