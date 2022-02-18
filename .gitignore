@@ -1,4 +1,4 @@
-#macOS ignores provided by github/gitignore
+# macOS ignores provided by github/gitignore
 # General
 .DS_Store
 .AppleDouble
@@ -26,14 +26,18 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# Kicad ignores provided by github/gitignore
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
@@ -48,3 +52,7 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Exported BOM files
+*.xml
+*.csv
