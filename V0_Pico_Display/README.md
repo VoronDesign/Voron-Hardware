@@ -11,7 +11,7 @@ The board have:
 - EC11-style click encoder support
 - USB port and URB header
 - Reset/kill button
-- Neopixel support
+- Neopixel support and Neopixel data out header
 
 # Sourcing
 
@@ -24,8 +24,8 @@ PCB can be sourced via JLCPCB. Use the following files for production:
 
 ## Parts
 
-- Raspberry Pico
-- [EC11 Rotary Encoder](https://www.amazon.com/DIYhz-Rotary-Encoder-Digital-Potentiometer/dp/B07D3D64X7)
+- [Raspberry Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+- [EC11 Rotary Encoder](https://www.amazon.com/DIYhz-Rotary-Encoder-Digital-Potentiometer/dp/B07D3D64X7) 15mm D shaft
 - [Kill and Reset Switch 6mm Tactile buttons 4.3mm Tall](https://www.amazon.com/BOJACK-Pushbutton-Switches-Momentary-Assortment/dp/B07ZBHXBZ4)
 - [JST-XH Style Header](https://www.amazon.com/GeeBat-460pcs-Connector-Housing-Adapter/dp/B01MCZE2HM/ref=sr_1_4)
 
@@ -38,6 +38,15 @@ Optionals:
 
 To able to use USB header, connect TP2 TP3 on Pico and PCB by wire:
 ![V0-Pico-Display](Images/usb_serial.png)
+
+## USB A to JST header
+
+To use USB header in the board, use any micro usb cable (4 wire), cut the micro-usb end:
+
+- RED: VCC
+- Black: GND
+- White: D+
+- Green: D-
 
 # STL parts
 
@@ -86,6 +95,21 @@ After that, the Pico will automatically reboot, reflash itself, then re-register
 # Klipper config
 
 Copy [V0PICODisplay.cfg](Software/V0PICODisplay.cfg) to your Klipper config folder (using web interface).
+
+(Assuming you have only 1 Raspberry Pico plugged in to you Raspberry Pi), run this command to find your Pico serial:
+
+```
+ls /dev/serial/by-id/
+```
+
+Copy your Pico serial (example: `usb-Klipper_rp2040_E6605838833F9E30-if00`) and replace `**PASTE YOUR SERIAL PORT HERE AND UNCOMMENT**` in `V0PICODisplay.cfg`. Example:
+
+```
+[mcu display]
+serial: /dev/serial/by-id/usb-Klipper_rp2040_E6605838833F9E30-if00
+restart_method: command
+```
+
 Then add this line to your `printer.cfg`:
 
 ```
