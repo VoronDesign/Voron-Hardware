@@ -56,3 +56,13 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# VSCodeignores provided by github/gitignore
+.vscode/*
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
