@@ -4,6 +4,7 @@ Cool Hardware designed by the Voron Design group
 | Project                  |      Overview                                                                       |
 |--------------------------|-------------------------------------------------------------------------------------|
 | Afterburner_Toolhead_PCB | Breakout PCB for the Afterburner toolhead                                           |
+| Daylight on a Stick      | LED PCB to illuminate your printer                                                  |
 | Hall_Effect_XY_Endstop   | Replacement for mechanical endstop switches with an adjustable magnetic endstop PCB |
 | Klipper_Expander         | Standalone MCU for use with Klipper with various inputs and outputs                 |
 | Microswitch_Endstop      | PCB for mechanical endstop switches                                                 |
