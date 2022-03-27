@@ -4,6 +4,7 @@ Cool Hardware designed by the Voron Design group
 | Project                  |      Overview                                                                       |
 |--------------------------|-------------------------------------------------------------------------------------|
 | Afterburner_Toolhead_PCB | Breakout PCB for the Afterburner toolhead                                           |
+| Daylight on a Stick      | LED PCB to illuminate your printer                                                  |
 | Hall_Effect_XY_Endstop   | Replacement for mechanical endstop switches with an adjustable magnetic endstop PCB |
 | Klipper_Expander         | Standalone MCU for use with Klipper with various inputs and outputs                 |
 | Microswitch_Endstop      | PCB for mechanical endstop switches                                                 |
@@ -17,3 +18,4 @@ Cool Hardware designed by the Voron Design group
 | V0_Display               | Small Form Factor Display with OLED, Rotary Encoder or Buttons and Neopixel LED     |
 | V0_Micro_Display         | Micro Form Factor Display with OLED, Clickable D-pad and Neopixel LED               |
 | V0_PCB_Mod               | V0 Mod by JNP                                                                       |
+| V0_Simple_Display        | V0 Simple Display is a remix of the V0 Display that doesnt need an STM32 MCU        |
