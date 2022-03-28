@@ -37,7 +37,7 @@
  - 0805 pkg thermistor to be used as a chamber temperature 
  - 14 Pin Microfit 3.0 for the main connector back to the MCU 
  - the main wiring harness connector is [Here](https://www.molex.com/molex/products/part-detail/crimp_housings/0430251400)
- - 20awg should be fine for 24v, GND, and HE0 and 24awg for everything else 
+ - 20awg should be fine for 24v, GND, and HE0 and 22awg for everything else. (previous was 24awg instead of 22awg, changed to maintain compatibility with the inexpensive China PTFE)
   
 This board was designed to make wiring the toolhead a bit easier, to help get rid of some of the crimps needs on these wires. 
 
