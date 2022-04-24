@@ -4,7 +4,7 @@
 ### Simple passive board to adapt a dual 2x5 connector setup to work with the SKR Mini E3 V3.0
 
 ***UN**Tested on the SKR Mini E3 V3.0 at this time.
-![Image no work =(](Images/Screen_Test-Small.png?raw=true)
+![Image no work =(](Images/V3_Overview-small.png?raw=true)
 
 ## Config
  Download the included config file, upload it to the same location as your `printer.cfg` and add the line `[include ScreenBreakout.cfg]`.
@@ -17,5 +17,9 @@
  
  
  # Changelog:
+  - Rev: B
+	- Update hole sizing on 2x5 pin shrouded header (0.75 -> 1.0mm)
+	- Update project to KiCad 6.0
+	
   - RevA
 	- Initial Release
