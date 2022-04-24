@@ -3,7 +3,6 @@
 
 ### Simple passive board to adapt a dual 2x5 connector setup to work with the SKR Mini E3 V3.0
 
-***UN**Tested on the SKR Mini E3 V3.0 at this time.
 ![Image no work =(](Images/V3_Overview-small.png?raw=true)
 
 ## Config
