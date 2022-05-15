@@ -7,15 +7,10 @@ The frame PCB mounts between the A/B motors at the back of the printer and conde
 
 ----
 
-## Frame PCB
+# Frame PCB
 Mounting between the motors, this board takes in all the wires and merges them into a 14 pin harness.
 
-### *Note:* 
-Make sure that the X-endstop (-) connects to the endstop (-) on the controller, otherwise your neopixels will behave erratically and cause X endstop issues.
-![Alt text](/V0-Umbilical/Images/Frame_PCB.png?raw=true "Title")
-
-
-### Frame PCB BOM
+## Frame PCB BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
 | ----------- | :-: | ----------- | ----------- |----------- |
 | 14 Pin Socket   |  1 | MOLEX 430451412 | C293738   | https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-430451412_C293738.html |
@@ -31,14 +26,14 @@ Make sure that the X-endstop (-) connects to the endstop (-) on the controller, 
 | 0805 10uF Capacitor  |  3 | Use if using BARE neopixel IC's. Strips have these already. | C17024     | https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21A106KPFNNNE_C17024.html |
 ----
 
-## Toolhead PCB
+# Toolhead PCB
 
 Mounting on the toolhead, this breaks out the 14 pin harness into all needed connectors, including a second part fan connector so the user doesn't have to spice both fans together.
 
 ![Alt text](/V0-Umbilical/Images/Toolhead_PCB_Overview.png?raw=true "Title")
 
 
-### Toolhead PCB BOM
+## Toolhead PCB BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
 | ----------- | :-: | ----------- | ----------- |----------- |
 | 14 Pin Socket (Right Angle)   | 1 |  Molex 430451400  | C277677   | https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-span-430451400_C277677.html |
@@ -47,7 +42,7 @@ Mounting on the toolhead, this breaks out the 14 pin harness into all needed con
 
 ---
 
-## Umbilical cable
+# Umbilical cable
 
 The Umbilical cable is a 220-240mm dual ended 14P (2x7) microfit cable. The connectors are wired 1:1 so pin 1 connects to pin 1 and so forth for all 14 pins.
 
@@ -55,9 +50,20 @@ The Umbilical cable is a 220-240mm dual ended 14P (2x7) microfit cable. The conn
 *Only 2 of the 14 wires are shown for clarity. Connect each number to its matching number.*
 ![Alt text](/V0-Umbilical/Images/Umbilical_connector.png?raw=true "Title")
 
-### Cable BOM
+## Cable BOM
 | Part      | Quantity | Notes | LCSC Part Number | Link |
 | ----------- | :-: | ----------- | ----------- |----------- |
 | 14 Pin Plug     | 2  | Molex 430251400 | C293526   | https://lcsc.com/product-detail/Rectangular-Connectors-Housings_MOLEX-430251400_C293526.html |
 | Microfit Crimp  | 28 | Molex 430300001 | C259786   | https://lcsc.com/product-detail/Line-Pressing-Terminals_MOLEX-430300001_C259786.html |
 | 20AWG Wire      | 14 | 220mm Sections  | C293526   | PTFE/Silicone/Hefulon for motion rated, PVC *could* work since it isn't constraind to a cable chain |
+
+
+
+
+# Change Log #
+
+## Rev A.1:
+ - Removed ground connection between endstop and neopixels to avoid interference.
+
+## Rev A:
+ - Initial Release
