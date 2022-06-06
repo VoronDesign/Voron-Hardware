@@ -158,7 +158,7 @@ If you purchased your board from someone in the Voron community this is likely a
 	
 6) Remove the boot jumper.
 
-7) Run `CD ~/klipper` from the command line to enter the Klipper directory
+7) Run `cd ~/klipper` from the command line to enter the Klipper directory
 
 8) Run `make menuconfig` settings should be:
 
