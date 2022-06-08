@@ -26,18 +26,9 @@
 
 8) Run `make menuconfig` settings should be:
 
-```
-[\*] Enable extra low-level configuration options 
-     Micro-controller Architecture (STMicroelectronics STM32)
-     Processor model (STM32F042)
-     Clock Reference (Internal clock)
-     Use USB for communication (USB (on PA9/PA10))
-     USB ids  --->
-[ ] Specify a custom step pulse duration
-()  GPIO pins to set at micro-controller startup
-```
+<img src="../Images/Menuconfig_Options.png" width="1000">
 
-	 - Exit and Save
+	Exit and Save
 
 9) Run `make clean` to clean up the make environment.
 
