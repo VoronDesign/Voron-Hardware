@@ -1,6 +1,6 @@
 (footprint "LED_PLCC_2835_Handsoldering" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E5CF0D)
+  (tedit 62BB23CC)
   (descr "https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf")
   (tags "LED")
   (attr smd)
