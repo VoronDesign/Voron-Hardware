@@ -30,11 +30,10 @@ When compiling klipper, use the following options:
     │ │    [*] Enable extra low-level configuration options                 │ │  
     │ │        Micro-controller Architecture (STMicroelectronics STM32)  ---│ │  
     │ │        Processor model (STM32F042)  --->                            │ │  
+    │ │        Bootloader offset (no bootloader)  --->                      │ │  
     │ │        Clock Reference (Internal clock)  --->                       │ │  
-    │ │    [*] Use USB for communication (instead of serial)                │ │   
-    │ │    [*] Use PA9/PA10 for USB or CAN                                  │ │  
+    │ │        Communication interface (USB (on PA9/PA10))  --->            │ │  
     │ │        USB ids  --->                                                │ │  
-    │ │    [ ] Specify a custom step pulse duration                         │ │  
     │ │    ()  GPIO pins to set at micro-controller startup                 │ │  
     │ │                                                                     │ │  
     │ └─────────────────────────────────────────────────────────────────────┘ │  
