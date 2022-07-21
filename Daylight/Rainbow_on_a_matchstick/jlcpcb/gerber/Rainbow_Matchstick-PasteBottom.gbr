@@ -1,0 +1,28 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
+%TF.CreationDate,2022-07-21T11:26:25+02:00*%
+%TF.ProjectId,Rainbow_Matchstick,5261696e-626f-4775-9f4d-617463687374,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-07-21 11:26:25*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,1.700000*%
+%ADD11R,3.768750X1.700000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J3*%
+X19800000Y-33000000D03*
+D11*
+X21700000Y-33000000D03*
+%TD*%
+%TO.C,J2*%
+X161800000Y-33000000D03*
+D10*
+X163700000Y-33000000D03*
+%TD*%
+M02*

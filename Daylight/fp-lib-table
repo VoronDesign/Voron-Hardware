@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Daylight")(type "KiCad")(uri "${KIPRJMOD}/lib/Daylight.pretty")(options "")(descr ""))
-)
