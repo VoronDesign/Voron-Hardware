@@ -34,7 +34,11 @@ For the RGB ones, put them on the RGB output of your controlboard and configure 
 
 ## Mounting
 
-The [bracket for 2020 profiles](./STL/Brackets_2020.stl) are mounted to the profile using an M3x6 or M3x8 SHCS together with a roll-in nut, and take an M3 heat insert to mount the strip onto the bracket itself.
-![bracket_2020](./images/Brackets_2020.png)
+The [bracket for 2020 profiles](./STL/Brackets_2020.stl) are mounted to the profile using an M3x6 or M3x8 SHCS together with a roll-in nut, and take an M3 heat insert to mount the strip onto the bracket itself.  
 
-The 1515 brackets are still in development at the moment, community generated parts or ideas are welcomed.
+![bracket_2020](./images/Brackets_2020.png)
+  
+On 1515 frames like the V0.1 the [brackets for 1515 profiles](./STL/Brackets_1515_x2.stl) are used. They take an M3 heat insert and clip into the extrusion. Mount the pcb on them with an M3x6 BHCS screw.
+The clip geometry used in these was developed by [Zruncho for their ZeroPanels](https://github.com/zruncho3d/ZeroPanels).  
+  
+![bracket_1515_x2](./images/Brackets_1515x2.png)
