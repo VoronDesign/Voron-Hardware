@@ -1,5 +1,5 @@
 # Stealthburner Toolhead Board #
-This is the update to the Afterburner toolhead board for the CW2 extruder and Stealthburner 
+This toolhead PCB is designed to work with the Voron Clockwork 2 extruder and Voron Stealthburner fan housing.
 
 # BOM standard version [here](Production%20Files/StealthburnerPCB/Standard)
     Molex Part Numbers
@@ -54,8 +54,10 @@ This is the update to the Afterburner toolhead board for the CW2 extruder and St
     LED  - Neopixel Data Pin
     FS  - ERCF Filament sensor 
     
-    Assmebly Video from Maple Leaf Makers
-	https://www.youtube.com/watch?v=PCIwZRPYMZ8
+ ## Assembly Video by [Maple Leaf Makers ](https://github.com/MapleLeafMakers)
+[![Assmebly Video from Maple Leaf Makers](https://img.youtube.com/vi/PCIwZRPYMZ8/0.jpg)](https://www.youtube.com/watch?v=PCIwZRPYMZ8 "Stealthburner PCB Assembly Video")
+
+
     
 ## Options for Aux Pin ##
 the aux pin can be used for a couple different things , it can be used for an X endstop on the toolhead if you are going with the umbililcal , to do this you need to wire up the x endstop as shown here 
@@ -67,11 +69,11 @@ the aux pin can instead be used as a header for a plugged in chamber thermistor;
 ![Here](Images/Wiring/SB_PCB_AUX_CT.png)
 
 
-### LDO KIT UPGRADE 
+### LDO KIT / Afterburner Toolhead PCB UPGRADE
 
-The LDO Voron Kits (Switchwire, V2.4r2, Trident) all come with a version of the Afterburner Toolhead Board. 
+The LDO Voron Kits (Switchwire, V2.4r2, Trident) all come with an LDO branded version the [Afterburner Toolhead Board](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB). If you are not using an LDO Kit, then the changes will be the same you just wont have the breakout board. 
 
-The Stealthburner board will work with the LDO wiring harness with minimum of 1 change on the breakout board. The wire that is connected to the CT header, the black wire should be removed as its no longer needed and the White wire should go to a 5v source. The easiest way is to set the last always on fan to 5v and connect it there, you can see in the diagram below the jumper (Blue) is on the 5v setting and the wire is going to the positive pin. 
+The Stealthburner toolhead board will work with the LDO wiring harness with minimum of 1 change on the breakout board. The wire that is connected to the CT header, the black wire should be removed as its no longer needed and the White wire should go to a 5v source. The easiest way is to set the last always on fan to 5v and connect it there, you can see in the diagram below the jumper (Blue) is on the 5v setting and the wire is going to the positive pin. 
 ![Here](Images/LDO/LDO_Breakout.png)
 ![Here](Images/LDO/Octopus_CT_5V.png)
 
@@ -86,7 +88,7 @@ to get the LEDs and ERCF filament sensor header functional, you will need to run
 ![Here](Images/LDO/Octopus_LED_ERCF.png)
 
 #### For LDO V2 and LDO Trident only (OPTIONAL)
-if you are using the stock XY endstop on the xy joint and you want to use the X endstop header on the toolhead board as an auxiliary port for 3rd fan pin, toolhead mounted chamber thermistor. Then there is 1 thing that will need to be done 
+if you are using the stock XY endstop on the xy joint and you want to use the X endstop header on the toolhead board as an auxiliary port for 3rd fan pin OR toolhead mounted chamber thermistor. Then there is 1 thing that will need to be done 
 ![Here](Images/LDO/Octopus_XES.png)
 the 4 pin wire that is going into the breakout board that come from the XY endstop PCB needs to have its X wire (Blue in the diagram) removed and connected directly to the octopus, This is because the breakout board shares the signal of the X endstop on the toolhead and the gantry, so by removing the X endstop from the breakout and connecting it directly to the octopus you can split that up and use the toolhead header as an auxiliary connection. Once you have done that refer to the diagrams above on how to use it
 
