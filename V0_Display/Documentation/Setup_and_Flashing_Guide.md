@@ -19,20 +19,20 @@
 	
 5) Run `dfu-util --list` from the command prompt
 	- note the text inside the [xxxx:yyyy]
-	
-6) Remove the boot jumper.
 
-7) Run `cd ~/klipper` from the command line to enter the Klipper directory
+6) Run `cd ~/klipper` from the command line to enter the Klipper directory
 
-8) Run `make menuconfig` settings should be:
+7) Run `make menuconfig` settings should be:
 
 <img src="../Images/Menuconfig_Options.png" width="1000">
 
 	Exit and Save
 
-9) Run `make clean` to clean up the make environment.
+8) Run `make clean` to clean up the make environment.
 
-10) Run `make flash FLASH_DEVICE=xxxx:yyyy` (using xxxx:yyyy from above)
+9) Run `make flash FLASH_DEVICE=xxxx:yyyy` (using xxxx:yyyy from above)
+
+10) Remove the boot jumper and press the reset button.
 
 11) After completion `ls /dev/serial/by-id/*` should return a device begining with `/dev/serial/by-id/usb-Klipper_stm32f042x6...` 
 
