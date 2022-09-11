@@ -36,23 +36,24 @@ This toolhead PCB is designed to work with the Voron Clockwork 2 extruder and Vo
  	
 ## Pinout
 ![Here][Pinout]
-	
-    24V  - HE0 +V 
-    GND  - PSU -V (NOT MAINS GND)
-    PROBE  - Probe/Klicky Signal Pin
-    HE0  - Hotend Heater -V
-    5V   - 5V 
-    PCF  - Part Cooling Fan -V
-    HEF  - Hotend Cooling Fan -V
-    AGND - Hotend Thermistor -V
-    TH0  - Hotend Thermistor Signal Pin (TH0)
-    AUX  - Auxillary 
-    S1A  - Red Stepper Wire
-    S2A  - Green Stepper Wire
-    S1B  - Blue Stepper Wire
-    S2B  - Black Stepper Wire 
-    LED  - Neopixel Data Pin
-    FS  - ERCF Filament sensor 
+| PCB | MCU | Wire AWG |
+|:-:|:-:|:-:|
+|24V  | HE0 +V | 20   |
+|GND  | PSU -V (NOT MAINS GND) | 24   |
+|PROBE| Probe/Klicky Signal Pin | 24   |
+|HE0  | Hotend Heater -V | 20 |
+|5V   | 5V | 24   |
+|PCF  | Part Cooling Fan -V | 24  |
+|HEF  | Hotend Cooling Fan -V |  24|
+|AGND | Hotend Thermistor -V |24   |
+|TH0  | Hotend Thermistor Signal Pin (TH0) | 24   |
+|AUX  | Auxillary |  24  |
+|S1A  | Red Stepper Wire |24 |
+|S2A  | Green Stepper Wire |24  |
+|S1B  | Blue Stepper Wire |24  |
+|S2B  | Black Stepper Wire |24  |
+|LED  | Neopixel Data Pin |24  |
+|FS   | ERCF Filament sensor |24  |
     
  ## Assembly Video by [Maple Leaf Makers][MLMGit]
 [![Assmebly Video from Maple Leaf Makers][MLMThumbNail]][MLMAssemVideo]
