@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+100R 0.5W,"R1,R2,R3,R4,R5,R6",R_1210_3225Metric_Pad1.30x2.65mm_HandSolder,C137089
+LED_ALT,"D1,D10,D11,D12,D13,D14,D15,D16,D17,D18,D2,D3,D4,D5,D6,D7,D8,D9",LED_PLCC_2835_Handsoldering,C182223
+Conn_01x02_Female,J1,PinHeader_1x02_P2.54mm_Horizontal_mirrored,
+Conn_01x02_Female,J2,PinHeader_1x02_P2.54mm_Horizontal,
