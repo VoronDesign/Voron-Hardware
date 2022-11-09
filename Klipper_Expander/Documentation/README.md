@@ -111,6 +111,13 @@ Example configuration for a standalone thermistor (Not tied to a bed or hotend)
 ```
 [temperature_sensor t0]
 sensor_type: ATC Semitec 104GT-2
+sensor_pin: PA6
+gcode_id=10
+```
+
+```
+[temperature_sensor t1]
+sensor_type: ATC Semitec 104GT-2
 sensor_pin: PA5
 gcode_id=10
 ```
