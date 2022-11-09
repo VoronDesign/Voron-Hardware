@@ -112,14 +112,14 @@ Example configuration for a standalone thermistor (Not tied to a bed or hotend)
 [temperature_sensor t0]
 sensor_type: ThermistorType
 sensor_pin: PA6
-gcode_id=T0
+gcode_id: T0
 ```
 
 ```
 [temperature_sensor t1]
 sensor_type: ThermistorType
 sensor_pin: PA5
-gcode_id=T1
+gcode_id: T1
 ```
 
 ## Neopixel header (PB1)
