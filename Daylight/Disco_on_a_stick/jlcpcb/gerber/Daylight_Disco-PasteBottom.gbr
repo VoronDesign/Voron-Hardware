@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
-%TF.CreationDate,2022-07-21T11:25:03+02:00*%
+%TF.CreationDate,2022-09-21T13:58:56+02:00*%
 %TF.ProjectId,Daylight_Disco,4461796c-6967-4687-945f-446973636f2e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-07-21 11:25:03*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-09-21 13:58:56*
 %MOMM*%
 %LPD*%
 G01*
@@ -19,10 +19,5 @@ D10*
 X19800000Y-33000000D03*
 D11*
 X21700000Y-33000000D03*
-%TD*%
-%TO.C,J2*%
-X274300000Y-33000000D03*
-D10*
-X276200000Y-33000000D03*
 %TD*%
 M02*
