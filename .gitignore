@@ -5,7 +5,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -52,10 +53,6 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
-
-# Exported BOM files
-*.xml
-*.csv
 
 # VSCodeignores provided by github/gitignore
 .vscode/*
