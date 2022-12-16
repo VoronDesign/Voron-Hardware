@@ -18,4 +18,5 @@ Cool Hardware designed by the Voron Design group
 | V0_Display               | Small Form Factor Display with OLED, Rotary Encoder or Buttons and Neopixel LED     |
 | V0_Micro_Display         | Micro Form Factor Display with OLED, Clickable D-pad and Neopixel LED               |
 | V0_PCB_Mod               | V0 Mod by JNP                                                                       |
+| V0_Pico_Display          | V0 Pico Display is based on the V0 Display that use Raspberry Pico for easier and cheaper to source        |
 | V0_Simple_Display        | V0 Simple Display is a remix of the V0 Display that doesnt need an STM32 MCU        |

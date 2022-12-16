@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"J7","USB_Header","PinHeader_1x04_P2.54mm_Vertical",-117.232000,-81.882000,90.000000,bottom
+"J8","Conn_01x02","PinHeader_1x02_P2.54mm_Vertical",-158.385000,-65.118000,-90.000000,bottom
+"SW5","SW_SPST","SW_PUSH_6mm",-147.670000,-78.108000,180.000000,bottom
+"U1","Pico","RPi_Pico_SMD_TH",-110.384000,-67.400000,-90.000000,bottom
