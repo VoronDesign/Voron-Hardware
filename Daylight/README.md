@@ -17,6 +17,7 @@ The RGB versions use any 4 pin 5050 package addressable led, like the known WS28
 
 - [Daylight on a Stick](./Daylight_on_a_stick/) (for Voron sizes of 250mm and upwards)
 - [Daylight on a Matchstick](./Daylight_on_a_matchstick/) (for V0.1 or other printers for ants)
+- [Daylight on a Stick XXL](./Daylight_on_a_stick_XXL/) (for 350 or bigger printers)
 - [Disco on a Stick](./Disco_on_a_stick/) (RGB addressable LEDs for the big printers)
 - [Rainbow on a Matchstick](./Rainbow_on_a_matchstick/) (RGB addressable LEDS for the small printers)
 
