@@ -1,8 +1,15 @@
 # Stealthburner Toolhead Board #
-This toolhead PCB is designed to work with the Voron Clockwork 2 extruder and Voron Stealthburner fan housing.
 
+## Update Revision 4
 
-# BOM standard version [here][StandardBOM]
+both the standard and 2pc boards have been updated
+
+* 5v header is now available next to the 24v probe header
+* stepper wiring has now been fixed
+* updated the schematics to match the current boards as well 
+
+This is the update to the Afterburner toolhead board for the CW2 extruder and Stealthburner 
+# BOM standard version [here](Production%20Files/StealthburnerPCB/Standard)
 | Item | Qty |
 | :------------: |----:| 
 | Molex 436500200 | 2 |
@@ -18,7 +25,7 @@ This toolhead PCB is designed to work with the Voron Clockwork 2 extruder and Vo
 | BAT85 | 1 |
     
         
-# BOM 2 piece version [here][2PieceBOM]
+# BOM 2 piece version [here](Production%20Files/StealthburnerPCB/2%20Piece)
 | Item | Qty |
 | :------------: |----:| 
 | Molex 436500200 | 2 |
@@ -35,7 +42,8 @@ This toolhead PCB is designed to work with the Voron Clockwork 2 extruder and Vo
 
  	
 ## Pinout
-![Here][Pinout]
+### NOTE: THIS IMAGE IS FROM THE PERSPECTIVE OF LOOKING AT THE END OF THE WIRING HARNESS NOT THE PCB ##
+![Here](Images/Wiring/14_2_pinout.png)	
 | PCB | MCU | Wire AWG |
 |:-:|:-:|:-:|
 |24V  | HE0 +V | 20   |
@@ -54,49 +62,49 @@ This toolhead PCB is designed to work with the Voron Clockwork 2 extruder and Vo
 |S2B  | Black Stepper Wire |24  |
 |LED  | Neopixel Data Pin |24  |
 |FS   | ERCF Filament sensor |24  |
-    
- ## Assembly Video by [Maple Leaf Makers][MLMGit]
-[![Assmebly Video from Maple Leaf Makers][MLMThumbNail]][MLMAssemVideo]
-
+   
+   ## Assmebly Video from Maple Leaf Makers
+[![Assmebly Video from Maple Leaf Makers](Images/Video/thumbnail.jpeg)](https://www.youtube.com/watch?v=PCIwZRPYMZ8 "Assmebly Video from Maple Leaf Makers")
 
     
 ## Options for Aux Pin ##
 the aux pin can be used for a couple different things , it can be used for an X endstop on the toolhead if you are going with the umbililcal , to do this you need to wire up the x endstop as shown here 
 
-![Here][AuxPin1]
+![Here](Images/Wiring/SB_PCB_AUX_XES.png)
 
 the aux pin can instead be used as a header for a plugged in chamber thermistor; to do this you must wire the chamber thermistor to the S and AG pins as shown here
 
-![Here][AuxPin2]
+![Here](Images/Wiring/SB_PCB_AUX_CT.png)
 
 
-### LDO KIT / Afterburner Toolhead PCB UPGRADE
+### LDO KIT UPGRADE 
 
-The LDO Voron Kits (Switchwire, V2.4r2, Trident) all come with an LDO branded version the [Afterburner Toolhead Board][ABPCB]. If you are not using an LDO Kit, then the changes will be the same you just wont have the breakout board. 
+The LDO Voron Kits (Switchwire, V2.4r2, Trident) all come with a version of the Afterburner Toolhead Board. 
 
 The Stealthburner board will work with the LDO wiring harness with minimum of 1 change on the breakout board. The wire that is connected to the CT header, the black wire should be removed as its no longer needed and the White wire should go to a 5v source. The easiest way is to MOVE the jumper on the last always on fan to 5v, by default it is on the bottom which is 24v, it needs to be removed and installed on the 5v, you can see in the diagram below the where the jumper should be MOVED to colored in blue. It is on the 5v setting and the CT wire is going to the positive pin of that header 
-![Here][LDOBO]
-![Here][OCT5V]
+
+![Here](Images/LDO/LDO_Breakout.png)
+![Here](Images/LDO/Octopus_CT_5V.png)
 
 
 For connecting the Round nema 14 LDO Stepper for CW2 extruder the following picture is how the stepper should be wired 
-![Here][LDOSTEP]
+![Here](Images/LDO/LDO_Stepper_CW2.png)
 
 Now the toolhead board should be ready to go and everything except LEDs and ERCF filament sensor should be functional
 
 (Optional)
 to get the LEDs and ERCF filament sensor header functional, you will need to run 2 more wires and connect them to the octopus as shown here 
-![Here][LEDERCF]
+![Here](Images/LDO/Octopus_LED_ERCF.png)
 
 #### For LDO V2 and LDO Trident only (OPTIONAL)
-if you are using the stock XY endstop on the xy joint and you want to use the X endstop header on the toolhead board as an auxiliary port for 3rd fan pin OR toolhead mounted chamber thermistor. Then there is 1 thing that will need to be done 
-![Here][XES]
-the 4 pin wire that is going into the breakout board that come from the XY endstop PCB needs to have its X wire (Blue in the diagram) removed and connected directly to the octopus, This is because the breakout board shares the signal of the X endstop on the toolhead and the gantry, so by removing the X endstop from the breakout and connecting it directly to the octopus you can split that up and use the toolhead header as an auxiliary connection. Once you have done that refer to the diagrams above on how to use it
+If you are using the stock XY endstops on the xy joint and you want to use the AUX header on the toolhead board as an optional port for 3rd fan pin, toolhead mounted chamber thermistor via the XES breakout header, then there is 1 thing that will need to be done 
+![Here](Images/LDO/Octopus_XES.png)
+The 4 pin wire that is going into the breakout board that comes from the XY endstop PCB needs to have its X wire (Blue in the diagram) removed and connected directly to the octopus as the new x endstop. This is because the breakout board shares the signal of the X endstop on the toolhead and the gantry, so by moving the X endstop wire from the breakout board and connecting it directly to the octopus you can now use the toolhead AUX header as an optional connection. Once you have done that refer to the [diagrams above](#options-for-aux-pin) on how to use it.
 
+Example:
 
-
-
-
+Wire the toolhead [AUX header](#options-for-aux-pin) as a chamber thermistor. Take the X endstop wire and bypass the breakout board as described above and connect it directly to the Octopus as the new X endstop (J27, PG6). You can now use the XES header on the breakout board to connect to the Octopus as a chamber thermistor (J46, PF5).
+![Here](Images/LDO/aux_port_example.png)
 
 
 [StandardBOM]: /Stealthburner_Toolhead_PCB/Production%20Files/Standard
