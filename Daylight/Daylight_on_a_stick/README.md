@@ -5,7 +5,7 @@
 ## BOM
 | Quantity | Value                         | Package |
 |----------|-------------------------------|---------|
-|        6 | 100k Resistor                 | 1210    |
+|        6 | 100 Ohms Resistor             | 1210    |
 |       18 | White LED (4000K, 90+ CRI)    | 2835    |
 |        2 | JST-XH (2.54) angled connector| 2pin    |
 
