@@ -20,6 +20,7 @@ The RGB versions use any 4 pin 5050 package addressable led, like the known WS28
 - [Daylight on a Stick XXL](./Daylight_on_a_stick_XXL/) (for 350 or bigger printers)
 - [Disco on a Stick](./Disco_on_a_stick/) (RGB addressable LEDs for the big printers)
 - [Rainbow on a Matchstick](./Rainbow_on_a_matchstick/) (RGB addressable LEDS for the small printers)
+- [Disco on a Stick XXL](./Disco_on_a_stick_XXL/) (RGB addressable LEDs for for 350 or bigger printers)
 
 ## Klipper
 Use the regular Daylight on a Stick/Matchstick directly on 24V or hook them up to a spare heater output on your controlboard. In this last case you can control it using:
