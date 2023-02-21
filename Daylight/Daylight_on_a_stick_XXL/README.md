@@ -6,7 +6,7 @@ Meant for 350 size printers.
 ## BOM
 | Quantity | Value                         | Package |
 |----------|-------------------------------|---------|
-|       10 | 100k Resistor                 | 1210    |
+|       10 | 100 Ohms Resistor             | 1210    |
 |       30 | White LED (4000K, 90+ CRI)    | 2835    |
 |        2 | JST-XH (2.54) angled connector| 2pin    |
 
