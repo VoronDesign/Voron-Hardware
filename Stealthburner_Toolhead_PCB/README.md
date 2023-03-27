@@ -63,8 +63,8 @@ This is the update to the Afterburner toolhead board for the CW2 extruder and St
 |LED  | Neopixel Data Pin |24  |
 |FS   | ERCF Filament sensor |24  |
    
-   ## Assmebly Video from Maple Leaf Makers
-[![Assmebly Video from Maple Leaf Makers](Images/Video/thumbnail.jpeg)](https://www.youtube.com/watch?v=PCIwZRPYMZ8 "Assmebly Video from Maple Leaf Makers")
+   ## Assembly Video from Maple Leaf Makers
+[![Assembly Video from Maple Leaf Makers](Images/Video/thumbnail.jpeg)](https://www.youtube.com/watch?v=PCIwZRPYMZ8 "Assmebly Video from Maple Leaf Makers")
 
     
 ## Options for Aux Pin ##
