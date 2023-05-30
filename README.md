@@ -17,6 +17,7 @@ Cool Hardware designed by the Voron Design group
 | Taco_Raven                 | 3D Printer controller with 8 integrated stepper drivers for use with Klipper        |
 | V0-Umbilical               | Set of two PCBs for use with the V0.1 to make wiring easier and more modular        |
 | V0_Display                 | Small Form Factor Display with OLED, Rotary Encoder or Buttons and Neopixel LED     |
+| V0_Display_RP2040          | V0_Display remix based on the RP2040 by Th0mpy                                      |
 | V0_Micro_Display           | Micro Form Factor Display with OLED, Clickable D-pad and Neopixel LED               |
 | V0_PCB_Mod                 | V0 Mod by JNP                                                                       |
 | V0_Simple_Display          | V0 Simple Display is a remix of the V0 Display that doesnt need an STM32 MCU        |
