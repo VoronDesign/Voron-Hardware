@@ -24,11 +24,11 @@
 
 7) Run `make menuconfig` settings should be:
 
-	<img src="../Images/Menuconfig_Base_Options.png" width="600">
+	<img src="../Images/Menuconfig_Base_Options.png" width="1000">
 
 	- Set the "Optional features" to:
 
-	<img src="../Images/Menuconfig_Optional_Options.png" width="600">
+	<img src="../Images/Menuconfig_Optional_Options.png" width="1000">
 
 	- Hit `Q` to Exit and Save
 
