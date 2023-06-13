@@ -141,45 +141,7 @@ initial_BLUE: 0.0
 
 # Setup
 
-If you purchased your board from someone in the Voron community this is likely already completed, however if you are building it yourself you will need to go through these steps
-
-1) Connect the board to the host Raspberry Pi via USB.
-
-2) This step depends on if your board has firmware on it or not already:
-
-	a) If you have a pre-flashed board:
-		-Install the boot jumper and reset the board. This will put the board into DFU mode.
-	
-	b) If you have an unflashed board:
-		- The MCU default's to DFU mode if there is no other firmware installed.
-		
-	 - confirm the board enters DFU mode in step 4
-	
-3) Connect to your host raspberry pi via SSH
-
-4) Run `lsusb` from the command prompt
-	- Make sure you see an STM32 in DFU mode listed
-	
-5) Run `dfu-util --list` from the command prompt
-	- note the text inside the [xxxx:yyyy]
-	
-6) Remove the boot jumper.
-
-7) Run `cd ~/klipper` from the command line to enter the Klipper directory
-
-8) Run `make menuconfig` settings should be:
-
-<img src="../Images/Menuconfig_Options.png" width="1000">
-
-	Exit and Save
-9) Run `make clean` to clean up the make environment.
-
-10) Run `make flash FLASH_DEVICE=xxxx:yyyy` (using xxxx:yyyy from above)
-
-11) After completion `ls /dev/serial/by-id/*` should return a device begining with `/dev/serial/by-id/usb-Klipper_stm32f042x6...`
-
-Your board should now be usable with Klipper. Use the example config files to get started
-Best optioon is to copty the config you want to use into the same directory as `printer.cfg` then add `[include NAME_OF_CONFIG.CFG]` to the end of your `printer.cfg` to include the file.
+For setup instructions, check  [Here](Setup_and_Flashing_Guide.md).
 
 # Advanced
 Here are some more advanced features and details about the board
