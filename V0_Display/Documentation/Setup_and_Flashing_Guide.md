@@ -24,9 +24,13 @@
 
 7) Run `make menuconfig` settings should be:
 
-<img src="../Images/Menuconfig_Options.png" width="1000">
+	<img src="../Images/Menuconfig_Base_Options.png" width="1000">
 
-	Exit and Save
+	- Set the "Optional features" to:
+
+	<img src="../Images/Menuconfig_Optional_Options.png" width="1000">
+
+	- Hit `Q` to Exit and Save
 
 8) Run `make clean` to clean up the make environment.
 
