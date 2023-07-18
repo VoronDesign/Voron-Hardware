@@ -35,6 +35,10 @@
 8) Run `make clean` to clean up the make environment.
 
 9) Run `make flash FLASH_DEVICE=xxxx:yyyy` (using xxxx:yyyy from above)
+	- You may see what appears to be an "error" after flashing your board. (Blue box)
+	- As long as you see the `File downloded successfully` text (Green box) you are good to proceed.
+ 	- The error (Red box) seems to be caused by the controller immediately running the uploaded code and no longer appearing as a DFU device. This is not an issue, as long as the board reports a Klipper serial name.
+		<img src="../Images/dfu-util_Flashing_Error.png" width="500">
 
 10) Remove the boot jumper and press the reset button.
 
