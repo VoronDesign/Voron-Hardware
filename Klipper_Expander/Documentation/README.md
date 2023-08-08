@@ -127,8 +127,7 @@ gcode_id: T1
 Header for using neopixels. there is a single power input pin (NPV) that you can supply with the voltage your struip needs (5V/12V) and it passes it to the three pin header (Vin,Data,Ground)
 Connected to J1, which has a NPV supplied voltage, GND and PB1
 
-<img src="../Images/Neopixel.png" width="150">
-
+<img src="../Images/Neopixel.png" width="150"> <img src="../Images/KlipperExpander_NeopixelWiring.png" width="800">
 Example configuration:
 ```
 [neopixel Pixel]
