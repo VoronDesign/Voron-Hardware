@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/christhompson/Documents/GitHub/Voron-Hardware/V0_Display_RP2040/KiCad/V0_Display.kicad_sch</source>
-    <date>2023 August 20, Sunday 19:43:19</date>
+    <date>2023 August 20, Sunday 20:37:44</date>
     <tool>Eeschema 7.0.1-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -470,6 +470,51 @@ Type C USB 2.0 Connector
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a78321d3-796a-43ea-9fd2-44ca364b3ea8</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Library:SW_Push_1P1T_NO_4.5x4.5mm</footprint>
+      <fields>
+        <field name="LCSC">C843607</field>
+      </fields>
+      <libsource lib="Voron0 2040 display" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C843607"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b63bc4df-431e-4cce-a4e7-40a654cf05b3</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>BOOTSEL</value>
+      <footprint>Library:SW_Push_1P1T_NO_4.5x4.5mm</footprint>
+      <fields>
+        <field name="LCSC">C843607</field>
+      </fields>
+      <libsource lib="Voron0 2040 display" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="LCSC" value="C843607"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e219739</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>Killswitch</value>
+      <footprint>Library:SW_Push_1P1T_NO_4.5x4.5mm</footprint>
+      <fields>
+        <field name="LCSC">C843607</field>
+      </fields>
+      <libsource lib="Voron0 2040 display" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="LCSC" value="C843607"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e24b6ba</tstamps>
     </comp>
     <comp ref="U1">
       <value>AP2127K-3.3</value>
@@ -1106,6 +1151,8 @@ Type C USB 2.0 Connector
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
@@ -1117,6 +1164,7 @@ Type C USB 2.0 Connector
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
     <net code="10" name="Kill_Switch">
+      <node ref="SW6" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
     <net code="11" name="NeoPixel">
@@ -1145,6 +1193,7 @@ Type C USB 2.0 Connector
     </net>
     <net code="17" name="Net-(SW5-B)">
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
     </net>
     <net code="18" name="Net-(U5-USB_DM)">
       <node ref="R8" pin="2" pintype="passive"/>
@@ -1192,12 +1241,14 @@ Type C USB 2.0 Connector
       <node ref="U5" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
     </net>
     <net code="29" name="QSPI_SS">
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U5" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
     </net>
     <net code="30" name="RUN">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U5" pin="26" pinfunction="RUN" pintype="input"/>
     </net>
     <net code="31" name="SCL">
