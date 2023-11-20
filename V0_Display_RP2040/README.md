@@ -6,7 +6,7 @@
 The reason I built this board is because I had a very difficult time sourcing the original V0_Display, evidently the chips were in short supply. The best I could get was an already assembled unit from China, which did work
 but I really wanted to find a more readily available option (and not wait 3 months again). Additionally, this was a challenge for me as I really enjoy in the creation and testing of hardware like this. 
 
-Call out to everyone who contributed to the original V0 Display. I based my design on those original dimensions. 
+Call out to everyone who contributed to the original V0 Display. I based my design on those original dimensions. -th0mpy
 
 ## The board has: ##
  - RP2040 chip with external oscillator and flash memory. 
