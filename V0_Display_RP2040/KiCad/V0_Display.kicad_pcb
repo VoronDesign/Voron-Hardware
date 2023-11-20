@@ -1980,7 +1980,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e9aa716f-197e-42e6-9cf3-c9da777b791b)
     )
-    (fp_text value "GPIO" (at 2.38 -2.7 180) (layer "B.SilkS")
+    (fp_text value "GPIO" (at 2.38 -2.7 180) (layer "B.SilkS" knockout)
         (effects (font (face "Play") (size 0.8 0.8) (thickness 0.16) bold) (justify mirror))
       (tstamp 100b8a06-0e9c-4534-a100-39f8ce0a9e02)
       (render_cache "GPIO" 0
@@ -2623,7 +2623,7 @@
       (net 1 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 882c59c2-aeb4-4c0b-9082-3a6c67122b50))
     (pad "6" thru_hole oval (at 3.5 -1.2375 90) (size 1.2 1.9) (drill oval 0.6 1.3) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 0d1dec34-2529-4f60-b60d-27b6124a7628))
-    (model "${KIPRJMOD}/Library/3D_Packages/Molex-1050170001.stp"
+    (model "${KIPRJMOD}/Library/3D_Packages/Molex-1050170001.stp" hide
       (offset (xyz 0 -1 1.2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
