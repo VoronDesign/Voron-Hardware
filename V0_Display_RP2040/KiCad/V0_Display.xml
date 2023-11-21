@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/Users/christhompson/Documents/GitHub/Voron-Hardware/V0_Display_RP2040/KiCad/V0_Display.kicad_sch</source>
-    <date>2023 November 20, Monday 19:54:01</date>
-    <tool>Eeschema 7.0.8</tool>
+    <date>Monday, November 20, 2023 at 08:40:58 PM</date>
+    <tool>Eeschema 7.0.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -295,40 +295,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e22982f</tstamps>
     </comp>
-    <comp ref="H5">
-      <value>MountingHole</value>
-      <footprint>Library:VoronLogo_6pt5mm_silkScreen</footprint>
-      <libsource lib="Library" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>868a1fc4-4539-4c13-8606-daf5e89dacdb</tstamps>
-    </comp>
-    <comp ref="J1">
-      <value>USB4145-03-0230-C_REVA2</value>
-      <footprint>Library:GCT_USB4145-03-0230-C_REVA2</footprint>
-      <fields>
-        <field name="Description">&#xD;Type C USB 2.0 Connector&#xD;</field>
-        <field name="LCSC">C5291559</field>
-        <field name="MPN">USB4145-03-0230-C</field>
-      </fields>
-      <libsource lib="Library" part="USB4145-03-0230-C_REVA2" description=""/>
-      <property name="Description" value="&#xD;Type C USB 2.0 Connector&#xD;"/>
-      <property name="LCSC" value="C5291559"/>
-      <property name="MPN" value="USB4145-03-0230-C"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
-      <property name="exclude_from_board"/>
-      <property name="dnp"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5d12d2b-2543-421f-972c-eb61ebc57c0f</tstamps>
-    </comp>
     <comp ref="J4">
       <value>USB_B_Micro</value>
       <footprint>Library:MolexVertical&amp;Horizontal_MicroB</footprint>
+      <fields>
+        <field name="JLC">C136000</field>
+      </fields>
       <libsource lib="Library" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="JLC" value="C136000"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="USB Micro Type B connector"/>
@@ -1138,14 +1112,10 @@ Type C USB 2.0 Connector
       <node ref="U5" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
     </net>
     <net code="4" name="D+">
-      <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
-      <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
       <node ref="J4" pin="3" pinfunction="D+" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
     <net code="5" name="D-">
-      <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
-      <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
       <node ref="J4" pin="2" pinfunction="D-" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
@@ -1177,14 +1147,6 @@ Type C USB 2.0 Connector
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="3" pinfunction="VSS" pintype="power_in"/>
-      <node ref="J1" pin="A1" pinfunction="GND_A" pintype="power_in"/>
-      <node ref="J1" pin="A12" pinfunction="GND_A" pintype="power_in"/>
-      <node ref="J1" pin="B1" pinfunction="GND_B" pintype="power_in"/>
-      <node ref="J1" pin="B12" pinfunction="GND_B" pintype="power_in"/>
-      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J4" pin="4" pinfunction="ID" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="GND" pintype="power_out"/>
       <node ref="J4" pin="6" pinfunction="Shield" pintype="passive"/>
@@ -1233,11 +1195,9 @@ Type C USB 2.0 Connector
       <node ref="D1" pin="2" pinfunction="DOUT" pintype="output"/>
     </net>
     <net code="18" name="Net-(J1-CC1)">
-      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="19" name="Net-(J1-CC2)">
-      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="20" name="Net-(SW5-A)">
@@ -1317,21 +1277,11 @@ Type C USB 2.0 Connector
     <net code="38" name="VBUS">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="J1" pin="A4" pinfunction="VBUS_A" pintype="power_in"/>
-      <node ref="J1" pin="A9" pinfunction="VBUS_A" pintype="power_in"/>
-      <node ref="J1" pin="B4" pinfunction="VBUS_B" pintype="power_in"/>
-      <node ref="J1" pin="B9" pinfunction="VBUS_B" pintype="power_in"/>
       <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_out"/>
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
       <node ref="U2" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="VCC" pintype="power_in"/>
-    </net>
-    <net code="39" name="unconnected-(J1-SBU1-PadA8)">
-      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="40" name="unconnected-(J1-SBU2-PadB8)">
-      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
     <net code="41" name="unconnected-(U1-NC-Pad4)">
       <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>

@@ -4841,6 +4841,9 @@
     (property "Datasheet" "~" (at 31.496 87.122 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C136000" (at 27.686 85.852 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d52349fb-fd6a-4916-ae50-eae049f39b0b))
     (pin "2" (uuid ed69c9fb-6af3-4587-a449-df4e723137d1))
     (pin "3" (uuid 1c106d81-b4f7-4719-be74-3edaa68bd3a7))
@@ -5057,7 +5060,7 @@
   )
 
   (symbol (lib_id "Library:MountingHole") (at 265.938 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 868a1fc4-4539-4c13-8606-daf5e89dacdb)
     (property "Reference" "H5" (at 268.478 158.8079 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5069,6 +5072,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.938 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 265.938 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -5542,7 +5548,7 @@
   )
 
   (symbol (lib_id "Library:USB4145-03-0230-C_REVA2") (at 42.418 42.418 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid d5d12d2b-2543-421f-972c-eb61ebc57c0f)
     (property "Reference" "J1" (at 42.418 29.2481 0)
       (effects (font (size 1.27 1.27)))
@@ -5653,7 +5659,7 @@
   )
 
   (symbol (lib_id "Library:R_Small") (at 64.516 51.562 0) (unit 1)
-    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid e107c546-e839-4962-8213-7d6745136d69)
     (property "Reference" "R6" (at 66.0146 50.9183 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5765,7 +5771,7 @@
   )
 
   (symbol (lib_id "Library:R_Small") (at 16.764 51.562 180) (unit 1)
-    (in_bom yes) (on_board no) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid f32a57ce-8a58-4bbb-9a61-95f2994385e0)
     (property "Reference" "R5" (at 18.2626 50.9183 0)
       (effects (font (size 1.27 1.27)) (justify right))
