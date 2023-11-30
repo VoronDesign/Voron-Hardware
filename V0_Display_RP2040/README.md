@@ -1,12 +1,12 @@
 # V0 Display #
 ![V-Naught_Display_RP2040](Images/V0_Display-front.png)
 
-## The reason ##
+## The reason##
 
 The reason I built this board is because I had a very difficult time sourcing the original V0_Display, evidently the chips were in short supply. The best I could get was an already assembled unit from China, which did work
 but I really wanted to find a more readily available option (and not wait 3 months again). Additionally, this was a challenge for me as I really enjoy in the creation and testing of hardware like this. 
 
-Call out to everyone who contributed to the original V0 Display. I based my design on those original dimensions. -th0mpy
+Call out to everyone who contributed to the original V0 Display. I based my design on those original dimensions. 
 
 ## The board has: ##
  - RP2040 chip with external oscillator and flash memory. 
@@ -22,9 +22,6 @@ Call out to everyone who contributed to the original V0 Display. I based my desi
  - Kill, BOOTSEL, and Reset Switch [6mm Tactile buttons 4.3mm Tall](https://www.amazon.com/BOJACK-Pushbutton-Switches-Momentary-Assortment/dp/B07ZBHXBZ4)
  - An OLED display [1.3"](https://www.amazon.com/HiLetgo-Serial-SSH1106-Display-Arduino/dp/B01MRR4LVE/)
  - Pin Header Assortment [Male Dupont-Style](https://www.amazon.com/MCIGICM-Header-2-45mm-Arduino-Connector/dp/B07PKKY8BX/ref=sr_1_3) and/or [JST-XH Style](https://www.amazon.com/GeeBat-460pcs-Connector-Housing-Adapter/dp/B01MCZE2HM/ref=sr_1_4) (Can be nice for USB as it's polorized, you will burn out the display if you wire the USB header backwards)
-
-### Optionally you can get: ###
-- Micro USB port (Horizontal [Molex 105017-0001](https://www.digikey.com/product-detail/en/molex/1050170001/WM1399CT-ND/2350885) or equivalent [Amazon](https://www.amazon.com/gp/product/B01IQ8VN94)) *or* (Vertical [Molex 105017-0001](https://www.digikey.com/product-detail/en/molex/1051330001/WM9734CT-ND/4037910))
 
 ## Will work with Voron 0.2 enclosures ##
 
