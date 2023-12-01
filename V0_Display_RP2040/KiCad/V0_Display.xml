@@ -2,13 +2,8 @@
 <export version="E">
   <design>
     <source>/Users/christhompson/Documents/GitHub/Voron-Hardware/V0_Display_RP2040/KiCad/V0_Display.kicad_sch</source>
-<<<<<<< HEAD
     <date>Monday, November 20, 2023 at 08:40:58 PM</date>
     <tool>Eeschema 7.0.9</tool>
-=======
-    <date>2023 August 20, Sunday 20:37:44</date>
-    <tool>Eeschema 7.0.1-0</tool>
->>>>>>> parent of e008614 (Usability updates to hardware)
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -31,21 +26,12 @@
   <components>
     <comp ref="C1">
       <value>4.7uF</value>
-<<<<<<< HEAD
       <footprint>Library:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C19666</field>
       </fields>
       <libsource lib="Library" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C19666"/>
-=======
-      <footprint>Voron0 2040 display:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C326580</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C326580"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -55,21 +41,12 @@
     </comp>
     <comp ref="C2">
       <value>4.7uF</value>
-<<<<<<< HEAD
       <footprint>Library:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C19666</field>
       </fields>
       <libsource lib="Library" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C19666"/>
-=======
-      <footprint>Voron0 2040 display:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C326580</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C326580"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -79,19 +56,11 @@
     </comp>
     <comp ref="C3">
       <value>30pf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C526980</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C526980</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C526980"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -102,19 +71,11 @@
     </comp>
     <comp ref="C4">
       <value>30pf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C526980</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C526980</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C526980"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -125,21 +86,12 @@
     </comp>
     <comp ref="C5">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -149,21 +101,12 @@
     </comp>
     <comp ref="C6">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -173,21 +116,12 @@
     </comp>
     <comp ref="C7">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -197,21 +131,12 @@
     </comp>
     <comp ref="C8">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -221,21 +146,12 @@
     </comp>
     <comp ref="C9">
       <value>1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C52923</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C52923"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C106254</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C106254"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -245,21 +161,12 @@
     </comp>
     <comp ref="C10">
       <value>1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C52923</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C52923"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C106254</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C106254"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -269,21 +176,12 @@
     </comp>
     <comp ref="C11">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -293,21 +191,12 @@
     </comp>
     <comp ref="C12">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -317,21 +206,12 @@
     </comp>
     <comp ref="C13">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -341,21 +221,12 @@
     </comp>
     <comp ref="C14">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -365,21 +236,12 @@
     </comp>
     <comp ref="C15">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -389,21 +251,12 @@
     </comp>
     <comp ref="C16">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -413,21 +266,12 @@
     </comp>
     <comp ref="C17">
       <value>0.1uf</value>
-<<<<<<< HEAD
       <footprint>Library:C_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Library" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="LCSC" value="C1525"/>
-=======
-      <footprint>Voron0 2040 display:C_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C129131</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C129131"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -437,7 +281,6 @@
     </comp>
     <comp ref="D1">
       <value>WS2812B</value>
-<<<<<<< HEAD
       <footprint>Library:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
       <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
       <fields>
@@ -445,15 +288,6 @@
       </fields>
       <libsource lib="Library" part="WS2812B" description="RGB LED with integrated controller"/>
       <property name="LCSC" value="C2761795"/>
-=======
-      <footprint>Voron0 2040 display:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C114586</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C114586"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="RGB LED with integrated controller"/>
@@ -461,7 +295,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005e22982f</tstamps>
     </comp>
-<<<<<<< HEAD
     <comp ref="J4">
       <value>USB_B_Micro</value>
       <footprint>Library:MolexVertical&amp;Horizontal_MicroB</footprint>
@@ -484,56 +317,6 @@
         <field name="LCSC">C107331</field>
       </fields>
       <libsource lib="Library" part="L_Small" description="Inductor, small symbol"/>
-=======
-    <comp ref="J1">
-      <value>USB4145-03-0230-C_REVA2</value>
-      <footprint>USB4145-03-0230-C_REVA2:GCT_USB4145-03-0230-C_REVA2</footprint>
-      <fields>
-        <field name="Availability">In Stock</field>
-        <field name="Check_prices">https://www.snapeda.com/parts/USB4145-03-0230-C/Global+Connector+Technology/view-part/?ref=eda</field>
-        <field name="Description">
-Type C USB 2.0 Connector
-</field>
-        <field name="LCSC">C5291559</field>
-        <field name="MANUFACTURER">GCT</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">7.66mm</field>
-        <field name="MF">Global Connector Technology</field>
-        <field name="MP">USB4145-03-0230-C</field>
-        <field name="PARTREV">A2</field>
-        <field name="Package">None</field>
-        <field name="Price">None</field>
-        <field name="SNAPEDA_PN">USB4145-03-0230-C</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB4145-03-0230-C/Global+Connector+Technology/view-part/?ref=snap</field>
-      </fields>
-      <libsource lib="USB4145-03-0230-C_REVA2" part="USB4145-03-0230-C_REVA2" description=""/>
-      <property name="MF" value="Global Connector Technology"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.66mm"/>
-      <property name="Package" value="None"/>
-      <property name="Price" value="None"/>
-      <property name="Check_prices" value="https://www.snapeda.com/parts/USB4145-03-0230-C/Global+Connector+Technology/view-part/?ref=eda"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="PARTREV" value="A2"/>
-      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/USB4145-03-0230-C/Global+Connector+Technology/view-part/?ref=snap"/>
-      <property name="MP" value="USB4145-03-0230-C"/>
-      <property name="Description" value="&#xA;Type C USB 2.0 Connector&#xA;"/>
-      <property name="MANUFACTURER" value="GCT"/>
-      <property name="Availability" value="In Stock"/>
-      <property name="SNAPEDA_PN" value="USB4145-03-0230-C"/>
-      <property name="LCSC" value="C5291559"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5d12d2b-2543-421f-972c-eb61ebc57c0f</tstamps>
-    </comp>
-    <comp ref="L1">
-      <value>120R 100MHZ</value>
-      <footprint>Voron0 2040 display:L_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C107331</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="L_Small" description="Inductor, small symbol"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C107331"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -544,21 +327,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R1">
       <value>1K</value>
-<<<<<<< HEAD
       <footprint>Library:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C21190</field>
       </fields>
       <libsource lib="Library" part="R" description="Resistor"/>
       <property name="LCSC" value="C21190"/>
-=======
-      <footprint>Voron0 2040 display:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C4295595</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="R" description="Resistor"/>
-      <property name="LCSC" value="C4295595"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -568,21 +342,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R2">
       <value>1k</value>
-<<<<<<< HEAD
       <footprint>Library:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C21190</field>
       </fields>
       <libsource lib="Library" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C21190"/>
-=======
-      <footprint>Voron0 2040 display:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C852624</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C852624"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -592,21 +357,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R3">
       <value>10k</value>
-<<<<<<< HEAD
       <footprint>Library:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C25804</field>
       </fields>
       <libsource lib="Library" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25804"/>
-=======
-      <footprint>Voron0 2040 display:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C2139679</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C2139679"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -616,21 +372,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R4">
       <value>10k</value>
-<<<<<<< HEAD
       <footprint>Library:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C25804</field>
       </fields>
       <libsource lib="Library" part="R_Small" description="Resistor, small symbol"/>
       <property name="LCSC" value="C25804"/>
-=======
-      <footprint>Voron0 2040 display:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C2139679</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C2139679"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="ki_description" value="Resistor, small symbol"/>
@@ -640,7 +387,6 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R5">
       <value>5.1K</value>
-<<<<<<< HEAD
       <footprint>Library:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C23186</field>
@@ -651,16 +397,6 @@ Type C USB 2.0 Connector
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="exclude_from_board"/>
       <property name="dnp"/>
-=======
-      <footprint>Voron0 2040 display:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C105873</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C105873"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -668,7 +404,6 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R6">
       <value>5.1K</value>
-<<<<<<< HEAD
       <footprint>Library:R_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C23186</field>
@@ -679,16 +414,6 @@ Type C USB 2.0 Connector
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
       <property name="exclude_from_board"/>
       <property name="dnp"/>
-=======
-      <footprint>Voron0 2040 display:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C105873</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C105873"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="V0_Display.kicad_sch"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="ki_description" value="Resistor, small symbol"/>
       <property name="ki_keywords" value="R resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -696,19 +421,11 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R7">
       <value>27R</value>
-<<<<<<< HEAD
       <footprint>Library:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C137890</field>
       </fields>
       <libsource lib="Library" part="R_Small" description="Resistor, small symbol"/>
-=======
-      <footprint>Voron0 2040 display:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C137890</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C137890"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -719,19 +436,11 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="R8">
       <value>27R</value>
-<<<<<<< HEAD
       <footprint>Library:R_0402_1005Metric</footprint>
       <fields>
         <field name="LCSC">C137890</field>
       </fields>
       <libsource lib="Library" part="R_Small" description="Resistor, small symbol"/>
-=======
-      <footprint>Voron0 2040 display:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="LCSC">C137890</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C137890"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -740,7 +449,6 @@ Type C USB 2.0 Connector
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a78321d3-796a-43ea-9fd2-44ca364b3ea8</tstamps>
     </comp>
-<<<<<<< HEAD
     <comp ref="R9">
       <value>10k</value>
       <footprint>Library:R_0603_1608Metric</footprint>
@@ -756,19 +464,13 @@ Type C USB 2.0 Connector
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d2746c97-2a19-42da-8695-18ef192069fb</tstamps>
     </comp>
-=======
->>>>>>> parent of e008614 (Usability updates to hardware)
     <comp ref="SW1">
       <value>RESET</value>
       <footprint>Library:SW_Push_1P1T_NO_4.5x4.5mm</footprint>
       <fields>
         <field name="LCSC">C843607</field>
       </fields>
-<<<<<<< HEAD
       <libsource lib="Library" part="SW_Push" description="Push button switch, generic, two pins"/>
-=======
-      <libsource lib="Voron0 2040 display" part="SW_Push" description="Push button switch, generic, two pins"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C843607"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -783,11 +485,7 @@ Type C USB 2.0 Connector
       <fields>
         <field name="LCSC">C843607</field>
       </fields>
-<<<<<<< HEAD
       <libsource lib="Library" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
-=======
-      <libsource lib="Voron0 2040 display" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C843607"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -802,11 +500,7 @@ Type C USB 2.0 Connector
       <fields>
         <field name="LCSC">C843607</field>
       </fields>
-<<<<<<< HEAD
       <libsource lib="Library" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
-=======
-      <libsource lib="Voron0 2040 display" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C843607"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -817,20 +511,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="U1">
       <value>AP2127K-3.3</value>
-<<<<<<< HEAD
       <footprint>Library:SOT-23-5</footprint>
-=======
-      <footprint>Voron0 2040 display:SOT-23-5</footprint>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <datasheet>https://www.diodes.com/assets/Datasheets/AP2127.pdf</datasheet>
       <fields>
         <field name="LCSC">C156285</field>
       </fields>
-<<<<<<< HEAD
       <libsource lib="Library" part="AP2127K-3.3" description="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23-5 package"/>
-=======
-      <libsource lib="Voron0 2040 display" part="AP2127K-3.3" description="300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23-5 package"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C156285"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -841,20 +527,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="U2">
       <value>USBLC6-2P6</value>
-<<<<<<< HEAD
       <footprint>Library:SOT-666</footprint>
-=======
-      <footprint>Voron0 2040 display:SOT-666</footprint>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
       <fields>
         <field name="LCSC">C2827693</field>
       </fields>
-<<<<<<< HEAD
       <libsource lib="Library" part="USBLC6-2P6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-666"/>
-=======
-      <libsource lib="Voron0 2040 display" part="USBLC6-2P6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-666"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C2827693"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -865,20 +543,12 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="U3">
       <value>74LVC1G17</value>
-<<<<<<< HEAD
       <footprint>Library:SOT-753</footprint>
-=======
-      <footprint>Voron0 2040 display:SOT-753</footprint>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
         <field name="LCSC">C6076</field>
       </fields>
-<<<<<<< HEAD
       <libsource lib="Library" part="74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
-=======
-      <libsource lib="Voron0 2040 display" part="74LVC1G17" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C6076"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -889,19 +559,11 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="U4">
       <value>W25Q16JVUXIQ_TR</value>
-<<<<<<< HEAD
       <footprint>Library:IC_W25Q16JVUXIQ_TR</footprint>
       <fields>
         <field name="LCSC">C2843335</field>
       </fields>
       <libsource lib="Library" part="W25Q16JVUXIQ_TR" description=""/>
-=======
-      <footprint>Voron0 2040 display:IC_W25Q16JVUXIQ_TR</footprint>
-      <fields>
-        <field name="LCSC">C2843335</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="W25Q16JVUXIQ_TR" description=""/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C2843335"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -910,19 +572,11 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="U5">
       <value>RP2040</value>
-<<<<<<< HEAD
       <footprint>Library:RP2040-QFN-56</footprint>
       <fields>
         <field name="LCSC">C2040</field>
       </fields>
       <libsource lib="Library" part="RP2040" description=""/>
-=======
-      <footprint>Voron0 2040 display:RP2040-QFN-56</footprint>
-      <fields>
-        <field name="LCSC">C2040</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="RP2040" description=""/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C2040"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -931,19 +585,11 @@ Type C USB 2.0 Connector
     </comp>
     <comp ref="Y1">
       <value>12Mhz</value>
-<<<<<<< HEAD
       <footprint>Library:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
       <fields>
         <field name="LCSC">C133334</field>
       </fields>
       <libsource lib="Library" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
-=======
-      <footprint>Voron0 2040 display:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
-      <fields>
-        <field name="LCSC">C133334</field>
-      </fields>
-      <libsource lib="Voron0 2040 display" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <property name="LCSC" value="C133334"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="V0_Display.kicad_sch"/>
@@ -954,71 +600,7 @@ Type C USB 2.0 Connector
     </comp>
   </components>
   <libparts>
-<<<<<<< HEAD
     <libpart lib="Library" part="74LVC1G17">
-=======
-    <libpart lib="Device" part="R_Small">
-      <description>Resistor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="USB4145-03-0230-C_REVA2" part="USB4145-03-0230-C_REVA2">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB4145-03-0230-C_REVA2</field>
-        <field name="Footprint">GCT_USB4145-03-0230-C_REVA2</field>
-        <field name="MF">Global Connector Technology</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">7.66mm</field>
-        <field name="Package">None</field>
-        <field name="Price">None</field>
-        <field name="Check_prices">https://www.snapeda.com/parts/USB4145-03-0230-C/Global+Connector+Technology/view-part/?ref=eda</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="PARTREV">A2</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB4145-03-0230-C/Global+Connector+Technology/view-part/?ref=snap</field>
-        <field name="MP">USB4145-03-0230-C</field>
-        <field name="Description">
-Type C USB 2.0 Connector
-</field>
-        <field name="MANUFACTURER">GCT</field>
-        <field name="Availability">In Stock</field>
-        <field name="SNAPEDA_PN">USB4145-03-0230-C</field>
-      </fields>
-      <pins>
-        <pin num="A1" name="GND_A" type="power_in"/>
-        <pin num="A4" name="VBUS_A" type="power_in"/>
-        <pin num="A5" name="CC1" type="bidirectional"/>
-        <pin num="A6" name="DP1" type="bidirectional"/>
-        <pin num="A7" name="DN1" type="bidirectional"/>
-        <pin num="A8" name="SBU1" type="bidirectional"/>
-        <pin num="A9" name="VBUS_A" type="power_in"/>
-        <pin num="A12" name="GND_A" type="power_in"/>
-        <pin num="B1" name="GND_B" type="power_in"/>
-        <pin num="B4" name="VBUS_B" type="power_in"/>
-        <pin num="B5" name="CC2" type="bidirectional"/>
-        <pin num="B6" name="DP2" type="bidirectional"/>
-        <pin num="B7" name="DN2" type="bidirectional"/>
-        <pin num="B8" name="SBU2" type="bidirectional"/>
-        <pin num="B9" name="VBUS_B" type="power_in"/>
-        <pin num="B12" name="GND_B" type="power_in"/>
-        <pin num="S1" name="SHIELD" type="passive"/>
-        <pin num="S2" name="SHIELD" type="passive"/>
-        <pin num="S3" name="SHIELD" type="passive"/>
-        <pin num="S4" name="SHIELD" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Voron0 2040 display" part="74LVC1G17">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Single Schmitt Buffer Gate, Low-Voltage CMOS</description>
       <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
       <footprints>
@@ -1040,11 +622,7 @@ Type C USB 2.0 Connector
         <pin num="5" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="AP2127K-3.3">
-=======
-    <libpart lib="Voron0 2040 display" part="AP2127K-3.3">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23-5 package</description>
       <docs>https://www.diodes.com/assets/Datasheets/AP2127.pdf</docs>
       <footprints>
@@ -1064,11 +642,7 @@ Type C USB 2.0 Connector
         <pin num="5" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="C">
-=======
-    <libpart lib="Voron0 2040 display" part="C">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
       <footprints>
@@ -1084,11 +658,7 @@ Type C USB 2.0 Connector
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="C_Small">
-=======
-    <libpart lib="Voron0 2040 display" part="C_Small">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
       <footprints>
@@ -1104,11 +674,7 @@ Type C USB 2.0 Connector
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="Conn_01x02">
-=======
-    <libpart lib="Voron0 2040 display" part="Conn_01x02">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1124,7 +690,6 @@ Type C USB 2.0 Connector
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="Conn_01x03">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -1143,9 +708,6 @@ Type C USB 2.0 Connector
       </pins>
     </libpart>
     <libpart lib="Library" part="Conn_01x04">
-=======
-    <libpart lib="Voron0 2040 display" part="Conn_01x04">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1163,11 +725,7 @@ Type C USB 2.0 Connector
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="Conn_01x05">
-=======
-    <libpart lib="Voron0 2040 display" part="Conn_01x05">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -1186,11 +744,7 @@ Type C USB 2.0 Connector
         <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="Crystal_GND24">
-=======
-    <libpart lib="Voron0 2040 display" part="Crystal_GND24">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Four pin crystal, GND on pins 2 and 4</description>
       <docs>~</docs>
       <footprints>
@@ -1208,11 +762,7 @@ Type C USB 2.0 Connector
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="L_Small">
-=======
-    <libpart lib="Voron0 2040 display" part="L_Small">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Inductor, small symbol</description>
       <docs>~</docs>
       <footprints>
@@ -1231,11 +781,7 @@ Type C USB 2.0 Connector
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="MountingHole">
-=======
-    <libpart lib="Voron0 2040 display" part="MountingHole">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Mounting Hole without connection</description>
       <docs>~</docs>
       <footprints>
@@ -1247,11 +793,7 @@ Type C USB 2.0 Connector
         <field name="Datasheet">~</field>
       </fields>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="R">
-=======
-    <libpart lib="Voron0 2040 display" part="R">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Resistor</description>
       <docs>~</docs>
       <footprints>
@@ -1267,11 +809,7 @@ Type C USB 2.0 Connector
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="RP2040">
-=======
-    <libpart lib="Voron0 2040 display" part="RP2040">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <fields>
         <field name="Reference">U</field>
         <field name="Value">RP2040</field>
@@ -1337,11 +875,7 @@ Type C USB 2.0 Connector
         <pin num="57" name="GND" type="power_in"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="R_Small">
-=======
-    <libpart lib="Voron0 2040 display" part="R_Small">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Resistor, small symbol</description>
       <docs>~</docs>
       <footprints>
@@ -1357,11 +891,7 @@ Type C USB 2.0 Connector
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="Rotary_Encoder_Switch">
-=======
-    <libpart lib="Voron0 2040 display" part="Rotary_Encoder_Switch">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
       <docs>~</docs>
       <footprints>
@@ -1383,11 +913,7 @@ Type C USB 2.0 Connector
         <pin num="S2" name="S2" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="SW_Push">
-=======
-    <libpart lib="Voron0 2040 display" part="SW_Push">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Push button switch, generic, two pins</description>
       <docs>~</docs>
       <fields>
@@ -1400,11 +926,7 @@ Type C USB 2.0 Connector
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="SW_SPST">
-=======
-    <libpart lib="Voron0 2040 display" part="SW_SPST">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Single Pole Single Throw (SPST) switch</description>
       <docs>~</docs>
       <fields>
@@ -1417,7 +939,6 @@ Type C USB 2.0 Connector
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="USB4145-03-0230-C_REVA2">
       <fields>
         <field name="Reference">J</field>
@@ -1463,9 +984,6 @@ Type C USB 2.0 Connector
       </pins>
     </libpart>
     <libpart lib="Library" part="USBLC6-2P6">
-=======
-    <libpart lib="Voron0 2040 display" part="USBLC6-2P6">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>Very low capacitance ESD protection diode, 2 data-line, SOT-666</description>
       <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
       <footprints>
@@ -1486,7 +1004,6 @@ Type C USB 2.0 Connector
         <pin num="6" name="I/O1" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="USB_B_Micro">
       <description>USB Micro Type B connector</description>
       <docs>~</docs>
@@ -1508,9 +1025,6 @@ Type C USB 2.0 Connector
       </pins>
     </libpart>
     <libpart lib="Library" part="W25Q16JVUXIQ_TR">
-=======
-    <libpart lib="Voron0 2040 display" part="W25Q16JVUXIQ_TR">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <fields>
         <field name="Reference">U</field>
         <field name="Value">W25Q16JVUXIQ_TR</field>
@@ -1533,11 +1047,7 @@ Type C USB 2.0 Connector
         <pin num="9" name="EXP" type="passive"/>
       </pins>
     </libpart>
-<<<<<<< HEAD
     <libpart lib="Library" part="WS2812B">
-=======
-    <libpart lib="Voron0 2040 display" part="WS2812B">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <description>RGB LED with integrated controller</description>
       <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
       <footprints>
@@ -1558,19 +1068,8 @@ Type C USB 2.0 Connector
     </libpart>
   </libparts>
   <libraries>
-<<<<<<< HEAD
     <library logical="Library">
       <uri>/Users/christhompson/Documents/GitHub/Voron-Hardware/V0_Display_RP2040/KiCad/Library/Library.kicad_sym</uri>
-=======
-    <library logical="Device">
-      <uri>/Applications/KiCad 7/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
-    </library>
-    <library logical="USB4145-03-0230-C_REVA2">
-      <uri>/Users/christhompson/Documents/GitHub/Voron-Hardware/V0_Display_RP2040/KiCad/Library/USB4145-03-0230-C_REVA2/USB4145-03-0230-C_REVA2.kicad_sym</uri>
-    </library>
-    <library logical="Voron0 2040 display">
-      <uri>/Users/christhompson/Documents/GitHub/Voron-Hardware/V0_Display_RP2040/KiCad/Voron0 2040 display.kicad_sym</uri>
->>>>>>> parent of e008614 (Usability updates to hardware)
     </library>
   </libraries>
   <nets>
@@ -1596,10 +1095,7 @@ Type C USB 2.0 Connector
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-<<<<<<< HEAD
       <node ref="R9" pin="1" pintype="passive"/>
-=======
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="U1" pin="5" pinfunction="VOUT" pintype="power_out"/>
       <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U5" pin="1" pinfunction="IOVDD" pintype="power_in"/>
@@ -1616,21 +1112,11 @@ Type C USB 2.0 Connector
       <node ref="U5" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
     </net>
     <net code="4" name="D+">
-<<<<<<< HEAD
       <node ref="J4" pin="3" pinfunction="D+" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
     <net code="5" name="D-">
       <node ref="J4" pin="2" pinfunction="D-" pintype="passive"/>
-=======
-      <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
-      <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
-      <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
-    </net>
-    <net code="5" name="D-">
-      <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
-      <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
     <net code="6" name="Encoder_A">
@@ -1661,7 +1147,6 @@ Type C USB 2.0 Connector
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="3" pinfunction="VSS" pintype="power_in"/>
-<<<<<<< HEAD
       <node ref="J4" pin="4" pinfunction="ID" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="GND" pintype="power_out"/>
       <node ref="J4" pin="6" pinfunction="Shield" pintype="passive"/>
@@ -1669,20 +1154,6 @@ Type C USB 2.0 Connector
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
-=======
-      <node ref="J1" pin="A1" pinfunction="GND_A" pintype="power_in"/>
-      <node ref="J1" pin="A12" pinfunction="GND_A" pintype="power_in"/>
-      <node ref="J1" pin="B1" pinfunction="GND_B" pintype="power_in"/>
-      <node ref="J1" pin="B12" pinfunction="GND_B" pintype="power_in"/>
-      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="SW6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
@@ -1694,7 +1165,6 @@ Type C USB 2.0 Connector
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-<<<<<<< HEAD
     <net code="10" name="GPIO20">
       <node ref="U5" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
@@ -1713,22 +1183,10 @@ Type C USB 2.0 Connector
       <node ref="U5" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
     <net code="15" name="Net-(C4-Pad1)">
-=======
-    <net code="10" name="Kill_Switch">
-      <node ref="SW6" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="U5" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
-    </net>
-    <net code="11" name="NeoPixel">
-      <node ref="U3" pin="2" pintype="input"/>
-      <node ref="U5" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
-    </net>
-    <net code="12" name="Net-(C4-Pad1)">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-<<<<<<< HEAD
     <net code="16" name="Net-(D1-DIN)">
       <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
       <node ref="U3" pin="4" pintype="output"/>
@@ -1755,41 +1213,10 @@ Type C USB 2.0 Connector
       <node ref="U5" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
     <net code="23" name="OSC_IN">
-=======
-    <net code="13" name="Net-(D1-DIN)">
-      <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
-      <node ref="U3" pin="4" pintype="output"/>
-    </net>
-    <net code="14" name="Net-(D1-DOUT)">
-      <node ref="D1" pin="2" pinfunction="DOUT" pintype="output"/>
-    </net>
-    <net code="15" name="Net-(J1-CC1)">
-      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-    </net>
-    <net code="16" name="Net-(J1-CC2)">
-      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="17" name="Net-(SW5-B)">
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
-    </net>
-    <net code="18" name="Net-(U5-USB_DM)">
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="U5" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
-    </net>
-    <net code="19" name="Net-(U5-USB_DP)">
-      <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="U5" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
-    </net>
-    <net code="20" name="OSC_IN">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="U5" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-<<<<<<< HEAD
     <net code="24" name="OSC_OUT">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U5" pin="21" pinfunction="XOUT" pintype="passive"/>
@@ -1829,52 +1256,11 @@ Type C USB 2.0 Connector
       <node ref="U5" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
     </net>
     <net code="33" name="RUN">
-=======
-    <net code="21" name="OSC_OUT">
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U5" pin="21" pinfunction="XOUT" pintype="passive"/>
-    </net>
-    <net code="22" name="OUT_D+">
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="U2" pin="4" pinfunction="I/O2" pintype="passive"/>
-    </net>
-    <net code="23" name="OUT_D-">
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U2" pin="6" pinfunction="I/O1" pintype="passive"/>
-    </net>
-    <net code="24" name="QSPI_SCLK">
-      <node ref="U4" pin="6" pinfunction="CLK" pintype="input"/>
-      <node ref="U5" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
-    </net>
-    <net code="25" name="QSPI_SD0">
-      <node ref="U4" pin="5" pinfunction="DI/IO0" pintype="bidirectional"/>
-      <node ref="U5" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
-    </net>
-    <net code="26" name="QSPI_SD1">
-      <node ref="U4" pin="2" pinfunction="DO/IO1" pintype="bidirectional"/>
-      <node ref="U5" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
-    </net>
-    <net code="27" name="QSPI_SD2">
-      <node ref="U4" pin="3" pinfunction="~{WP~{/IO2}" pintype="bidirectional"/>
-      <node ref="U5" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
-    </net>
-    <net code="28" name="QSPI_SD3">
-      <node ref="U4" pin="7" pinfunction="~{HOLD~{/~{RESET~{/IO3}" pintype="bidirectional"/>
-      <node ref="U5" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
-    </net>
-    <net code="29" name="QSPI_SS">
-      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U4" pin="1" pinfunction="~{CS}" pintype="input"/>
-      <node ref="U5" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
-    </net>
-    <net code="30" name="RUN">
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U5" pin="26" pinfunction="RUN" pintype="input"/>
     </net>
-<<<<<<< HEAD
     <net code="34" name="SCL">
       <node ref="U5" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
@@ -1892,34 +1278,11 @@ Type C USB 2.0 Connector
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="J4" pin="1" pinfunction="VBUS" pintype="power_out"/>
-=======
-    <net code="31" name="SCL">
-      <node ref="U5" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
-    </net>
-    <net code="32" name="SDA">
-      <node ref="U5" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
-    </net>
-    <net code="33" name="SWDCLK">
-      <node ref="U5" pin="24" pinfunction="SWCLK" pintype="output"/>
-    </net>
-    <net code="34" name="SWDIO">
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U5" pin="25" pinfunction="SWD" pintype="bidirectional"/>
-    </net>
-    <net code="35" name="VBUS">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="J1" pin="A4" pinfunction="VBUS_A" pintype="power_in"/>
-      <node ref="J1" pin="A9" pinfunction="VBUS_A" pintype="power_in"/>
-      <node ref="J1" pin="B4" pinfunction="VBUS_B" pintype="power_in"/>
-      <node ref="J1" pin="B9" pinfunction="VBUS_B" pintype="power_in"/>
->>>>>>> parent of e008614 (Usability updates to hardware)
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
       <node ref="U2" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="VCC" pintype="power_in"/>
     </net>
-<<<<<<< HEAD
     <net code="41" name="unconnected-(U1-NC-Pad4)">
       <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
@@ -1965,68 +1328,6 @@ Type C USB 2.0 Connector
     <net code="55" name="unconnected-(U5-GPIO19-Pad30)">
       <node ref="U5" pin="30" pinfunction="GPIO19" pintype="bidirectional+no_connect"/>
     </net>
-=======
-    <net code="36" name="unconnected-(J1-SBU1-PadA8)">
-      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="37" name="unconnected-(J1-SBU2-PadB8)">
-      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="38" name="unconnected-(U1-NC-Pad4)">
-      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="39" name="unconnected-(U3-Pad1)">
-      <node ref="U3" pin="1" pinfunction="1" pintype="no_connect"/>
-    </net>
-    <net code="40" name="unconnected-(U5-GPIO2-Pad4)">
-      <node ref="U5" pin="4" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="41" name="unconnected-(U5-GPIO3-Pad5)">
-      <node ref="U5" pin="5" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="42" name="unconnected-(U5-GPIO4-Pad6)">
-      <node ref="U5" pin="6" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="43" name="unconnected-(U5-GPIO9-Pad12)">
-      <node ref="U5" pin="12" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="44" name="unconnected-(U5-GPIO10-Pad13)">
-      <node ref="U5" pin="13" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="45" name="unconnected-(U5-GPIO11-Pad14)">
-      <node ref="U5" pin="14" pinfunction="GPIO11" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="46" name="unconnected-(U5-GPIO12-Pad15)">
-      <node ref="U5" pin="15" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="47" name="unconnected-(U5-GPIO13-Pad16)">
-      <node ref="U5" pin="16" pinfunction="GPIO13" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="48" name="unconnected-(U5-GPIO14-Pad17)">
-      <node ref="U5" pin="17" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="49" name="unconnected-(U5-GPIO15-Pad18)">
-      <node ref="U5" pin="18" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="50" name="unconnected-(U5-GPIO17-Pad28)">
-      <node ref="U5" pin="28" pinfunction="GPIO17" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="51" name="unconnected-(U5-GPIO18-Pad29)">
-      <node ref="U5" pin="29" pinfunction="GPIO18" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="52" name="unconnected-(U5-GPIO19-Pad30)">
-      <node ref="U5" pin="30" pinfunction="GPIO19" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="53" name="unconnected-(U5-GPIO20-Pad31)">
-      <node ref="U5" pin="31" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="54" name="unconnected-(U5-GPIO21-Pad32)">
-      <node ref="U5" pin="32" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="55" name="unconnected-(U5-GPIO22-Pad34)">
-      <node ref="U5" pin="34" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
-    </net>
->>>>>>> parent of e008614 (Usability updates to hardware)
     <net code="56" name="unconnected-(U5-GPIO23-Pad35)">
       <node ref="U5" pin="35" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
     </net>
