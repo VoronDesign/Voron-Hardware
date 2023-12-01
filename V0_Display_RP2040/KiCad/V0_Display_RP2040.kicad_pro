@@ -418,7 +418,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "V0_Display.kicad_pro",
+    "filename": "V0_Display_RP2040.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -455,7 +455,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": "V0_Display.wrl"
+      "vrml": "V0_Display_RP2040.wrl"
     },
     "page_layout_descr_file": ""
   },
