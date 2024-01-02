@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Voron0 2040 display")(type "KiCad")(uri "${KIPRJMOD}/Voron0 2040 display.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "USB4145-03-0230-C_REVA2")(type "KiCad")(uri "${KIPRJMOD}/Library/USB4145-03-0230-C_REVA2/USB4145-03-0230-C_REVA2.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library/Library.kicad_sym")(options "")(descr ""))
+)
