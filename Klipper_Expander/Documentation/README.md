@@ -94,10 +94,11 @@ Connected to pins PA0, PA1, PA2 and PA3
 Example configuration:
 ```
 [output_pin mosfet0]
-pin: PA0
+pin: expander:PA0
 value: 0
 shutdown_value: 0
 ```
+_You may need to change `expander:` to match your expander mcu name_
 
 ## Thermistors (PA5, PA6)
 
@@ -107,20 +108,21 @@ Connected to pins PA5 and PA6
 <img src="../Images/Thermistors.png" width="300">
 
 
-Example configuration for a standalone thermistor (Not tied to a bed or hotend)
+Example configuration for a standalone thermistor (Not tied to a bed or hotend):
 ```
 [temperature_sensor t0]
 sensor_type: ThermistorType
-sensor_pin: PA6
+sensor_pin: expander:PA6
 gcode_id: T0
 ```
 
 ```
 [temperature_sensor t1]
 sensor_type: ThermistorType
-sensor_pin: PA5
+sensor_pin: expander:PA5
 gcode_id: T1
 ```
+_You may need to change `expander:` to match your expander mcu name_
 
 ## Neopixel header (PB1)
 
@@ -131,12 +133,13 @@ Connected to J1, which has a NPV supplied voltage, GND and PB1
 Example configuration:
 ```
 [neopixel Pixel]
-pin: PB1
+pin: expander:PB1
 chain_count: 1
 initial_RED: 0.9
 initial_GREEN: 0.3
 initial_BLUE: 0.0
 ```
+_You may need to change `expander:` to match your expander mcu name_
 
 # Setup
 
