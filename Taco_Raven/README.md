@@ -1,5 +1,6 @@
 # Taco-Raven
-Taco Raven is an 3D printer controller specifically design for a Voron V2. The intention of the project was to design a single controller board capable of driving a V2 with future plans of dual extrution, as well as evaluate newer MCU's with klipper focused on step speed. This project was never intened to go into mass production. It was simply a "What if" excercise. Use the following design with caution.
+Taco Raven is a 3D printer controller specifically designed for a Voron V2. The intent of the "Taco Raven" project is to create a single controller board capable of driving a Voron 2. Additionally, there are future plans to incorporate dual extrusion and evaluate newer microcontrollers with Klipper firmware, which has been modified to optimize step-speed. It is important to note that this project is not intended for mass production. Instead, it serves as an exercise in extensibility and design. If using this design, it is crucial to exercise caution and follow proper guidelines.
+
 ## Specifications
 * 8 TMC2130 Stepper drivers
 * 5 PWM fans,2 Alwyas on fans, unified voltage selection (5V, 12V, VIN)
