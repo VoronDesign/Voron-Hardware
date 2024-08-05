@@ -27,14 +27,14 @@ Welcome to your new Klipper Expander! This document outlines the common features
 
 # Basic
 
-First we will go through the basic functionality of the board that most users will be looking for
+First we will go through the basic functionality of the board that most users will be looking for.
 
 ## Indicator LEDs
 
 There are 3 status indicator LEDs on the board:
-- 5v Status near the USB port indicates that there is 5V present and feeding the board (D6)
-- Board Ready near the IC indicates that the board is communicating with Klipper (D1)
-- Vin status indicates that there is power present on the Vin and GND feeding the board through the screw terminals (D7)
+- 5v Status near the USB port indicates that there is 5V present and feeding the board (`D6`)
+- Board Ready near the IC indicates that the board is communicating with Klipper (`D1`)
+- Vin status indicates that there is power present on the Vin and GND feeding the board through the screw terminals (`D7`)
 - 4 indicator LEDs (D2-D5) near each of the MOSFETs and screw terminals, these indicate if the MOSFET is enabled
 
 <img src="../Images/LEDs.png" width="600">\
@@ -49,12 +49,12 @@ There is one switch, labeled RST. This resets the board
 
 ## I2C Header (PF0, PF1)
 
-Contains a 3.3V I2C bus for connecting displays, and other sensors such as environemntal sensors and breakout expanders.
+Contains a 3.3V I2C bus for connecting displays, and other sensors such as enviromental sensors and breakout expanders.
 This plugs into J2
 
 <img src="../Images/I2C.png" width="300">
 
-Both SCL and SDA pins are pulled up to 3V3 with a 4.7k resistor
+Both `SCL` and `SDA` pins are pulled up to 3V3 with a 4.7k resistor
 
 <img src="../Images/I2C_Schematic.png" width="300">
 
@@ -76,7 +76,8 @@ Vin and GND are for feeding power to the Mosfets, this can be any voltage under 
 The fuse is a micro blade type fuse and should be chosen to the maximum draw of all of the MOSFET fed devices.
 
 For example, if you are running a 40W heater, 2 5W fans and 1 2W fan, you will need a total of 62W of power.
-At 24V, this would translate to 62W/24V = 2.58A. The closest fuse might be a 5A fuse, which you should use.
+At 24V, this would translate to 62W/24V = 2.58A. The closest fuse might be a 5A fuse, which is recommended you
+should use.
 
 Maximum power should not exceed 12A as the MOSFETs are each rated to a maximum of 3A.
 
@@ -85,7 +86,7 @@ Maximum power should not exceed 12A as the MOSFETs are each rated to a maximum o
 
 ## Mosfets (PA0, PA1, PA2, PA3)
 
-4 x 4 3A Amp mosfets fopr controlling LED's, Heater, Fans, and other accessories
+4 x 4 3A Amp mosfets for controlling LED's, Heater, Fans, and other accessories
 Connected to pins PA0, PA1, PA2 and PA3
 
 <img src="../Images/Mosfets.png" width="300">
@@ -102,7 +103,7 @@ _You may need to change `expander:` to match your expander mcu name_
 
 ## Thermistors (PA5, PA6)
 
-2 thermsitor inputs that use a 4.7K pullup resistor (Klipper default)
+2 thermistor inputs that use a 4.7K pullup resistor (Klipper default)
 Connected to pins PA5 and PA6
 
 <img src="../Images/Thermistors.png" width="300">
@@ -126,7 +127,7 @@ _You may need to change `expander:` to match your expander mcu name_
 
 ## Neopixel header (PB1)
 
-Header for using neopixels. there is a single power input pin (NPV) that you can supply with the voltage your struip needs (5V/12V) and it passes it to the three pin header (Vin,Data,Ground)
+Header for using neopixels. There is a single power input pin (NPV) that you can supply with the voltage your strip needs (5V/12V) and it passes it to the three pin header (Vin, Data, Ground)
 Connected to J1, which has a NPV supplied voltage, GND and PB1
 
 <img src="../Images/Neopixel.png" width="150"> <img src="../Images/KlipperExpander_NeopixelWiring.png" width="800">
@@ -150,7 +151,7 @@ Here are some more advanced features and details about the board
 
 ## Boot Jumper
 
-This jumper needs to be installed to put the board in DFU mode to flash with klipper firmware. The board will show up as "Device in DFU Mode" to `lsusb` and then should show up in `dfu-util --list`
+This jumper needs to be installed to put the board in DFU mode to flash it with the klipper firmware. The board will show up as "Device in DFU Mode" to `lsusb` and then should show up in `dfu-util --list`
 
 <img src="../Images/Boot.png" width="300">
 
@@ -177,8 +178,6 @@ PA7 is connected directly to the STM32 with no pullups
 <img src="../Images/GPIO_Schematic.png" width="300">
 
 
-
-
 # Testing
 
 Included configuration file [](../Software/standalone.cfg) will allow you to startup the Expander without another MCU to validate all features are functional.
@@ -186,18 +185,18 @@ Included configuration file [](../Software/standalone.cfg) will allow you to sta
 You will need the following devices:
 - Power supply (5V is easiest)
 - 4 x devices for MOSFET that will work at Power supply voltage
-- Neopixel with appropriate dupont headere (WS2812b for 5V or WS2811 for 12V)
-- Display like this one: [Adafruit OLED Display](https://www.adafruit.com/product/931)
+- Neopixel with appropriate dupont headers (WS2812b for 5V or WS2811 for 12V)
+- Display (like this one: [Adafruit OLED Display](https://www.adafruit.com/product/931))
 - 2 Thermistors with dupont or JST headers
 - Raspberry Pi or another computer running Klipper
 
-Use the [Example](../Software/standalone.cfg) confiugration supplied in this repository
+Use the [Example](../Software/standalone.cfg) configuration supplied in this repository
 
 When the Expander starts up you should see:
 - All 3 Status LEDs light up
 - None of the MOSFETs light up
 - Neopixel will be orange
-- Display will have 3d printer typical display
+- Display will have a typical 3d printer interface
 
 Other steps:
 - Run a M105 to get temperature readings
@@ -217,8 +216,8 @@ Sometimes problems happen, here is how you can fix them
 
 ## Why do I want this?
 
-The Expander gives you extra connectivity that suppliments your main MCU(s) without the cost and size of a full board. Also you can use an Expander to run devices at a different voltage than the main MCU. i.e. Noctua fans are 12V where the main MCU is 24V
+The Expander gives you extra connectivity that suppliments your main MCU(s) without the cost and size of a full board. You can also use an Expander to run devices at a different voltage than the main MCU; i.e. Noctua fans are 12V where the main MCU is 24V
 
 ## How do I get one?
 
-Included in this repository are [Production Files](../Production_Files) which you can use to order from [JLCPCB](https://jlcpcb.com) or anywhere else you order boards from. Alternatively, on the Voron Discord you may find someone selling one preassembled if you post in #flea-market
+Included in this repository are [Production Files](../Production_Files) which you can use to order from [JLCPCB](https://jlcpcb.com) or anywhere else you order boards from. Alternatively, on the Voron Discord you may find someone selling one preassembled boards if you post in `#flea-market`
