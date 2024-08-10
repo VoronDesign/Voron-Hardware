@@ -34,9 +34,26 @@ When compiling klipper, use the following options:
     │ │        Clock Reference (Internal clock)  --->                       │ │  
     │ │        Communication interface (USB (on PA9/PA10))  --->            │ │  
     │ │        USB ids  --->                                                │ │  
+    │ │        Optional features (to reduce code size)  --->                │ │  
     │ │    ()  GPIO pins to set at micro-controller startup                 │ │  
     │ │                                                                     │ │  
     │ └─────────────────────────────────────────────────────────────────────┘ │  
+
+Optional features (to reduce code size): (Klipper > v0.12)
+
+    │ ┌─────────────────────────────────────────────────────────────────────┐ │  
+    │ │    [*] Support GPIO "bit-banging" devices                           │ │  
+    │ │    [*] Support LCD devices                                          │ │ 
+    │ │    [ ] Support external sensor devices                              │ │ 
+    │ │    [ ] Support lis2dw 3-axis accelerometer                          │ │ 
+    │ │    [ ] Support ldc1612 eddy current sensor                          │ │ 
+    │ │    [ ] Support HX711 and HX717 ADC chips                            │ │ 
+    │ │    [ ] Support ADS 1220 ADC chip                                    │ │ 
+    │ │    [*] Support software based I2C "bit-banging"                     │ │ 
+    │ │    [*] Support software based SPI "bit-banging"                     │ │ 
+    │ │                                                                     │ │  
+    │ └─────────────────────────────────────────────────────────────────────┘ │  
+    
     
 Note that when switching between MCU architectures it is important to run "make clean" before a "make". This prevents any strange build errors.
 
@@ -51,6 +68,8 @@ Now flash the firmware
 
     make flash FLASH_DEVICE=0483:df11
    
+Ignore the errors thrown at the end.
+
 Hit the reset button again. You are now running Klipper.
 
 ## Klipper Configuration
