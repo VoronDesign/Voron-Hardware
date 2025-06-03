@@ -107,8 +107,8 @@ Wire the toolhead [AUX header](#options-for-aux-pin) as a chamber thermistor. Ta
 ![Here](Images/LDO/aux_port_example.png)
 
 
-[StandardBOM]: /Stealthburner_Toolhead_PCB/Production%20Files/Standard
-[2PieceBOM]: /Stealthburner_Toolhead_PCB/Production%20Files/2%20Piece
+[StandardBOM]: /Stealthburner_Toolhead_PCB/Production%20Files/StealthburnerPCB/Standard 
+[2PieceBOM]: /Stealthburner_Toolhead_PCB/Production%20Files/StealthburnerPCB/2%20Piece
 [Pinout]: /Stealthburner_Toolhead_PCB/Images/Wiring/14_2_pinout.png "14 + 2 Pinout"
 [MLMGit]: https://github.com/MapleLeafMakers
 [MLMThumbNail]: https://img.youtube.com/vi/PCIwZRPYMZ8/0.jpg 
