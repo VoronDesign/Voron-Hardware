@@ -73,7 +73,7 @@ Vin and GND are for feeding power to the Mosfets, this can be any voltage under 
 
 ## Fuse
 
-The fuse is a micro blade type fuse and should be chosen to the maximum draw of all of the MOSFET fed devices.
+The fuse is a mini blade type fuse and should be chosen to the maximum draw of all of the MOSFET fed devices.
 
 For example, if you are running a 40W heater, 2 5W fans and 1 2W fan, you will need a total of 62W of power.
 At 24V, this would translate to 62W/24V = 2.58A. The closest fuse might be a 5A fuse, which is recommended you
