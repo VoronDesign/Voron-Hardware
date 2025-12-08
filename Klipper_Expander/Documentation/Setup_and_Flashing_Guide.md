@@ -23,6 +23,7 @@
 
 	<img src="../Images/Menuconfig_Optional_Options.png" width="1000">
 
+    - Note these options will work for most generic use cases (heaters, thermistors, fans).  You may need other options for special cases.  See Build Options section below for additional discussion.  
 	- Hit `Q` to Exit and Save
 
 8) Run `make clean` to clean up the make environment.
@@ -42,3 +43,10 @@
 
 Your board should now be usable with Klipper. Use the example config file to get started
 Best option is to copy the example config file into the same directory as `printer.cfg` then add `[include klipperExpander.cfg]` to the end of your `printer.cfg` to include the file.
+
+
+## Build Options
+
+As noted, the options here will work for most fans, thermistors, and heaters.  You can select additional options, but you're limited by the memory on the board and if you select too many options the board will fail to flash.  For more complex use cases, you may need to disable some options to make room for others.  
+
+Note the build options menu has changed in the past and may change again.  If you are getting an mcu error, klippy.log may give you a hint as to what build options you need to add.  Please open a github issue if the menu has change significantly from the screenshots shown here.  
