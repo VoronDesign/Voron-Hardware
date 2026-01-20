@@ -1,0 +1,1 @@
+You will need 4 m2x8 self-tapping screws to assemble this. The light pipe is intended to be printed out of clear material (it shouldn’t matter whether you use ABS/PLA/ASA).
